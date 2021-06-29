@@ -1,0 +1,9 @@
+---
+title: Test
+published: false
+---
+
+<figure>
+  <img src="https://gist.githubusercontent.com/reinhrst/9a30b4ba26732ad3018240173edb8336/raw/5e9fc7f5838d742276cf8d81d11e25b43a8d8cd5/Heatpump.svg">
+  <figcaption>Fig.1 - graph.</figcaption>
+</figure>
