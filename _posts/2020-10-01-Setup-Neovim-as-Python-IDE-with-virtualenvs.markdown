@@ -2,20 +2,19 @@
 title: Setup Neovim as Python IDE with virtualenvs
 description: Explanation of the steps necessary to install Neovim as a Python IDE (end of 2020)
 date: '2020-10-01T22:14:10Z'
-categories: ["new install", "howto", "manual"]
+categories:
+    - tech
+    - howto
 excerpt: Every now and then you feel overconfident and decide that a full reinstall of your whole system is in order. It always takes way more time than you anticipated, but in the end you’re left with something better (in the computer), and you understand the world a little bit better yourself.
 toc: false
 tags:
- - neovim
- - vim
- - python
- - ide
+    - tech
+    - neovim
+    - vim
+    - python
+    - ide
+original_post_medium_url: https://claude-e-e.medium.com/setup-neovim-as-python-ide-with-virtualenvs-e507190d2655
 ---
-
-*Note: I originally wrote this story on [Medium](https://claude-e-e.medium.com/setup-neovim-as-python-ide-with-virtualenvs-e507190d2655), moved here in June 2021.
-Since then I have referred to this page many times myself while. Most is still accurate, although I have still not gotten around to using `black`*
-
-
 Every now and then you feel overconfident and decide that a full reinstall of your whole system is in order. It always takes way more time than you anticipated, but in the end you’re left with something better (in the computer), and you understand the world a little bit better yourself.
 
 A large challenge every time is to get (neo)vim setup in _just_ the right way to work as a full fledged Python IDE (or, it should be noted that vim was never designed to be an IDE; however we want to at least set it up as a Python development system). One of the major things I struggle with is how to separate all the (python-)pieces. It’s very tempting to just install everything in global scope somewhere, but since in that case you’re using one scope for your tools _and_ the code that you’re writing, this is asking for problems (in addition, it’s generally a bad idea to put everything together in a global scope).
@@ -35,7 +34,7 @@ I choose to use the following components:
 *   `coc.vim` with `coc-python` extension.
 *   `vim-plug` as vim plugin manager
 *   `jedi` for code completion ( `coc-python` gives the choice between `jedi` and `MSPL` ; which I assume stands for MicroSoft Python Languageserver). I have not been able to find a good description of the difference between these 2 advantages and disadvantages of both, but considering that `jedi` is written by a guy who asks the occasional beer in return (and I have been an contributor to the project in the past), as opposed to a multi-dollar-corporation, I choose `jedi` ). I want `jedi` to be installed in its own virtual environment.
-*   `pylint` for linting. I’ve always used `flake8` for linting, and I kept running into small but irritating issues. One actually led to a [stackoverflow question today](https://stackoverflow.com/questions/64155860/better-alternative-to-flake8s-e902-tokenerror-eof-in-multi-line-statement/), after which some back and forth on gitlab with the maintainer seems to have resolved it, but in general I always was a bit unhappy with how `flake8` seems to throw all errors on 1 big stack: It does have `Exxx` and `Wxxx` codes, supposedly for errors and warnings, but both a syntax error in my code and a line that is 1 character to long are an error. This means that in vim, while I’m just hacking away, I constantly see “errors” because of line-length (and therefore don’t see the real errors). Obviously my choice from `pylint` may be a case of the grass being greener on the other side, and I may change again in the future (it does seem to be slower than `flake8`). For now, I want `pylint` , obviously in it’s own virtualenv.
+*   `pylint` for linting. I’ve always used `flake8` for linting, and I kept running into small but irritating issues. One actually led to a [stackoverflow question today](https://stackoverflow.com/questions/64155860/better-alternative-to-flake8s-e902-tokenerror-eof-in-multi-line-statement/), after which some back and forth on gitlab with the maintainer seems to have resolved it, but in general I always was a bit unhappy with how `flake8` seems to throw all errors on 1 big stack: It does have `Exxx` and `Wxxx` codes, supposedly for errors and warnings, but both a syntax error in my code and a line that is 1 character to long are an error. This means that in vim, while I’m just hacking away, I constantly see "errors" because of line-length (and therefore don’t see the real errors). Obviously my choice from `pylint` may be a case of the grass being greener on the other side, and I may change again in the future (it does seem to be slower than `flake8`). For now, I want `pylint` , obviously in it’s own virtualenv.
 *   `black` for code formatting. Haven’t used it yet, but I like their mentality.
 
 Since neovim also needs a python interpreter that has the `neovim` python package installed, in total we require 4 virtual environments (in addition to the one we’re coding in).
