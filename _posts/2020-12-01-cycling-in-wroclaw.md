@@ -10,6 +10,7 @@ keywords:
     - poland
 original_post_medium_url: https://claude-e-e.medium.com/cycling-in-wrocław-poland-8c354972121d
 header:
+    image: /assets/images/2020/12/01/header.jpg
     teaser: /assets/images/2020/12/01/beets.jpg
 ---
 Being Dutch, I was born on a bicycle. As a youngster, your bike is your only legal faster-than-foot way; later. I started to appreciate the fact that I never had problems parking, and even later I realised that cycling kept me in shape, and gave me lots of environmental karma points. Most of all however, I love the wind in my face, the feeling of freedom, the rest it gives me, whether on a 5 minute shopping trip, or a 12 hours-a-day roadtrip to Berlin or Paris. So whenever I go somewhere, especially for a longer trip, I like to know what my cycling options are, what the rules are (officially, and, more importantly, practically), whether car-drivers are going to be respectful, or will try to kill you. And, obviously, how to find the best roads, those roads that are quiet, but don’t require you to cycle through mud, end up in a field with only option to turn around, etc. In order for others to make this easier, I’m sharing my experiences.
