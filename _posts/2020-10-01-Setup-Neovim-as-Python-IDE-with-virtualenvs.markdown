@@ -3,6 +3,8 @@ title: Setup Neovim as Python IDE with virtualenvs
 description: Explanation of the steps necessary to install Neovim as a Python IDE (end of 2020)
 date: '2020-10-01T22:14:10Z'
 categories: ["new install", "howto", "manual"]
+excerpt: Every now and then you feel overconfident and decide that a full reinstall of your whole system is in order. It always takes way more time than you anticipated, but in the end you’re left with something better (in the computer), and you understand the world a little bit better yourself.
+toc: false
 tags:
  - neovim
  - vim
@@ -18,11 +20,11 @@ Every now and then you feel overconfident and decide that a full reinstall of yo
 
 A large challenge every time is to get (neo)vim setup in _just_ the right way to work as a full fledged Python IDE (or, it should be noted that vim was never designed to be an IDE; however we want to at least set it up as a Python development system). One of the major things I struggle with is how to separate all the (python-)pieces. It’s very tempting to just install everything in global scope somewhere, but since in that case you’re using one scope for your tools _and_ the code that you’re writing, this is asking for problems (in addition, it’s generally a bad idea to put everything together in a global scope).
 
-
-<figure>
-  <img src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/1jmuyc4kpncfrkr3s5yt.png" alt="Example of code completion in action">
-  <figcaption>Example of code completion in action</figcaption>
-</figure>
+{% include figure
+    image_path="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/1jmuyc4kpncfrkr3s5yt.png"
+    alt="Example of code completion in action"
+    caption="Example of code completion in action"
+%}
 
 This blog is as much a description for me to read again next time I do a reinstall, as well as a helping hand in understanding the intricacies for others. I’m using a MacBook with MacOs 10.15.7, iTerm (3.3.12) with solarized-dark theme, zsh (5.8) and neovim (0.4.4) — I would expect things to work pretty much the same for linux / bash / (not too sure about vim8). Note: this is not a beginners guide and it’s assumed you know your way around bash, vim, python and the config files.
 
