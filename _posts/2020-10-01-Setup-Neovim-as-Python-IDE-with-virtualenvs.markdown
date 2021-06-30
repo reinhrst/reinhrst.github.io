@@ -14,6 +14,8 @@ tags:
     - python
     - ide
 original_post_medium_url: https://claude-e-e.medium.com/setup-neovim-as-python-ide-with-virtualenvs-e507190d2655
+header:
+    teaser: /assets/images/2020/10/01/vim-as-ide.png
 ---
 Every now and then you feel overconfident and decide that a full reinstall of your whole system is in order. It always takes way more time than you anticipated, but in the end you’re left with something better (in the computer), and you understand the world a little bit better yourself.
 
