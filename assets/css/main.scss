@@ -11,5 +11,8 @@
     float: left;
     max-width: 150px;
     max-height: 150px;
-    margin-right: 6px;
+    margin-right: 18px;
+}
+.archive__item-excerpt {
+    @include clearfix;
 }
