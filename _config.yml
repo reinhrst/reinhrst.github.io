@@ -37,6 +37,7 @@ defaults:
       read_time: true
       layout: single
       author_profile: true
+      comments: true
 comments:
   provider: "utterances"
   utterances:
