@@ -21,7 +21,7 @@ Every now and then you feel overconfident and decide that a full reinstall of yo
 A large challenge every time is to get (neo)vim setup in _just_ the right way to work as a full fledged Python IDE (or, it should be noted that vim was never designed to be an IDE; however we want to at least set it up as a Python development system). One of the major things I struggle with is how to separate all the (python-)pieces. It’s very tempting to just install everything in global scope somewhere, but since in that case you’re using one scope for your tools _and_ the code that you’re writing, this is asking for problems (in addition, it’s generally a bad idea to put everything together in a global scope).
 
 {% include figure
-    image_path="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/1jmuyc4kpncfrkr3s5yt.png"
+    image_path="/assets/images/2020/10/01/vim-as-ide.png"
     alt="Example of code completion in action"
     caption="Example of code completion in action"
 %}
