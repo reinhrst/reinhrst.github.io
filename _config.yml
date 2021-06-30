@@ -60,6 +60,9 @@ author:
     - label: "Github"
       icon: "fab fa-fw fa-github-square"
       url: "https://github.com/reinhrst"
+    - label: Linkedin
+      icon: "fab fa-fw fa-linkedin-square"
+      url: "https://www.linkedin.com/in/reinoudelhorst/"
 
 # Build settings
 remote_theme: "mmistakes/minimal-mistakes@4.23.0"
