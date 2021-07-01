@@ -10,9 +10,30 @@
 .archive-custom-teaser {
     float: left;
     max-width: 150px;
-    max-height: 150px;
+    max-height: 350px;
     margin-right: 18px;
 }
 .archive__item-excerpt {
     @include clearfix;
+}
+
+katex-inline.keepfont {
+    .katex, .mathnormal, .mathit, .mathrm {
+        font-family: inherit;
+    }
+    .katex {
+        font-size: 1em;
+    }
+}
+
+figure {
+    flex-direction: column;
+}
+
+figure > :not(img) {
+    width: 100%;
+}
+
+figure > figcaption {
+    text-align: center;
 }

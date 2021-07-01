@@ -32,7 +32,7 @@ layout: default
       {% endunless %}
       {% if page.original_post_medium_url %}
         {% capture medium_notice %}
-Note: originally posted on [Medium](https://claude-e-e.medium.com/cycling-in-wrocław-poland-8c354972121d), moved here when the blog moved in June 2021.
+Note: originally posted on [Medium]({{page.original_post_medium_url}}), moved here when the blog moved in June 2021.
 {: .notice}
         {% endcapture %}
         {{ medium_notice | markdownify }}

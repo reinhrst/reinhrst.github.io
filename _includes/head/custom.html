@@ -1,0 +1,43 @@
+<!-- start custom head snippets -->
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/katex.min.css" integrity="sha384-Um5gpz1odJg5Z4HAmzPtgZKdTBHZdw8S29IecapCSB31ligYPhHQZMIlWLYQGVoc" crossorigin="anonymous">
+
+<script>
+    function renderKatex() {
+        let macros = {}
+        if (customElements) {
+            class KatexInline extends HTMLSpanElement {
+                constructor() {
+                    super();
+                    katex.render(this.innerText, this, {throwOnError: false, displayMode: false, macros: macros, output: "html"});
+                }
+            }
+            customElements.define("katex-inline", KatexInline, {extends: "span"})
+
+            class KatexBlock extends HTMLDivElement {
+                constructor() {
+                    super();
+                    katex.render(this.innerText, this, {throwOnError: false, displayMode: true, macros: macros, output: "html"});
+                }
+            }
+            customElements.define("katex-block", KatexBlock, {extends: "div"})
+        } else {
+            document.querySelectorAll("katex-inline").forEach(
+                (el) => {
+                    katex.render(el.innerText, el, {throwOnError: false, displayMode: false, macros: macros, output: "html"});
+                }
+            )
+            document.querySelectorAll("katex-block").forEach(
+                (el) => {
+                    katex.render(el.innerText, el, {throwOnError: false, displayMode: true, macros: macros, output: "html"});
+                }
+            )
+        }
+    }
+</script>
+<!-- The loading of KaTeX is deferred to speed up page rendering -->
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/katex.min.js" integrity="sha384-YNHdsYkH6gMx9y3mRkmcJ2mFUjTd0qNQQvY9VYZgQd7DcN7env35GzlmFaZ23JGp" crossorigin="anonymous" onload="renderKatex()"></script>
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
