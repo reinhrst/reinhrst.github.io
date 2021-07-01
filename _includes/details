@@ -1,4 +1,4 @@
-<details>
+<details class="page__content">
     <summary>{{ include.summary | markdownify | remove: "<p>" | remove: "</p>" }}</summary>
     {{ include.body || markdownify }}
 </details>
