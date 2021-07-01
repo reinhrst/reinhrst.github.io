@@ -42,13 +42,13 @@ The great advantage of Web Components over other methods is that the system trac
 Creating a web component is super easy:
 
 ```javascript
-class KatexInline extends HTMLSpanElement {
+class KatexInline extends HTMLElement {
     constructor() {
         super();
         katex.render(this.innerText, this, {throwOnError: false, displayMode: false});
     }
 }
-customElements.define("katex-inline", KatexInline, {extends: "span"})
+customElements.define("katex-inline", KatexInline)
 ```
 We create a `KatexInline` class that extends from `HTMLSpanElement`.
 In the constructor, we call `katex.render` based on the current contents, and use the current element as target.
@@ -57,13 +57,13 @@ Finally, we call `customElements.define` to register our new custom element.
 We do the same for `KatexBlock`; only change being that we call `katex.render` with `displayMode: true`, which is the display mode for blocks of <katex-inline>\KaTeX</katex-inline>.
 
 ```javascript
-class KatexBlock extends HTMLDivElement {
+class KatexBlock extends HTMLElement {
     constructor() {
         super();
         katex.render(this.innerText, this, {throwOnError: false, displayMode: true});
     }
 }
-customElements.define("katex-block", KatexBlock, {extends: "div"})
+customElements.define("katex-block", KatexBlock)
 ```
 
 ### One time render
@@ -81,8 +81,6 @@ document.querySelectorAll("katex-block").forEach(
     }
 )
 ```
-Note that this achieves something slightly different; whereas in the Web Components solution the `<katex-inline>` and `<katex-block>` tags are interpreted as `<span>` and `<div>` tags respectively, in the `querySelectorAll()` methods they are just interpreted by the browser as non-existent html tags.
-This may have an effect on the layout.
 
 ## Bringing it all together
 Before we can use either method, we need to make sure the <katex-inline>\KaTeX</katex-inline> library is loaded.
@@ -93,32 +91,32 @@ The full code therefore to be added to the header of your page is (if you want, 
 
 <script>
     function renderKatex() {
-        let macros = {}  // central store for all macros
+        let macros = {}
         if (customElements) {
-            class KatexInline extends HTMLSpanElement {
+            class KatexInline extends HTMLElement {
                 constructor() {
                     super();
-                    katex.render(this.innerText, this, {throwOnError: false, displayMode: false, macros: macros});
+                    katex.render(this.innerText, this, {throwOnError: false, displayMode: false, macros: macros, output: "html"});
                 }
             }
-            customElements.define("katex-inline", KatexInline, {extends: "span"})
+            customElements.define("katex-inline", KatexInline)
 
-            class KatexBlock extends HTMLDivElement {
+            class KatexBlock extends HTMLElement {
                 constructor() {
                     super();
-                    katex.render(this.innerText, this, {throwOnError: false, displayMode: true, macros: macros});
+                    katex.render(this.innerText, this, {throwOnError: false, displayMode: true, macros: macros, output: "html"});
                 }
             }
-            customElements.define("katex-block", KatexBlock, {extends: "div"})
+            customElements.define("katex-block", KatexBlock)
         } else {
             document.querySelectorAll("katex-inline").forEach(
                 (el) => {
-                    katex.render(el.innerText, el, {throwOnError: false, displayMode: false, macros: macros});
+                    katex.render(el.innerText, el, {throwOnError: false, displayMode: false, macros: macros, output: "html"});
                 }
             )
             document.querySelectorAll("katex-block").forEach(
                 (el) => {
-                    katex.render(el.innerText, el, {throwOnError: false, displayMode: true, macros: macros});
+                    katex.render(el.innerText, el, {throwOnError: false, displayMode: true, macros: macros, output: "html"});
                 }
             )
         }
