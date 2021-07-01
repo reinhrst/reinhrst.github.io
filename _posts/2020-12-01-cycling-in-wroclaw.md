@@ -9,6 +9,7 @@ keywords:
     - cycling
     - poland
 original_post_medium_url: https://claude-e-e.medium.com/cycling-in-wrocław-poland-8c354972121d
+toc: true
 header:
     image: /assets/images/2020/12/01/header.jpg
     teaser: /assets/images/2020/12/01/beets.jpg
@@ -28,6 +29,8 @@ The timing could have been better, but in autumn 2020, while all of Europe was g
 Wrocław is a wonderful and very beatuful city, that has had a tumultuous history over the past century. Before WWII, the city was German, and known as Breslau (despite the hugely different spelling, the names Breslau and Wrocław sound very close when pronounced in German and Polish respectively). During the Russian’s advance westwards, at the end of WWII, the entire city centre was destroyed. It got rebuilt (including the historical centre being restored to it’s pre-war glory) during its time in the (Communist) Polish People Republic. Since the fall of the Iron Curtain in the early 1990s, Poland has gone through huge economic growth, and joined the European Union, and, as many places around Poland, Wrocław has seen major changes, and is still changing rapidly. In many regards things are far behind what we’re used to in Western Europe, however at the same time they are catching up fast.
 
 It did take me a couple of weeks to find the ins and outs of cycling around here, but I do have to say, it was worth it. It’s a gorgeous environment, with cities, swamp, nature, rivers, hills, villages, everything.
+
+# Tips
 
 ## Where can I cycle
 
