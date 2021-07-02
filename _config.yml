@@ -79,6 +79,11 @@ minimal_mistakes_skin: dirt
 plugins:
   - jekyll-feed
   - jekyll-include-cache
+  - jekyll-relative-links
+
+relative_links:
+  enabled:     true
+  collections: true
 
 # Exclude from processing.
 # The following items will not be processed, by default.
