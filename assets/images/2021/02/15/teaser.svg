@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="500px" height="400px">
+    <style>
+        .block {
+            fill: none;
+            stroke-width: 3px;
+            stroke: black;
+        }
+        .lambda {
+            fill: orange;
+            stroke-width: 1px;
+            stroke: black;
+        }
+        #lambda {
+            transform: translate(50px, 50px);
+        }
+        #layer {
+            transform: translate(300px, 50px);
+        }
+        text.layer {
+            font-family: monospace;
+            font-size: 30px;
+        }
+        text.layeritems {
+            font-family: monospace;
+            font-size: 15px;
+        }
+        #arrows .line {
+            fill: none;
+            stroke: #444;
+            stroke-width: 3px;
+        }
+        .lambdacontenttext {
+            font-size: 15px;
+            font-family: monospace;
+            transform: translate(110px, 65px);
+        }
+    </style>
+    <defs>
+        <marker id="arrowhead" markerWidth="10" markerHeight="7"
+                refX="7" refY="2.5" orient="auto">
+            <polygon points="0 0, 7 2.5, 0 5" />
+        </marker>
+    </defs>
+    <g id="lambda">
+        <rect class="block" width="200" height="60" rx="10" />
+        <path class="lambda" d="M25,10 L25,5 L35,5 L55,45 L50,45 L40,25 L30,45 L25,45 L37.5,20 L32.5,10 Z" />
+    </g>
+    <text class="lambdacontenttext">
+        <tspan x="0" y="0">FooLambda</tspan>
+        <tspan x="0" dy="1.2em">Handler:</tspan>
+        <tspan x="1.5em" dy="1.2em">myapp.do_foo</tspan>
+    </text>
+    <use xlink:href="#lambda" style="transform: translate(0px, 80px);" />
+    <text style="transform: translate(110px, 145px);" class="lambdacontenttext">
+        <tspan x="0" y="0">BarLambda</tspan>
+        <tspan x="0" dy="1.2em">Handler:</tspan>
+        <tspan x="1.5em" dy="1.2em">myapp.do_bar</tspan>
+    </text>
+    <use xlink:href="#lambda" style="transform: translate(0px, 160px);" />
+    <text style="transform: translate(110px, 225px);" class="lambdacontenttext">
+        <tspan x="0" y="0">BazLambda</tspan>
+        <tspan x="0" dy="1.2em">Handler:</tspan>
+        <tspan x="1.5em" dy="1.2em">myapp.do_baz</tspan>
+    </text>
+    <use xlink:href="#lambda" style="transform: translate(0px, 240px);" />
+    <text style="transform: translate(110px, 305px);" class="lambdacontenttext">
+        <tspan x="0" y="0">BooLambda</tspan>
+        <tspan x="0" dy="1.2em">Handler:</tspan>
+        <tspan x="1.5em" dy="1.2em">myapp.do_boo</tspan>
+    </text>
+    <g id="layer">
+        <rect class="block" width="505" height="50" rx="10" />
+        <text x="15" y="35" class="layer">App package layer</text>
+        <rect class="block" x="40" y="50" width="450" height="290" />
+        <text y="60" class="layeritems">
+            <tspan x="50" dy=".6em">pip install:</tspan>
+            <tspan x="65" dy="1.2em">defusedxml&gt;=0.8,&lt;0.9</tspan>
+            <tspan x="65" dy="1.2em">abstractcp</tspan>
+            <tspan x="50" dy="2.4em">myapp.py:</tspan>
+            <tspan x="65" dy="1.2em">from defusedxml import cElementTree as ET</tspan>
+            <tspan x="65" dy="2.4em">class SharedFooBar():</tspan>
+            <tspan x="80" dy="1.2em">...</tspan>
+            <tspan x="65" dy="2.4em">def do_foo(event, context): ...</tspan>
+            <tspan x="65" dy="1.5em">def do_bar(event, context): ...</tspan>
+            <tspan x="65" dy="1.5em">def do_baz(event, context): ...</tspan>
+            <tspan x="65" dy="1.5em">def do_boo(event, context): ...</tspan>
+        </text>
+    </g>
+    <g id="arrows">
+        <path class="line" d="M300,75 L250,75" marker-end="url(#arrowhead)"/>
+        <path class="line" d="M300,75 L288,75 L288,155 L250,155" marker-end="url(#arrowhead)"/>
+        <path class="line" d="M300,75 L288,75 L288,235 L250,235" marker-end="url(#arrowhead)"/>
+        <path class="line" d="M300,75 L288,75 L288,315 L250,315" marker-end="url(#arrowhead)"/>
+    </g>
+</svg>

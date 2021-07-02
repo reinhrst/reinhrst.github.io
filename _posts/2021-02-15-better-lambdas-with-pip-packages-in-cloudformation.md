@@ -13,6 +13,8 @@ keywords:
   - python
   - pip
 original_post_medium_url: https://claude-e-e.medium.com/better-lambdas-with-pip-packages-in-cloudformation-7ef92b2c793c
+header:
+    teaser: /assets/images/2021/02/15/teaser.svg
 ---
 
 After writing about how to [create AWS Lambda Layers based on pip packages](./2021-02-10-aws-lambda--python--with-packages-through-pip--in-cloudformation.md), I set out to make writing lambda functions in CloudFormation a bit easier. In the official CloudFormation `AWS::Lambda::Function` you either must upload your functions as zipfile to S3 and reference them from there, or, if you want them inline, you run into 3 large issues
@@ -183,6 +185,13 @@ TestLambdaLayer:
 It creates a lambda function with an index.py with the string `# NOTE: this file is not used, all code is in layer`. Obviously you can put here whatever you want, I usually opt for just `...` although this text is better in case I forget later what I did. The `TestLambdaLayer` is where the magic happens; the custom resource builds a layer with the `testlambda.py` file, with the `numpy` package installed, and the `TestLambda` function runs directly the `handler()` function from the `testlambda.py` file.
 
 Note that any update to the code will result in a new layer version being created, then the `TestLambda` function being updated to use the new layer version. In case of a single application consisting of 4 of 5 lambda functions, one could create a single layer with all the code, and each lambda function just pointing to a different entry point (`Handler`).
+
+{% include figure
+    image_path="/assets/images/2021/02/15/functionlayer.svg"
+    alt="Schematic of function layer"
+    caption="Single layer of code contains everything necessary for multiple lambda functions"
+%}
+
 
 The CloudFormation code to create the custom function is below (note that it uses the `__INCLUDE__:` syntax from the `getstack.py` file above; this is just for readability, and things will work just as well if you manually copy the `codelayer.py` code into the `codelayer.yaml` file (and indent it far enough). The code has the following features:
 
