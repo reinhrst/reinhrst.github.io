@@ -7,9 +7,13 @@
 $serif: Georgia, Times, serif !default;
 $global-font-family : $serif;
 
+$code-background-color: #e0e0e0;
+
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
+
+// pictures on the overview page
 .archive-custom-teaser {
     float: left;
     max-width: 150px;
@@ -20,6 +24,7 @@ $global-font-family : $serif;
     @include clearfix;
 }
 
+// katex font fix
 katex-inline.keepfont {
     .katex, .mathnormal, .mathit, .mathrm {
         font-family: inherit;
@@ -29,6 +34,7 @@ katex-inline.keepfont {
     }
 }
 
+// layout figure and figcaption
 figure {
     flex-direction: column;
 }
@@ -41,6 +47,15 @@ figure > figcaption {
     text-align: center;
 }
 
+// put whitespace under a <details> similar as to under a <p>
 details.page__content {
     margin: 0 0 1.3em;
 }
+
+// remove underline of titles on overview page
+.archive__item-title > a {
+    text-decoration: none;
+}
+
+// grey inline code
+
