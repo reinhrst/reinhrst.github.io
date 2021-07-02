@@ -215,7 +215,8 @@ It would also be interesting to see if things actually get faster if we were to 
 
 #### Full code
 
-{% capture code %}
+<details markdown="1">
+<summary>Expand for the full code I used. I’d be happy to hear other people’s results!</summary>
 ```python
 import timeit
 
@@ -324,9 +325,4 @@ print(round(timeit.repeat(lambda: cl_morton(np_setup_e6), number=100, repeat=2)[
 print(round(timeit.repeat(lambda: cl_morton(np_setup_e7), number=10, repeat=2)[-1] / 10 /  10000000 * 1000000 * 1000, 1))
 print(round(timeit.repeat(lambda: cl_morton(np_setup_e8), number=10, repeat=2)[-1] / 10 /  100000000 * 1000000 * 1000, 1))
 ```
-{% endcapture %}
-
-{% include details
-  summary="Expand for the full code I used. I’d be happy to hear other people’s results!"
-  body=code
-%}
+</details>
