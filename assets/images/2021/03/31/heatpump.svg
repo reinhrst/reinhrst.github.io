@@ -1,0 +1,528 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600px" height="400px">
+    <!-- Copyright: Reinoud Elhorst, license CC BY-NC 4.0
+Attribution-NonCommercial 4.0 International -->
+    <style>
+        .background {
+            width: 100%;
+            height: 100%;
+            fill: white;
+        }
+        @keyframes step1-appear {
+            0% {opacity: 0; fill-opacity: 0}
+            10% {opacity: 1; fill-opacity: 1}
+            20% {opacity: 0; fill-opacity: 0}
+            100% {opacity: 0; fill-opacity: 0}
+        }
+        @keyframes step2-appear {
+            0% {opacity: 0; fill-opacity: 0}
+            10% {opacity: 0; fill-opacity: 0}
+            20% {opacity: 1; fill-opacity: 1}
+            60% {opacity: 1; fill-opacity: 1}
+            70% {opacity: 0; fill-opacity: 0}
+            100% {opacity: 0; fill-opacity: 0}
+        }
+        @keyframes step3-appear {
+            0% {opacity: 0; fill-opacity: 0}
+            20% {opacity: 0; fill-opacity: 0}
+            30% {opacity: 1; fill-opacity: 1}
+            60% {opacity: 1; fill-opacity: 1}
+            70% {opacity: 0; fill-opacity: 0}
+            100% {opacity: 0; fill-opacity: 0}
+        }
+        @keyframes step4-appear {
+            0% {opacity: 0; fill-opacity: 0}
+            60% {opacity: 0; fill-opacity: 0}
+            70% {opacity: 1; fill-opacity: 1}
+            100% {opacity: 1; fill-opacity: 1}
+        }
+        @keyframes air-move {
+            0% { transform: translate(0, 0); }
+            10% { transform: translate(0, 0); }
+            70% { transform: translate(480px, 0); }
+            100% { transform: translate(480px, 0); }
+        }
+        @keyframes coolant-flow {
+            0% {stroke-dashoffset: 900px;}
+            10% {stroke-dashoffset: 900px;}
+            70% {stroke-dashoffset: 0;}
+            100% {stroke-dashoffset: 0;}
+        }
+        @keyframes pump {
+            0% {transform: rotate(9000deg); }
+            10% {transform: rotate(9000deg); }
+            70% {transform: rotate(0deg); }
+            100% {transform: rotate(0deg); }
+        }
+        @keyframes mercury-move {
+            0% {transform: translate(0, 0); }
+            20% {transform: translate(0, 0); }
+            70% {transform: translate(0, -24px); }
+            100% {transform: translate(0, -24px); }
+        }
+        .coolantpipe {
+            stroke: black;
+            stroke-width: 2px;
+            fill: none;
+        }
+        .coolantpipe-flow {
+            stroke: white;
+            opacity: 0.3;
+            stroke-width: 3px;
+            stroke-dasharray: 5;
+            fill: none;
+            animation: coolant-flow 50s ease-in-out infinite;
+        }
+        .coolant-cold {
+            fill: #33F;
+            mask: url(#circuit-mask);
+        }
+        .coolant-hot {
+            fill: #C00;
+            mask: url(#coolant-hot);
+            animation: step3-appear 50s infinite;
+        }
+        #coolant-pump {
+            animation: pump 50s ease-in-out infinite;
+        }
+        #vent {
+            animation: pump 50s ease-in-out infinite;
+        }
+        #coolant-circuit {
+            transform: translate(140px, 240px);
+        }
+        #outside-unit-box {
+            fill: silver;
+            stroke: black;
+            stroke-width: 3px;
+        }
+        #outside-unit {
+            transform: translate(25px, 255px);
+        }
+        text {
+            font-family: Arial,sans-serif;
+            font-size: 15px;
+        }
+        .air {
+            fill: none;
+            stroke-width: 2px;
+            stroke: #33F;
+            animation: air-move 50s ease-in-out infinite;
+        }
+        .warm {
+            stroke: #C00;
+        }
+        #warm-air-group {
+            transform: translate(0, 20px);
+            animation: step2-appear 50s infinite;
+        }
+        #warm-air-group .fillable {
+            fill: #C00;
+        }
+        #cold-air-group {
+            transform: translate(135px, 20px);
+            animation: step2-appear 50s infinite;
+        }
+        #cold-air-group .fillable {
+            fill: #33F;
+        }
+        #house {
+            fill: none;
+            stroke: black;
+            stroke-width: 5px;
+            transform: translate(380px, 0);
+        }
+        #thermostat {
+            transform: translate(530px, 200px);
+        }
+        #thermostat path, #thermostat use {
+            fill: none;
+            stroke: black;
+            stroke-width: 2px;
+        }
+        #thermostat .mercury {
+            fill: red;
+            stroke: none;
+            animation: mercury-move 50s ease-in-out infinite;
+        }
+        #thermostat .label {
+            font-size: 8px;
+        }
+        #description {
+            transform: translate(70px, 30px);
+        }
+        #description path, #description circle {
+            fill: none;
+            stroke: black;
+            stroke-width: .7px;
+        }
+        #radiator-radiation {
+            transform: translate(320px, -100px);
+            animation: step3-appear 50s infinite;
+        }
+
+        #description .step1 {
+            animation: step1-appear 50s infinite;
+        }
+
+        #description .step2 {
+            animation: step2-appear 50s infinite;
+        }
+
+        #description .step3 {
+            animation: step3-appear 50s infinite;
+        }
+
+        #description .step4 {
+            animation: step4-appear 50s infinite;
+        }
+
+    </style>
+    <defs>
+        <path id="coolantpipe-outer" d="M0,95
+                                        v-80
+                                        a15,15 0 0 1 15,-15
+                                        h90
+                                        a15,15 0 0 1 15,15
+                                        v70
+                                        a10,10 0 0 0 10,10
+                                        h25
+                                        a15,15 0 1 1 20,0
+                                        h70
+                                        a10,10 0 0 0 10,-10
+                                        v-175
+                                        a15,15 0 0 1 15,-15
+                                        h40
+
+                                        a7.5,7.5 0 0 1 0,15
+                                        h-35
+                                        a2.5,2.5 0 0 0 0,5
+                                        h35
+
+                                        a7.5,7.5 0 0 1 0,15
+                                        h-35
+                                        a2.5,2.5 0 0 0 0,5
+                                        h35
+
+                                        a7.5,7.5 0 0 1 0,15
+                                        h-35
+                                        a2.5,2.5 0 0 0 0,5
+                                        h35
+
+                                        a7.5,7.5 0 0 1 0,15
+                                        h-35
+                                        a2.5,2.5 0 0 0 0,5
+                                        h35
+
+                                        a7.5,7.5 0 0 1 0,15
+                                        h-35
+                                        a2.5,2.5 0 0 0 0,5
+                                        h35
+
+                                        a7.5,7.5 0 0 1 0,15
+                                        h-35
+                                        a2.5,2.5 0 0 0 0,5
+                                        h35
+
+                                        a7.5,7.5 0 0 1 0,15
+                                        h-35
+                                        a2.5,2.5 0 0 0 0,5
+                                        h35
+
+                                        a7.5,7.5 0 0 1 0,15
+                                        h-35
+                                        a2.5,2.5 0 0 0 0,5
+                                        h35
+
+                                        a7.5,7.5 0 0 1 0,15
+                                        h-35
+                                        a2.5,2.5 0 0 0 -2.5,2.5
+
+                                        v22.5
+                                        a15,15 0 0 1 -15,15
+
+                                        h-242.5
+                                        a15,15 0 0 1 -15,-15
+                                        Z" />
+        <path id="coolantpipe-middle" d="M3,95
+                                        v-80
+                                        a12,12 0 0 1 12,-12
+                                        h90
+                                        a12,12 0 0 1 12,12
+                                        v70
+                                        a13,13 0 0 0 13,13
+                                        h115
+                                        a13,13 0 0 0 13,-13
+                                        v-175
+                                        a12,12 0 0 1 12,-12
+                                        h40
+
+                                        a5,5 0 0 1 0,10
+                                        h-35
+                                        a5,5 0 0 0 0,10
+                                        h35
+
+                                        a5,5 0 0 1 0,10
+                                        h-35
+                                        a5,5 0 0 0 0,10
+                                        h35
+
+                                        a5,5 0 0 1 0,10
+                                        h-35
+                                        a5,5 0 0 0 0,10
+                                        h35
+
+                                        a5,5 0 0 1 0,10
+                                        h-35
+                                        a5,5 0 0 0 0,10
+                                        h35
+
+                                        a5,5 0 0 1 0,10
+                                        h-35
+                                        a5,5 0 0 0 0,10
+                                        h35
+
+                                        a5,5 0 0 1 0,10
+                                        h-35
+                                        a5,5 0 0 0 0,10
+                                        h35
+
+                                        a5,5 0 0 1 0,10
+                                        h-35
+                                        a5,5 0 0 0 0,10
+                                        h35
+
+                                        a5,5 0 0 1 0,10
+                                        h-35
+                                        a5,5 0 0 0 0,10
+                                        h35
+
+                                        a5,5 0 0 1 0,10
+                                        h-35
+                                        a5,5 0 0 0 -5,5
+
+                                        v22.5
+                                        a12,12 0 0 1 -12,12
+
+                                        h-242.5
+                                        a12,12 0 0 1 -12,-12
+                                        Z" />
+        <path id="coolantpipe-inner" d="M5,95
+                                        v-80
+                                        a10,10 0 0 1 10,-10
+                                        h90
+                                        a10,10 0 0 1 10,10
+                                        v70
+                                        a15,15 0 0 0 15,15
+                                        h115
+                                        a15,15 0 0 0 15,-15
+                                        v-175
+                                        a10,10 0 0 1 10,-10
+                                        h40
+
+                                        a2.5,2.5 0 0 1 0,5
+                                        h-35
+                                        a7.5,7.5 0 0 0 0,15
+                                        h35
+
+                                        a2.5,2.5 0 0 1 0,5
+                                        h-35
+                                        a7.5,7.5 0 0 0 0,15
+                                        h35
+
+                                        a2.5,2.5 0 0 1 0,5
+                                        h-35
+                                        a7.5,7.5 0 0 0 0,15
+                                        h35
+
+                                        a2.5,2.5 0 0 1 0,5
+                                        h-35
+                                        a7.5,7.5 0 0 0 0,15
+                                        h35
+
+                                        a2.5,2.5 0 0 1 0,5
+                                        h-35
+                                        a7.5,7.5 0 0 0 0,15
+                                        h35
+
+                                        a2.5,2.5 0 0 1 0,5
+                                        h-35
+                                        a7.5,7.5 0 0 0 0,15
+                                        h35
+
+                                        a2.5,2.5 0 0 1 0,5
+                                        h-35
+                                        a7.5,7.5 0 0 0 0,15
+                                        h35
+
+                                        a2.5,2.5 0 0 1 0,5
+                                        h-35
+                                        a7.5,7.5 0 0 0 0,15
+                                        h35
+
+                                        a2.5,2.5 0 0 1 0,5
+                                        h-35
+                                        a7.5,7.5 0 0 0 -7.5,7.5
+
+                                        v22.5
+                                        a10,10 0 0 1 -10,10
+
+                                        h-242.5
+                                        a10,10 0 0 1 -10,-10
+                                        Z" />
+        <linearGradient id="coolant-hot-gradient" x1="0" y1="0" x2="0" y2="100%">
+            <stop offset="80%" stop-color="white" />
+            <stop offset="90%" stop-color="black" />
+        </linearGradient>
+        <mask id="circuit-mask">
+            <use href="#coolantpipe-outer" fill="white" />
+            <use href="#coolantpipe-inner" fill="black"/>
+        </mask>
+        <mask id="coolant-hot">
+            <use href="#coolantpipe-outer" fill="url(#coolant-hot-gradient)"
+            mask="url(#circuit-mask)" />
+        </mask>
+        <path id="air-wiggle-560" d="M0,0
+                                  q7.5,-10 15,0
+                                  t15,0 t15,0 t15,0 t15,0 t15,0 t15,0 t15,0 t15,0 t15,0 t15,0 t15,0 t15,0 t15,0 t15,0 t15,0 t15,0 t15,0 t15,0 t15,0 t15,0 t15,0 t15,0 t15,0 t15,0 t15,0 t15,0 t15,0 t15,0 t15,0 t15,0 t15,0 t15,0 t15,0 t15,0 t15,0" />
+        <path id="thermometre" d="M-2,-5 a 5,5 0 1 0 4,0 v-40 c0,-3 -4,-3 -4,0 Z" />
+        <mask id="thermometre-mask">
+            <use href="#thermometre" fill="white" />
+        </mask>
+        <mask id="hot-air-mask">
+            <rect width="55px" height="1000px" fill="white" />
+        </mask>
+    </defs>
+    <rect class="background" />
+    <g id="outside-unit">
+        <rect x="70" width="60" height="85" id="outside-unit-box" />
+        <g style="transform: translate(90px, 40px);" >
+            <g style="transform: rotate3d(0,1,0,-60deg);">
+                <g id="vent">
+                    <path d="M2,-4.5 a5,5 0 1 1 -4,0 s-5,-5 -10,-20 s29,-15 24,0 s-10,20 -10,20 " id="ventblade"/>
+                    <use href="#ventblade" style="transform: rotate(90deg);" />
+                    <use href="#ventblade" style="transform: rotate(180deg);" />
+                    <use href="#ventblade" style="transform: rotate(270deg);" />
+                </g>
+            </g>
+        </g>
+        <g id="warm-air-group">
+            <text class="fillable">Air (10°C)</text>
+            <g mask="url(#hot-air-mask)">
+                <g class="warm air">
+                    <use href="#air-wiggle-560"
+                    style="transform: translate(-480px, 10px)" />
+                    <use href="#air-wiggle-560"
+                    style="transform: translate(-480px, 20px)" />
+                    <use href="#air-wiggle-560"
+                    style="transform: translate(-480px, 30px)" />
+                </g>
+            </g>
+            <path class="fillable" d="M57,7 l8,4 l-8,4 Z" />
+            <path class="fillable" d="M57,17 l8,4 l-8,4 Z" />
+            <path class="fillable" d="M57,27 l8,4 l-8,4 Z" />
+        </g>
+        <g id="cold-air-group">
+            <text class="fillable">Air (2°C)</text>
+            <g mask="url(#hot-air-mask)">
+                <g class="cold air">
+                    <use href="#air-wiggle-560"
+                    style="transform: translate(-480px, 10px)" />
+                    <use href="#air-wiggle-560"
+                    style="transform: translate(-480px, 20px)" />
+                    <use href="#air-wiggle-560"
+                    style="transform: translate(-480px, 30px)" />
+                </g>
+            </g>
+            <path class="fillable" d="M57,7 l8,4 l-8,4 Z" />
+            <path class="fillable" d="M57,17 l8,4 l-8,4 Z" />
+            <path class="fillable" d="M57,27 l8,4 l-8,4 Z" />
+        </g>
+    </g>
+
+    <g id="coolant-circuit">
+        <rect y="-120px" width="100%" height="100%" class="coolant-cold" />
+        <rect y="-120px" width="100%" height="100%" class="coolant-hot" />
+        <use href="#coolantpipe-middle" class="coolantpipe-flow" />
+        <use href="#coolantpipe-inner" class="coolantpipe"/>
+        <use href="#coolantpipe-outer" class="coolantpipe"/>
+
+        <g mask="url(#hot-air-mask)" id="radiator-radiation" >
+            <g class="warm air">
+                <use href="#air-wiggle-560"
+                style="transform: translate(-480px, 10px)" />
+                <use href="#air-wiggle-560"
+                style="transform: translate(-480px, 30px)" />
+                <use href="#air-wiggle-560"
+                style="transform: translate(-480px, 50px)" />
+                <use href="#air-wiggle-560"
+                style="transform: translate(-480px, 70px)" />
+                <use href="#air-wiggle-560"
+                style="transform: translate(-480px, 90px)" />
+                <use href="#air-wiggle-560"
+                style="transform: translate(-480px, 110px)" />
+                <use href="#air-wiggle-560"
+                style="transform: translate(-480px, 130px)" />
+                <use href="#air-wiggle-560"
+                style="transform: translate(-480px, 150px)" />
+            </g>
+        </g>
+
+        <g style="transform: translate(165px, 84px);" >
+            <g id="coolant-pump">
+                <path id="blade" d="M0,0 l-1,-1 a23,23 0 0 0 1,-12 h.5 a18,18 0 0 1 1,12 " fill="yellow" />
+                <use href="#blade" style="transform: rotate(90deg)" />
+                <use href="#blade" style="transform: rotate(180deg)" />
+                <use href="#blade" style="transform: rotate(270deg)" />
+            </g>
+        </g>
+    </g>
+
+    <g id="house">
+        <path class="house" d="M0,105 l100,-100 l100,100 Z" />
+        <path class="house" d="M0,355 v-250 h200 v250 Z" />
+    </g>
+    <g id="thermostat">
+        <g mask="url(#thermometre-mask)">
+            <rect x="-10px" y="-15px" width="20px" height="60px" class="mercury" />
+        </g>
+        <use href="#thermometre" />
+        <path d="M2,-15
+                 h3 h-3 v-12
+                 h3 h-3 v-12
+                 h3 h-3
+                 " />
+        <text class="label" x="7px" y="-37px">
+            <tspan x="7" dy="0">21°C</tspan>
+            <tspan x="7" dy="12px">20°C</tspan>
+            <tspan x="7" dy="12">19°C</tspan>
+        </text>
+    </g>
+    <g id="description">
+        <text>
+            <tspan class="step1">1. Thermostat requests heating from heat pump</tspan>
+            <tspan class="step2" x="0" dy="1.7em">2. Air-water heat pump starts:</tspan>
+            <tspan class="step2" x="10px" dy="1.1em">a. Warm air gets sucked in</tspan>
+            <tspan class="step2" x="10px" dy="1.1em">b. Cold air gets blown out</tspan>
+            <tspan class="step2" x="10px" dy="1.1em">c. Energy from the air heats the water</tspan>
+            <tspan class="step3" x="0" dy="1.7em">3. Warm water (35°C) heats the house</tspan>
+            <tspan class="step4" x="0" dy="1.7em">4. House is warm enough,</tspan>
+            <tspan class="step4" x="20px" dy="1.1em">thermostat switches off heat pump</tspan>
+            <tspan class="conclusion" x="0" dy="1.7em">For every 1kWh electrical energy</tspan>
+            <tspan class="conclusion" x="20px" dy="1.1em">used by the heat pump</tspan>
+            <tspan class="conclusion" x="20px" dy="1.1em">6kW of heat is produced.</tspan>
+        </text>
+        <g class="step1">
+            <path d="M320,-5 h148 v105" />
+        </g>
+        <g class="step2">
+            <path d="M5,38 h-30 v180 "/>
+            <path d="M190,53 h90 v220 h-120"/>
+            <path d="M5,69 h-20 v145 h80 v40" />
+        </g>
+        <g class="step3">
+            <path d="M260,96 h150 v15 "/>
+        </g>
+
+    </g>
+</svg>
+
