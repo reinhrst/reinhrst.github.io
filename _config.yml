@@ -86,7 +86,7 @@ relative_links:
   collections: true
 
 analytics:
-  provider               : google
+  provider               : google-gtag
   google:
     tracking_id          : G-B8KTXGKQTK
     anonymize_ip         : true
