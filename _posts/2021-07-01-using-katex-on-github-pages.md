@@ -133,6 +133,10 @@ The full code therefore to be added to the header of your page is (if you want, 
 ```
 
 ### Fonts
+This section was written when I still had a sans-serif as my main blog font.
+Leaving it here, because it's still interesting, but some of the information may not make sense anymore.
+{: .notice}
+
 The <katex-inline>\KaTeX</katex-inline> library uses a serif-font by default (and makes it 20% larger).
 This may or may not be ideal for your use.
 Probably if you have a nice big formula on your page, it looks kind of fancy to have a different font.
