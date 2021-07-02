@@ -54,6 +54,12 @@ We create a `KatexInline` class that extends from `HTMLSpanElement`.
 In the constructor, we call `katex.render` based on the current contents, and use the current element as target.
 Finally, we call `customElements.define` to register our new custom element.
 
+Note: the first version of this blog actually inherited KatexInline from HTMLSpanElement.
+This works fine on Firefox, however gives an error on Safari: `TypeError Illegal Constructor` on the line where `super()` is called.
+The solution was to extend from `HTMLElement` rather than `HTMLSpanElement`.
+The current version of this acticle has the fixes in it.
+{: .notice--warning}
+
 We do the same for `KatexBlock`; only change being that we call `katex.render` with `displayMode: true`, which is the display mode for blocks of <katex-inline>\KaTeX</katex-inline>.
 
 ```javascript
