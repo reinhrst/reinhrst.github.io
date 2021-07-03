@@ -57,5 +57,14 @@ details.page__content {
     text-decoration: none;
 }
 
-// grey inline code
+.masthead {
+   position: fixed;
+   top: 0;
+   width: 100%;
+   background: $background-color;  // set a color to hide content that may appear below masthead
+   height: 85px; // need a magic number here which may break in different viewports
+}
 
+body {
+   padding: 85px 0 0;  // padding-top equal to masthead height or greater
+}
