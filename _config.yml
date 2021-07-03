@@ -39,6 +39,7 @@ defaults:
       layout: single
       author_profile: true
       comments: true
+      toc_sticky: true  # if there is a TOC, make it sticky
 comments:
   provider: "utterances"
   utterances:
