@@ -65,6 +65,8 @@ author:
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/reinoudelhorst/"
 
+breadcrumbs: true
+
 include:
   - _pages
 category_archive:
