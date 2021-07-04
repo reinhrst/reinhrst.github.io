@@ -16,21 +16,13 @@ For this reason, data is collected to analyse the use of the website.
 
 In addition to “getting a sense of purpose” by seeing how many people read this site, the analytical data may be used to decide which posts are popular (and hence whih subjects deserve further posts).
 
-Analytics are collected through Google Analytics.
-In according with the manual of the Autoriteit Persoonsgegevens in The Netherland, Google Analytics has been set up in a way that collects the bare minimum of data.
+Analytics are collected through Insights Analytics.
+See [here](https://getinsights.io/what-data-we-collect) for more information about the kind of data that Insights Analytics collects.
 
-Google Analytics uses cookies in order to generate the analytics.
-This cookie is a small text file with a unique identifier that is saved on your computer.
-Since these cookies are use exclusively for legitimate interest, and therefore no permission has to be asked under EU law (GDPR) for their use.
+Note that Insights Analytics _only_ tracks users in order to provide this information to the owner of the website.
+No information is collected to follow you throughout the web, or serve you advertisements.
 
-The following settings were chosen for Google Analytics:
-- There is a processing agreement for processing of personal data between the owner of this website, and Google
-- IP addresses are “anonymised” by removing the last 8 bits.
-- No data is shared with Google, other than to provide the Analytics service
-- No data is shared with Google for advertisement
-- No Google userID’s are tracked
-
-If you would like to opt out from tracking, you may use a browser extension which can be found [here](https://tools.google.com/dlpage/gaoptout)
+This kind of tracking falls under Legitimate use under the GDPR.
 
 ### Collecting and showing comments
 
