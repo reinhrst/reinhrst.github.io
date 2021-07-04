@@ -40,4 +40,11 @@ The appropriate statement can be found [here](https://docs.github.com/en/github/
 
 ## Contact
 
-For any additional questions, please contact privacy-blog@<!- nospam ->claude.nl.c
+For any additional questions, please contact
+<code style="white-space: nowrap">
+<script>
+document.write("claude-privacy")
+document.write(String.fromCharCode(64))
+document.write("claude.nl")
+</script>
+</code>
