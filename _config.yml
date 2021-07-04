@@ -66,6 +66,8 @@ author:
       url: "https://www.linkedin.com/in/reinoudelhorst/"
 
 breadcrumbs: true
+permalink: /:categories/:title/
+timezone: Europe/Amsterdam
 
 include:
   - _pages
