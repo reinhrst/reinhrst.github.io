@@ -92,7 +92,7 @@ relative_links:
 
 analytics:
   provider               : custom
-  google:
+  insights:
     tracking_id          : h1khfarqCIVoXjwC
 
 
