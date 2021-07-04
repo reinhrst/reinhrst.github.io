@@ -91,10 +91,9 @@ relative_links:
   collections: true
 
 analytics:
-  provider               : google-gtag
+  provider               : custom
   google:
-    tracking_id          : G-B8KTXGKQTK
-    anonymize_ip         : true
+    tracking_id          : h1khfarqCIVoXjwC
 
 
 # Exclude from processing.
