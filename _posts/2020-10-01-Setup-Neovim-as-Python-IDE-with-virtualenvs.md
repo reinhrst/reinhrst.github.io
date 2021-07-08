@@ -5,8 +5,6 @@ date: '2020-10-01T22:14:10Z'
 categories:
     - tech
     - howto
-excerpt: Every now and then you feel overconfident and decide that a full reinstall of your whole system is in order. It always takes way more time than you anticipated, but in the end you’re left with something better (in the computer), and you understand the world a little bit better yourself.
-toc: false
 tags:
     - neovim
     - vim
