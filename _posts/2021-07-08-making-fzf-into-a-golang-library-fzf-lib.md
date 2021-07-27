@@ -21,7 +21,7 @@ It does all this through a highly configurable terminal interface, with helpful 
 I think I use fzf hundreds of times a day, both during work and free time!
 
 <figure>
-  <script src="https://asciinema.org/a/RFPICdImQuLFkBDOEWnL2k1v3.js" id="asciicast-RFPICdImQuLFkBDOEWnL2k1v3" async data-autoplay="true" data-loop="1"></script>
+  <script src="https://asciinema.org/a/QR18RAtqj3PlenWC5jS32T6Ez.js" id="asciicast-QR18RAtqj3PlenWC5jS32T6Ez" async data-autoplay="true" data-loop="1"></script>
   <figcaption>Let's search for some magic and strange animals in the fzf source code, using fzf in neovim.</figcaption>
 </figure>
 
