@@ -22,7 +22,7 @@ I think I use fzf hundreds of times a day, both during work and free time!
 
 <figure>
   <script src="https://asciinema.org/a/QR18RAtqj3PlenWC5jS32T6Ez.js" id="asciicast-QR18RAtqj3PlenWC5jS32T6Ez" async data-autoplay="true" data-loop="1"></script>
-  <figcaption>Let's search for some magic and strange animals in the fzf source code, using fzf in neovim.</figcaption>
+  <figcaption>Let's search for some magic and fruit in the fzf source code, using fzf in neovim.</figcaption>
 </figure>
 
 I have used fzf in multiple small projects I worked on.
