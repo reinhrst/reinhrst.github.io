@@ -244,27 +244,27 @@ However it does give a good idea of the ballpark performance we can expect from 
 
 items|time fzf-lib (ms)|time fzf cmdline (ms)
 ----:|------:|-----:|
-1024|0.7|0
-2048|1.1|10
-4096|2.5|10
-8192|4.8|20
-16384|6.8|30
-32768|12.9|50
-65536|24.9|100
-131072|48.9|210
-262144|95.7|430
-524288|190.9|860
-1048576|380.1|1730
-2097152|767.5|3490
-4194304|1577.7|6960
-8388608|3173.6|14,290
-16777216|6588.1|28,500
-33554432|33,097.6|58,230
+1024|1|0
+2048|1|10
+4096|3|10
+8192|5|20
+16384|7|30
+32768|13|50
+65536|25|100
+131072|49|210
+262144|96|430
+524288|191|860
+1048576|380|1730
+2097152|768|3490
+4194304|1578|6960
+8388608|3174|14290
+16777216|6588|28500
+33554432|33098|58230
 
 {%include figure
-    image_path="/assets/images/2021/07/08/results.png"
+    image_path="/assets/images/2021/07/08/results.svg"
     alt="results chart"
-    caption="Results in double-log chart. Clear to see that time taken scales as power-series"
+    caption="Results in double-log chart. `lib-fzf` seems faster than commandline fzf (although as mentioned before, it's not really fair to compare them). Performance scales linearly until 1at least 16.8M."
 %}
 
 In the table and chart above, one can easily see that fzf-lib is faster than piping data into a spawned fzf process; usually by a factor 4.
