@@ -1,54 +1,49 @@
-import numpy as np
+import argparse
+import importlib
+import logging
+import pathlib
+import typing
+
 import matplotlib.pyplot as plt
-from matplotlib.ticker import FuncFormatter
 
-def formatter(x, pos):
-    mapping = [
-        (9, "T"),
-        (6, "M"),
-        (3, "k"),
-        (0, ""),
-        (-3, "m"),
-        (-6, "µ"),
-        (-9, "n"),
-    ]
+logger = logging.getLogger()
 
-    for (exp, modifier) in mapping:
-        if x >= 10**exp or exp == mapping[-1][0]:
-            return "%.1f%s" % (x / 10**exp, modifier)
+def process_file(filename: pathlib.Path):
+    if not filename.is_file():
+        raise Exception("File does not exist: %s" % filename)
+    spec = importlib.util.spec_from_file_location("module", filename)
+    module = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(module)
+    _fig, ax = plt.subplots(figsize=(8,6), facecolor="#f3f3f3")
+    ax.set_facecolor("#f3f3f3")
+    module.create_plot(ax)
 
-data = [
-    (1024, 0.7, 0),
-    (2048, 1.1, 10),
-    (4096, 2.5, 10),
-    (8192, 4.8, 20),
-    (16384, 6.8, 30),
-    (32768, 12.9, 50),
-    (65536, 24.9, 100),
-    (131072, 48.9, 210),
-    (262144, 95.7, 430),
-    (524288, 190.9, 860),
-    (1048576, 380.1, 1730),
-    (2097152, 767.5, 3490),
-    (4194304, 1577.7, 6960),
-    (8388608, 3173.6, 14290),
-    (16777216, 6588.1, 28500),
-    (33554432, 33097.6, 58230),
-]
-x, y1, y2 = map(lambda d: np.array(d, dtype=float), zip(*data))
+    here = pathlib.Path(__file__).resolve().parent
+    relative = filename.relative_to(here)
+    assets = here.parent / "assets"
+    target = (assets / relative).parent / f"{relative.stem}.svg"
+    plt.savefig(target)
+
+
+def run():
+    logging.basicConfig(level=logging.INFO)
+    parser = argparse.ArgumentParser()
+    parser.add_argument("filename", nargs="+")
+    args = parser.parse_args()
+
+    filenames = [pathlib.Path(filename).resolve() for filename in args.filename]
+    completed_filenames: typing.Sequence[pathlib.Path] = []
+    for filename in filenames:
+        try:
+            process_file(filename)
+        except Exception:
+            logger.exception("Problem with %r", filename)
+        else:
+            completed_filenames.append(filename)
+
+    logger.info("Done, handled %d / %d files successfully",
+                len(completed_filenames), len(filenames))
 
 
 if __name__ == "__main__":
-    fig, ax = plt.subplots(figsize=(8,6), facecolor="#f3f3f3")
-    ax.set_yscale('log')
-    ax.set_xscale('log')
-    ax.bar(x-x/8, y1, width=x/4, label="time fzf-lib")
-    ax.bar(x+x/8, y2, width=x/4, label="time fzf cmdline")
-    ax.xaxis.set_major_formatter(FuncFormatter(formatter))
-    ax.yaxis.set_major_formatter(FuncFormatter(formatter))
-    ax.set_xlabel("Size of the haystack")
-    ax.set_ylabel("Time (ms)")
-    ax.legend(facecolor="#f3f3f3")
-    ax.set_facecolor("#f3f3f3")
-    ax.set_title("""Fzf-lib — time to search for "hello world" in list of quotes""")
-    plt.savefig("out.svg")
+    run()
