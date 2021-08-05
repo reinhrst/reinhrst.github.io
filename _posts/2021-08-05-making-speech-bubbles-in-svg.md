@@ -246,6 +246,12 @@ I couldn't resist a small 3D shadow effect in there....
         " />
         <use href="#bubble" style="stroke: none; fill: white;" />
     </g>
+    <text y="45" style="font-family: 'Courier New', monospace;">
+        <tspan x="250">Is that</tspan>
+        <tspan x="155" dy="1.2em">a train in your pocket</tspan>
+        <tspan dy="1.2em" x="160">or are you just happy</tspan>
+        <tspan dy="1.2em" x="240">to see me</tspan>
+        </text>
 </svg>{% endcapture %}
 
 ```xml
