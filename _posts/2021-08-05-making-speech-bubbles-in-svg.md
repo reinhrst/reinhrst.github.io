@@ -25,7 +25,7 @@ Here I show how to create speech bubbles.
 They consist of three parts:
 - An `ellipse` for the black border
 - A `path` for the speech "arrow"
-- Another ellipse to fill in the part of the speech "arrow" that is inside the bubble
+- Another `ellipse` to fill in the part of the speech "arrow" that is inside the bubble
 
 This manual assumes that you have experience with SVG.
 
