@@ -10,7 +10,7 @@ header:
     teaser: /assets/images/2021/08/05/teaser2.svg
 ---
 Earlier today I wanted to make some speech bubbles for an SVG image I was working on.
-They're not hard to make, but getting themm right takes a bit of fiddling.
+They're not hard to make, but getting them right takes a bit of fiddling.
 So I wrote down some examples, for later reference.
 
 
