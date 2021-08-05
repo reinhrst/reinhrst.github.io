@@ -10,6 +10,9 @@ tags:
     - wasm
     - javascript
 toc: true
+header:
+    image: /assets/images/2021/08/05/header.svg
+    teaser: /assets/images/2021/08/05/teaser.svg
 ---
 Last month I [posted a story](../_posts/2021-07-08-making-fzf-into-a-golang-library-fzf-lib.md) about creating a stand-alone library from [Junegunn Choi's fzf](https://github.com/junegunn/fzf).
 This was the first step in an effort to produce a version of fzf that runs in the browser.
@@ -130,6 +133,12 @@ Note that in a browser, the output will appear in the JavaScript console, not on
 Go and JavaScript are different types of languages; an important difference in this case is that Go is statically typed, whereas JavaScript is dynamically typed.
 This means that "stuff" has to happen on the boundary (and we cannot just call an exposed Go function from JavaScript).
 
+{% include figure
+    image_path="/assets/images/2021/08/05/interface.svg"
+    alt="Javascript engines and Go Gopher talking"
+    caption="Go can talk to Browsers and Node. The (svg) Go Gopher above is licensed under the [Creative Commons 3.0 Attribution License](https://creativecommons.org/licenses/by/3.0/), and was drawn in SVG by [Renee French](http://reneefrench.blogspot.com/)."
+%}
+
 ## A simple example
 The workhorse of the boundary is the [`syscall/js`](https://pkg.go.dev/syscall/js) module, part of the Go standard library.
 
@@ -204,7 +213,7 @@ This is to make sure that the `main()` function doesn't end; when `main()` ends,
 
 ## Passing stuff through the boundary
 
-### Simple stuff
+### Simple types
 Passing `int`, `float`, `string`, `bool` between JavaScript and Go is easily done as described in the example above.
 JavaScript `null` and `undefined` can be passed to Go, but has to be inspected through `isNull()` and `isUndefined()`; it doesn't map to a Go type.
 When Go returns `nil`, it will be transformed into a JavaScript `null`.
