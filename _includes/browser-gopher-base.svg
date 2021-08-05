@@ -1,4 +1,13 @@
 <svg version="1.1" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 {{include.width}} 700" >
+<!--
+LICENSE:
+
+Note that the Go Gopher is licensed under the [Creative Commons 3.0 Attribution License](https://creativecommons.org/licenses/by/3.0/), and was drawn in SVG by [Renee French](http://reneefrench.blogspot.com/).
+
+The logos from the different browsers and Node come from Wikimedia.
+
+This whole image (including the Javascript man) fall under [Creative Commons 3.0 Attribution License](https://creativecommons.org/licenses/by/3.0/), attributable to Reinoud Elhorst (https://blog.claude.nl/)
+-->
 <style>
     .eyes, .teeth {
         fill: white;
