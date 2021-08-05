@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300">
+    <defs>
+        <ellipse id="bubble" cx="300" cy="75" rx="150" ry="70" />
+        <ellipse id="bubble2" cx="700" cy="200" rx="400" ry="70" />
+        <filter id="shadow">
+            <feOffset result="offOut" in="SourceAlpha" dx="2" dy="3" />
+            <feGaussianBlur result="blurOut" in="offOut" stdDeviation="2" />
+            <feBlend in="SourceGraphic" in2="blurOut" mode="normal" />
+        </filter>
+    </defs>
+
+    <g filter="url(#shadow)">
+        <use href="#bubble" style="stroke: black; stroke-width: 6px; fill: none;" />
+        <path style="stroke: black; stroke-width: 3px; fill: white;" d="
+            M 200,100
+            q -20,80 -100,100
+            q 90,-20 120,-100
+        " />
+        <use href="#bubble" style="stroke: none; fill: white;" />
+
+        <use href="#bubble2" style="stroke: black; stroke-width: 6px; fill: none;" />
+        <path style="stroke: black; stroke-width: 3px; fill: white;" d="
+            M 900,200
+            q 25,-50 150,-100
+            q -105,50 -110,100
+        " />
+        <use href="#bubble2" style="stroke: none; fill: white;" />
+    </g>
+</svg>
