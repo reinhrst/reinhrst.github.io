@@ -11,9 +11,6 @@ span.value {
     width: 50px;
     display: inline-block;
 }
-code#generatorcode {
-    white-space: break-spaces;
-}
 button {
     margin: 7px;
 }
@@ -58,7 +55,10 @@ See the generated SVG code at the bottom.
     <button id="arrowcurve2">Change arrow curve 2</button>
 </div>
 <div class="language-xml highlighter-rouge">
-    <code id="generatorcode"></code>
+    <div class="highlight">
+        <pre class="highlight"><code id="generatorcode"></code>
+        </pre>
+    </div>
 </div>
 
 <script>
