@@ -8,6 +8,7 @@ $serif: Georgia, Times, serif !default;
 $global-font-family : $serif;
 
 $code-background-color: #e0e0e0;
+$x-large: 1640px !default;
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
