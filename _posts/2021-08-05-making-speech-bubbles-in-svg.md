@@ -14,6 +14,9 @@ Earlier today I wanted to make some speech bubbles for an SVG image I was workin
 They're not hard to make, but getting them right takes a bit of fiddling.
 So I wrote down some examples, for later reference.
 
+UPDATE: I made a small [SVG speech bubble generator](/speechbubblegenerator/), based on the method described on this post.
+Have fun with it!
+{: .notice--warning}
 
 {% include figure
     image_path="/assets/images/2021/08/05/interface.svg"
@@ -29,6 +32,7 @@ They consist of three parts:
 - Another `ellipse` to fill in the part of the speech "arrow" that is inside the bubble
 
 This manual assumes that you have experience with SVG.
+
 
 ## Step 1: Make the bubble
 
@@ -260,3 +264,6 @@ I couldn't resist a small 3D shadow effect in there....
 ```
 
 {{ code1 }}
+
+# Bonus 2: I made a speech bubble generator
+Next time you need an SVG bubble, just create one in the [SVG bubble generator](/speechbubblegenerator/).
