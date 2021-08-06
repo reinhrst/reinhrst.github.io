@@ -5,10 +5,11 @@ date: '2021-03-31T11:03:40Z'
 categories:
   - tech
   - manual
-keywords:
+tags:
   - howto
   - svg
   - medium
+  - series Scalar Vector Graphics (SVG)
 original_post_medium_url: https://claude-e-e.medium.com/how-to-embed-svg-images-on-medium-eb2aaaca69ad
 header:
   image: /assets/images/2021/03/31/header.png

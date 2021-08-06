@@ -37,7 +37,6 @@ defaults:
       show_date: true
       read_time: true
       layout: single
-      author_profile: true
       comments: true
       toc_sticky: true  # if there is a TOC, make it sticky
 comments:

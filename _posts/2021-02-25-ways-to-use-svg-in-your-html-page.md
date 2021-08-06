@@ -5,10 +5,11 @@ date: '2021-02-25T20:27:31Z'
 categories:
     - tech
     - deepdive
-keywords:
+tags:
     - svg
     - html
     - embed
+    - series Scalar Vector Graphics (SVG)
 original_post_medium_url: https://claude-e-e.medium.com/ways-to-use-svg-in-your-html-page-dd504660cb37
 header:
   image: /assets/images/2021/02/25/header.jpg

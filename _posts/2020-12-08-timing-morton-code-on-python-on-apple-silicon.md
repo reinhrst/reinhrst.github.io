@@ -4,7 +4,7 @@ description: Checking how fast the MacBook M1 really is, compared to intel, and 
 date: '2020-12-08T11:56:38Z'
 categories:
     - tech
-keywords:
+tags:
     - arm64
     - M1
     - macbook

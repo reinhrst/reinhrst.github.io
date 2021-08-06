@@ -5,7 +5,7 @@ date: '2021-02-15T18:37:36Z'
 categories:
   - tech
   - howto
-keywords:
+tags:
   - aws
   - cloudformation
   - lambda

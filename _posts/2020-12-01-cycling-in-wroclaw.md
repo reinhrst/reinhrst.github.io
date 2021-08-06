@@ -4,7 +4,7 @@ date: '2020-12-01T16:01:48Z'
 description: Practical advise and tips on cycling in Poland, Wroclaw in particular.
 categories:
     - travel
-keywords:
+tags:
     - travel
     - cycling
     - poland

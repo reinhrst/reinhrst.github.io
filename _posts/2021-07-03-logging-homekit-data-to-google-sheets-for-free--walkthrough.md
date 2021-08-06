@@ -5,7 +5,7 @@ date: '2021-07-03T08:00:00Z'
 categories:
   - tech
   - howto
-keywords:
+tags:
   - homekit
   - smart home
   - Google Sheets

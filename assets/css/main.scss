@@ -57,14 +57,34 @@ details.page__content {
     text-decoration: none;
 }
 
-.masthead {
-   position: fixed;
-   top: 0;
-   width: 100%;
-   background: $background-color;  // set a color to hide content that may appear below masthead
-   height: 85px; // need a magic number here which may break in different viewports
-}
-
-body {
-   padding: 85px 0 0;  // padding-top equal to masthead height or greater
+.series {
+    font-size: .8em;
+    border: 1px solid #777777;
+    background-color: #d8ebf1;
+    color: #3d4144;
+    padding: 8px;
+    margin-bottom: 18px;
+    li span.me {
+        font-weight: bold;
+        position: relative;
+        &::before {
+            content: '➞ ';
+            position: absolute;
+            left: -2.5em;
+            top: -1px;
+        }
+    }
+    li span.date {
+        color: #7d9194;
+        font-size: .9em;
+        &::before {
+            content: "  [";
+        }
+        &::after {
+            content: "]";
+        }
+    }
+    .seriesname {
+        font-style: italic;
+    }
 }

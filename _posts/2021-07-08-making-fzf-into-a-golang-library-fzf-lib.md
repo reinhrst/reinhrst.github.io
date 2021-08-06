@@ -6,6 +6,7 @@ categories:
 tags:
     - fzf
     - go
+    - series Making fzf available in the browser
 toc: true
 ---
 Over the past coupe of weeks I converted fzf into a go library, to be used in other projects.

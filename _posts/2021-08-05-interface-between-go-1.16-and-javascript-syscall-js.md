@@ -9,6 +9,7 @@ tags:
     - go
     - wasm
     - javascript
+    - series Making fzf available in the browser
 toc: true
 header:
     image: /assets/images/2021/08/05/header.svg
