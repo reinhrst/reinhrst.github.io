@@ -5,7 +5,7 @@ categories:
     - tech
 tags:
     - svg
-    - series Scalar Vector Graphics (SVG)
+series: Scalar Vector Graphics (SVG)
 header:
     image: /assets/images/2021/08/05/header2.svg
     teaser: /assets/images/2021/08/05/teaser2.svg

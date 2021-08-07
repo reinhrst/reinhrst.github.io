@@ -48,12 +48,7 @@ Note: originally posted on [Medium]({{page.original_post_medium_url}}), moved he
             </nav>
           </aside>
         {% endif %}
-        {% for tag in page.tags %}
-          {% assign parts = tag | split: ' ' %}
-          {% if parts[0] == "series" %}
-            {% include post-in-series.md tag=tag %}
-          {% endif %}
-        {% endfor %}
+        {% include post-in-series.md %}
         {{ content }}
         {% if page.link %}<div><a href="{{ page.link }}" class="btn btn--primary">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
       </section>
