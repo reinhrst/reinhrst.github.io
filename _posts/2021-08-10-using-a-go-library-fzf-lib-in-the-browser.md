@@ -17,7 +17,7 @@ In this post I will describe how to compile a Go library for use in the browser.
 It assumed that you're familiar with the [previous post in this series](g2021-08-05-interface-between-go-1.16-and-javascript-syscall-js.md), as well have at least a basic understanding of Go, JavaScript and TypeScript.
 
 I'm going to expose [`fzf-lib`](https://github.com/reinhrst/fzf-lib), so that we can make calls to it from JavaScript.
-`fzf-lib` is a library-port [I made earlier](g2021-07-08-making-fzf-into-a-golang-library-fzf-lib.md) from Junegunn Choi's amazing commandline program [fzf](https://github.com/junegunn/fzf).
+`fzf-lib` is a library-port [I made earlier](g2021-07-08-making-fzf-into-a-golang-library-fzf-lib.md) from Junegunn Choi's amazing command line program [fzf](https://github.com/junegunn/fzf).
 
 The following items are discussed in this post:
 - Create a JavaScript interface for `fzf-lib`
@@ -26,17 +26,17 @@ The following items are discussed in this post:
 - Do some basic performance testing on the different solutions
 - Bonus: do a performance optimisation
 
-[Accompanying code for this post is available on <i class="fab fa-fw fa-github" aria-hidden="true"></i> Github](https://github.com/reinhrst/fzf-js){: .btn .btn--success}
+[Accompanying code for this post is available on <i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub](https://github.com/reinhrst/fzf-js){: .btn .btn--success}
 
 <div markdown="1" class="notice">
 In this post I will compile Go code to WebAssembly (with two different tools) and to JavaScript code.
-We will look at performance later, but it's important to dispell some prejudices here (in as far as they exist).
+We will look at performance later, but it's important to dispel some prejudices here (in as far as they exist).
 
 WebAssembly is (as the name suggests) assembly code, compiled code, whereas JavaScript is an interpreted language.
 "Traditional wisdom" is that compiled programs run many times faster than interpreted programs.
 Therefore it's tempting to assume that if you want something to be fast, you should look at WebAssembly.
 
-There are blogposts out there trying to determine how much faster WebAssembly is; then there are plenty of blogs saying that these other blogs do it wrong, and don't get realistic results (mostly because they take trivial programs in tight loops, which is almost never what you encounter in real cyberlife).
+There are blog posts out there trying to determine how much faster WebAssembly is; then there are plenty of blogs saying that these other blogs do it wrong, and don't get realistic results (mostly because they take trivial programs in tight loops, which is almost never what you encounter in real cyberlife).
 Just a couple of months ago, a Surma, a Web Advocate at Google, did some tests and wrote a [very interesting article](https://surma.dev/things/js-to-asc/index.html) on this subject.
 
 A long read (but very much worth it!); but if you don't have the time, just read the first two lines:
@@ -49,7 +49,7 @@ A long read (but very much worth it!); but if you don't have the time, just read
 
 ## Step 0: Set up the environment
 In order to follow the steps in this post, you need to have the following tools installed (If you need help installing any of these, Google is your friend :) :
-- node/npm -- We use npm to orchestrate our buildsteps, and node/npm to transpile TypeScript into JavaScript. I have versions node (v16.4.2) and npm (7.18.1), but any recent version should do.
+- node/npm -- We use npm to orchestrate our build steps, and node/npm to transpile TypeScript into JavaScript. I have versions node (v16.4.2) and npm (7.18.1), but any recent version should do.
 - Go -- to compile the library to WebAssembly using Go. I use version 1.16.5.
 - TinyGo -- to compile the library to WebAssembly using TinyGo. I use version 0.19.0.
 - GopherJS -- to compile the library to JavaScript. I use version 1.16.3+go1.16.5. GopherJS executable is installed under `~/go/bin/gopherjs` in my system; you may need to change some things in the example repo if it's different in your system.
@@ -162,11 +162,11 @@ We'll allow registering callback functions through `addResultListener()` (I don'
 It may seem like a bit of over-engineering to have the `Search()` method return the result asynchronously via a `Channel()`, but there is a good reason for this.
 The original `fzf` is meant to be used interactively: the results update while you type.
 It's fully possible that someone types `hello wor`, and that before `fzf` is done searching the next letter `l` is typed.
-In this case a new search command is given, automatically cancelling the old search -- this is how `fzf` works. and how `fzf-lib` works.
+In this case a new search command is given, automatically cancelling the old search -- this is how `fzf`, and `fzf-lib`, work.
 
 We probably want to have similar behaviour in our JavaScript.
 It feels very tempting to make `search()` an asynchronous function that `await`s the result; this would fit better with the tests we want to run later on.
-However in real life it's more likely that you just want to always update the resultlist when the latest search result comes in, so a callback function makes more sense in my opinion.
+However in real life it's more likely that you just want to always update the result list when the latest search result comes in, so a callback function makes more sense in my opinion.
 </div>
 
 The way to make the `fzfNew` function return something that looks like an object instance, is by defining the returned methods as closures within the constructor.
@@ -315,7 +315,7 @@ func main() {
 }
 ```
 
-Now we have something that, if we were to compile it (see next step), gives us a nice Javascript interface.
+Now we have something that, if we were to compile it (see next step), gives us a nice JavaScript interface.
 I will still want to wrap this into a proper interface on the JavaScript/TypeScript side, but for now, we have something that works!
 
 ## Step 2: Compile, and create a HelloWorld
@@ -356,7 +356,7 @@ GOOS=js GOARCH=wasm go build -o ../lib/go/main.wasm
 ```
 
 Now we have a WebAssembly (`.wasm`) file in the target directory.
-This WebAssembly file needs a Go-specific javascript file for support, we will copy this from the Go directory to the target dir:
+This WebAssembly file needs a Go-specific JavaScript file for support, we will copy this from the Go directory to the target dir:
 
 ```bash
 cp $(go env GOROOT)/misc/wasm/wasm_exec.js ../lib/go/wasm_exec.js
@@ -365,7 +365,7 @@ cp $(go env GOROOT)/misc/wasm/wasm_exec.js ../lib/go/wasm_exec.js
 Now we're ready to create a file that:
 1. Loads the `wasm_exec.js`
 2. Creates a new `Go()` object
-3. Load the WebAssembly into Node, then instntiate it and import into the Go object
+3. Load the WebAssembly into Node, then instantiate it and import into the Go object
 4. Run the "hello world" code we described above
 
 Create a file `main.mjs` in `lib/go` (the `.mjs` extension tells node that this file is a [JavaScript module](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules), meaning that `import ...` and top-level `await`s are supported):
@@ -471,10 +471,10 @@ As you can see, TinyGo code is uncompressed about 4 times smaller than Go WebAss
 ### Compile with GopherJS to JavaScript
 GopherJS differs from the other two methods, in that it compiles the Go code directly to JavaScript.
 It's been doing this since 2013, longer than the WebAssembly outputs of the other two.
-As mentioned on its [github page](https://github.com/gopherjs/gopherjs), *[i]ts main purpose is to give you the opportunity to write front-end code in Go which will still run in all browsers.*
+As mentioned on its [GitHub page](https://github.com/gopherjs/gopherjs), *[i]ts main purpose is to give you the opportunity to write front-end code in Go which will still run in all browsers.*
 So even though exposing Go libraries to JavaScript is not its main purpose, it does so just fine, as I will show here.
 
-We assume in this post that you have the GopherJs executable at `~/go/bin/gopherjs`; if not, make sure to update the commands below.
+We assume in this post that you have the GopherJS executable at `~/go/bin/gopherjs`; if not, make sure to update the commands below.
 Unlike when we compile to WebAssembly, we don't need any supporting JavaScript files; once we compile, we're done.
 Run the commands below once again from the `src` directory.
 
@@ -521,7 +521,7 @@ minified (gopherjs built in) & compressed||148'069 | 148'069
 </figure>
 
 
-The resulting JavaScript is 1.7 MB, which is between Go and TinyGo in, however it's very compressable, and when compressed it's only 181 kB.
+The resulting JavaScript is 1.7 MB, which is between Go and TinyGo in, however it's very compressible, and when compressed it's only 181 kB.
 This is 35% of Go's WebAssembly size, and also 15% smaller than TinyGo's WebAssembly.
 
 Because the result is JavaScript rather than WebAssembly, we can make the size even smaller by first minifying the JavaScript. I used [the first DuckDuckGo result for "javascript minifier"](https://javascript-minifier.com); the result is even smaller, 160 kB when compressed!
@@ -704,7 +704,7 @@ myFzf.addResultListener((result) => {
 myFzf.search(needles[0])
 ```
 
-Unsurpisingly, it does the same thing as before, with the small difference thanks to sorting `ByLength`.
+Unsurprisingly, it does the same thing as before, with the small difference thanks to sorting `ByLength`.
 
 ```
 > node main.mjs
@@ -787,7 +787,7 @@ function logTime(message) {
 ```
 This prints lines with a message, the absolute time, and time since start.
 In order to get the same in Go, we expose a function to receive the startTime (so that Go and JavaScript have the same start time) and then print the same values.
-I ran into a small issue here, that `args[0].Int()` in TinyGo seems to be limited to 32 bits (and the JavaScript timestamp in milliseconds is much larger than a 32 bit int), so we send the time as a string, and then parse to an int64.
+I ran into a small issue here, that `args[0].Int()` in TinyGo seems to be limited to 32 bits (and the JavaScript timestamp in milliseconds is much larger than a 32 bit int), so we send the time as a string, and then parse to an `int64`.
 
 ```go
 var startTime int64
@@ -804,7 +804,7 @@ func logTime(message string) {
 
 See the exact code changes [on GitHub](https://github.com/reinhrst/fzf-js/compare/first-version...performance-testing).
 
-Now we're ready to run the following main.mjs:
+Now we're ready to run the following `main.mjs`:
 ```javascript
 let startTime = Date.now()
 function logTime(message) {
@@ -831,7 +831,7 @@ myFzf.addResultListener((result) => {
 myFzf.search("hello world")
 ```
 
-A typicial run will give us the following output (Note that for TinyGo you have to run `node main.mjs 2> >(grep -v 'syscall/js.finalizeRef not implemented')`):
+A typical run will give us the following output (Note that for TinyGo you have to run `node main.mjs 2> >(grep -v 'syscall/js.finalizeRef not implemented')`):
 ```
 start 1628507038082 0
 js/wasm loaded 1628507038084 2
@@ -892,7 +892,7 @@ In the Bonus section we will see if we can do something to improve this.
 ## Conclusion
 It's quite possible these days to take a Go library and compile it so that it will run on the browser.
 The resulting code will be quite large, although with compression it can be slimmed down to between 150-600 kB, depending on your method.
-There is a standard way to build an interface in Go, that works for Go, TinyGo and GopherJs.
+There is a standard way to build an interface in Go, that works for Go, TinyGo and GopherJS.
 
 I'm hesitant to jump to conclusions about performance; there is a reason that I feel that performance deserves a whole post on its own.
 What we saw in this example, is that without any manual optimisation, we seem to be getting performances that are 10 times slower than native Go on a single CPU core.
@@ -910,7 +910,7 @@ This makes sense, if you consider that `hayStack = append(hayStack, jsHayStack.I
 It would be interesting to see if we can come up with a quick speedup for this.
 
 An obvious and easy thing to do is to send everything as one JSON string, and get the result back as a single JSON string.
-Thanks to our JavaScript/TypeScript interface, we can do this without any change to our outside interface (this is exactly a majore reason why I like having a TypeScript interface!).
+Thanks to our JavaScript/TypeScript interface, we can do this without any change to our outside interface (this is exactly a major reason why I like having a TypeScript interface!).
 We just make some small changes; in `declarations.d.ts`, specify that the `fzfNew()` and callback functions have string parameters, in `index.ts` put some `JSON.stringify` and `JSON.parse` calls, and put JSON code in `fzf.js.go` (see the [`bonus-speedup` tag on GitHub](https://github.com/reinhrst/fzf-js/releases/tag/bonus-speedup), or [only the diff](https://github.com/reinhrst/fzf-js/compare/performance-testing...bonus-speedup)).
 
 As soon as we try to run this, we run into a problem: [TinyGo does not support json serialization](https://github.com/tinygo-org/tinygo/issues/447).
@@ -966,6 +966,6 @@ Some ideas that I have:
 - Send the hayStack as a ByteArray which is moved to Go by [`CopyBytesToGo`](https://pkg.go.dev/syscall/js#CopyBytesToGo) and a list of start/end indices
 - Converting []byte into string in Go makes a copy of the underlying memory, however there are some "hacky/unsafe" workarounds to do this without a copy (see [this issue](https://github.com/golang/go/issues/25484) for more info); that should be able to save a lot.
 - For the result, first thing one can wonder is if it makes sense to return the `key` (the hay straw that got matched) in the result; the index of the hay straw is already returned and one can assume that JavaScript still has the hay array lying around somewhere.
-- It's very unlikely anyone will find it useful to get all 74779 results returned. If we're showing a realtime search box, we're probably interested in how many results fit on our screen; and after we scroll, we want to know about one more screen, etc. So we could return the results only when they're needed, although this would require a bit more effort.
+- It's very unlikely anyone will find it useful to get all 74779 results returned. If we're showing a real time search box, we're probably interested in how many results fit on our screen; and after we scroll, we want to know about one more screen, etc. So we could return the results only when they're needed, although this would require a bit more effort.
 - See if we can speed up GopherJS's actual search performance; it's quite slow, the actual search takes 12 seconds for GopherJS, whereas Go WebAssembly does it in 4 seconds (and TinyGo even faster).
 </div>
