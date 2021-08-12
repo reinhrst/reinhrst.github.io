@@ -324,7 +324,7 @@ In this step we will compile the code using three different methods: with Go to 
 
 We will compile the code into `lib/go`, `lib/tinygo` and `lib/gopherjs` respectively.
 
-After compilation, we will run the result in node, using the following small program (you see a bit of fiddling to make sue that the next search only starts after the previsou one finishes):
+After compilation, we will run the result in node, using the following small program (you see a bit of fiddling to make sue that the next search only starts after the previous one finishes):
 ```javascript
 const myFzf = fzfNew(["hello world", "goodbye nothingness", "a bright new day"], {});
 const needles = ["a ny", "oo", "'oo", "!oo"]
@@ -402,7 +402,7 @@ Searching for ''oo' resulted in goodbye nothingness
 Searching for '!oo' resulted in hello world,a bright new day
 ```
 
-Success! If you want, you can try other hay and needles; it's proper `fzf-lib` runnig here!
+Success! If you want, you can try other hay and needles; it's proper `fzf-lib` running here!
 
 <figure markdown="1">
 
