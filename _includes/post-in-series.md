@@ -18,7 +18,7 @@
     {% endcapture %}
 
     <div class="series">
-        <div>This post is post {{postnr}} of a (so far) {{posts | size }}-part series on <span class="seriesname">"{{seriesname}}"</span>.</div>
+        <div>This post is post {{postnr}} of a (so far) {{i}}-part series on <span class="seriesname">"{{page.series}}"</span>.</div>
         {{list}}
     </div>
 {% endif %}
