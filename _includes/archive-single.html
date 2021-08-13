@@ -11,6 +11,9 @@
 {% endif %}
 
 <div class="{{ include.type | default: 'list' }}__item">
+  {% if include.type == "list" and post.header.image %}
+  <div class="archive-background" style="--header-image: url({{ post.header.image }})"></div>
+  {% endif %}
   <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
     {% if include.type == "grid" and teaser %}
       <div class="archive__item-teaser">
@@ -25,6 +28,6 @@
       {% endif %}
     </h2>
     {% include page__meta.html type=include.type %}
-    {% if post.excerpt or post.header.teaser %}<p class="archive__item-excerpt" itemprop="description">{% if teaser %}<img class="archive-custom-teaser" src="{{ teaser | relative_url }}" alt="teaser">{% endif %}{{ post.excerpt | markdownify | strip_html | truncate: 350 }}</p>{% endif %}
+    {% if post.excerpt %}<p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify | strip_html}}</p>{% endif %}
   </article>
 </div>

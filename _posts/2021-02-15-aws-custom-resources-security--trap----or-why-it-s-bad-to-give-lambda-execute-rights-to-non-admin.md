@@ -14,7 +14,7 @@ tags:
   - security
 original_post_medium_url: https://claude-e-e.medium.com/aws-custom-resources-security-trap-or-why-its-bad-to-give-lambda-execute-rights-to-non-admin-10f3fd2ddbe7
 header:
-  teaser: /assets/images/2021/02/15/stop.svg
+  image: /assets/images/2021/02/15/stop.svg
 ---
 
 AWS CloudFormation allows the use of Custom Resources. These are great if one has to do some things outside AWS (say you create a stack and you want as part of the stack also create a github repository with a bunch of access rights). In practice however I have mostly used them to do things inside AWS that either do not have a CloudFormation interface (yet), or where the CloudFormation interface does not do what I need (for example, build a [lambda layer based on pip packages](/tech/howto/2021/02/10/aws-lambda-python-with-packages-through-pip-in-cloudformation.html)). It takes quite some hassle to set it all up, but once it works, it works like a breeze!

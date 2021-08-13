@@ -17,17 +17,6 @@ $x-large: 1640px !default;
     padding: 1.5em 0 4.5em 0;
 }
 
-// pictures on the overview page
-.archive-custom-teaser {
-    float: left;
-    max-width: 150px;
-    max-height: 350px;
-    margin-right: 18px;
-}
-.archive__item-excerpt {
-    @include clearfix;
-}
-
 // katex font fix
 katex-inline.keepfont {
     .katex, .mathnormal, .mathit, .mathrm {
@@ -90,5 +79,40 @@ details.page__content {
     }
     .seriesname {
         font-style: italic;
+    }
+}
+
+div.list__item {
+    margin-bottom: 2em;
+    width: 100%;
+    padding-bottom: 40%;  // should make the height of the element 40% of it's width
+    border: 1px solid black;
+    border-radius: 1em;
+    position: relative;
+    overflow: hidden;
+    > article {
+        position: absolute;
+        top: 1em;
+        left: 1em;
+        width: calc(100% - 2em);
+        height: calc(100% - 1em);
+        overflow: hidden;
+        > h2 {
+            margin-top: 0;
+            position: relative;
+        }
+        mask-image: linear-gradient(rgba(0,0,0,1) 90%, rgba(0,0,0,0));
+    }
+    > div.archive-background {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+        background-image: var(--header-image);
+        background-size: cover;
+        background-position: center;
+        filter: saturate(130%) contrast(15%) brightness(195%) blur(2px);
     }
 }
