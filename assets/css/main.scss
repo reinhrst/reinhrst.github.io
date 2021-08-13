@@ -13,6 +13,9 @@ $x-large: 1640px !default;
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
+.page__hero--overlay {
+    padding: 1.5em 0 4.5em 0;
+}
 
 // pictures on the overview page
 .archive-custom-teaser {
