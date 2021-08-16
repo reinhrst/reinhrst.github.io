@@ -18,6 +18,12 @@ Today I'm happy to announce that I found my way to do this: script Firefox to sc
 
 The tool is also available as docker container, just build it from the GitHub repository.
 
+<div markdown="1" class="notice">
+Update: after using this method for a while, I found one drawback: it does not export transparency properly; it just gives your SVG a white background.
+This is a shame; Safari does export the background transparency (but then has problems rendering the SVGs....).
+To be continued!
+</div>
+
 ## What is it
 A command line script that one can run, give some parameters like width and height, or even custom JavaScript that needs to be run before the conversion, and that outputs a PNG file.
 
