@@ -10,6 +10,8 @@ tags:
     - javascript
 series: Making fzf available in the browser
 toc: true
+header:
+    image: /assets/images/2021/08/10/header.svg
 ---
 
 In this post I will describe how to compile a Go library for use in the browser.
