@@ -8,7 +8,6 @@ tags:
     - go
     - wasm
     - javascript
-    - series Making fzf available in the browser
 series: Making fzf available in the browser
 toc: true
 ---
