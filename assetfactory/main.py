@@ -22,6 +22,7 @@ def process_file(filename: pathlib.Path):
     relative = filename.relative_to(here)
     assets = here.parent / "assets"
     target = (assets / relative).parent / f"{relative.stem}.svg"
+    plt.tight_layout(pad=.2)
     plt.savefig(target)
 
 

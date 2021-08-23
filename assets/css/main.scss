@@ -116,3 +116,11 @@ div.list__item {
         filter: saturate(130%) contrast(15%) brightness(195%) blur(2px);
     }
 }
+
+.page__content details {
+    margin-bottom: 1.3em;
+    padding-left: 2em;
+    summary {
+        margin-left: -2em;
+    }
+}
