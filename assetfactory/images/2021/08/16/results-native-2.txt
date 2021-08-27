@@ -1,0 +1,4575 @@
+********************** 1024.txt go-native
+fzf-type: go-native
+start 1629884005044 1629884005044
+lines.txt loaded: 1024 lines 1629884005045 1629884005045
+Fzf initialized 1629884005046 1629884005046
+Searching for 'h' resulted in 224 results
+--- ../1024.txt 0 0 h
++++ ../1024.txt 0 0 h
+Searching for 'he' resulted in 157 results
+--- ../1024.txt 1 1 he
++++ ../1024.txt 1 1 he
+Searching for 'hel' resulted in 80 results
+--- ../1024.txt 0 1 hel
++++ ../1024.txt 0 1 hel
+Searching for 'hell' resulted in 47 results
+--- ../1024.txt 0 1 hell
++++ ../1024.txt 0 1 hell
+Searching for 'hello' resulted in 34 results
+--- ../1024.txt 0 1 hello
++++ ../1024.txt 0 1 hello
+Searching for 'hello ' resulted in 34 results
+--- ../1024.txt 0 1 hello 
++++ ../1024.txt 0 1 hello 
+Searching for 'hello w' resulted in 20 results
+--- ../1024.txt 0 1 hello w
++++ ../1024.txt 0 1 hello w
+Searching for 'hello wo' resulted in 19 results
+--- ../1024.txt 0 1 hello wo
++++ ../1024.txt 0 1 hello wo
+Searching for 'hello wor' resulted in 7 results
+--- ../1024.txt 1 2 hello wor
++++ ../1024.txt 1 2 hello wor
+Searching for 'hello worl' resulted in 6 results
+--- ../1024.txt 0 2 hello worl
++++ ../1024.txt 0 2 hello worl
+Searching for 'hello world' resulted in 1 results
+--- ../1024.txt 0 2 hello world
++++ ../1024.txt 0 2 hello world
+	Command being timed: "./main ../1024.txt"
+	User time (seconds): 0.00
+	System time (seconds): 0.00
+	Percent of CPU this job got: 4%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.21
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 6960
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 559
+	Voluntary context switches: 13
+	Involuntary context switches: 226
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 8
+	Page size (bytes): 16384
+	Exit status: 0
+********************** 2048.txt go-native
+fzf-type: go-native
+start 1629884005054 1629884005054
+lines.txt loaded: 2048 lines 1629884005056 1629884005056
+Fzf initialized 1629884005056 1629884005056
+Searching for 'h' resulted in 629 results
+--- ../2048.txt 1 1 h
++++ ../2048.txt 1 1 h
+Searching for 'he' resulted in 487 results
+--- ../2048.txt 1 2 he
++++ ../2048.txt 1 2 he
+Searching for 'hel' resulted in 237 results
+--- ../2048.txt 0 2 hel
++++ ../2048.txt 0 2 hel
+Searching for 'hell' resulted in 116 results
+--- ../2048.txt 0 2 hell
++++ ../2048.txt 0 2 hell
+Searching for 'hello' resulted in 64 results
+--- ../2048.txt 0 2 hello
++++ ../2048.txt 0 2 hello
+Searching for 'hello ' resulted in 64 results
+--- ../2048.txt 0 2 hello 
++++ ../2048.txt 0 2 hello 
+Searching for 'hello w' resulted in 31 results
+--- ../2048.txt 0 2 hello w
++++ ../2048.txt 0 2 hello w
+Searching for 'hello wo' resulted in 29 results
+--- ../2048.txt 0 2 hello wo
++++ ../2048.txt 0 2 hello wo
+Searching for 'hello wor' resulted in 13 results
+--- ../2048.txt 1 3 hello wor
++++ ../2048.txt 1 3 hello wor
+Searching for 'hello worl' resulted in 7 results
+--- ../2048.txt 0 3 hello worl
++++ ../2048.txt 0 3 hello worl
+Searching for 'hello world' resulted in 1 results
+--- ../2048.txt 0 3 hello world
++++ ../2048.txt 0 3 hello world
+	Command being timed: "./main ../2048.txt"
+	User time (seconds): 0.01
+	System time (seconds): 0.00
+	Percent of CPU this job got: 162%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.00
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 9072
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 691
+	Voluntary context switches: 12
+	Involuntary context switches: 356
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 22
+	Page size (bytes): 16384
+	Exit status: 0
+********************** 4096.txt go-native
+fzf-type: go-native
+start 1629884005065 1629884005065
+lines.txt loaded: 4096 lines 1629884005066 1629884005066
+Fzf initialized 1629884005067 1629884005067
+Searching for 'h' resulted in 1350 results
+--- ../4096.txt 3 3 h
++++ ../4096.txt 3 3 h
+Searching for 'he' resulted in 898 results
+--- ../4096.txt 1 4 he
++++ ../4096.txt 1 4 he
+Searching for 'hel' resulted in 388 results
+--- ../4096.txt 0 4 hel
++++ ../4096.txt 0 4 hel
+Searching for 'hell' resulted in 150 results
+--- ../4096.txt 1 5 hell
++++ ../4096.txt 1 5 hell
+Searching for 'hello' resulted in 65 results
+--- ../4096.txt 0 5 hello
++++ ../4096.txt 0 5 hello
+Searching for 'hello ' resulted in 65 results
+--- ../4096.txt 0 5 hello 
++++ ../4096.txt 0 5 hello 
+Searching for 'hello w' resulted in 31 results
+--- ../4096.txt 0 5 hello w
++++ ../4096.txt 0 5 hello w
+Searching for 'hello wo' resulted in 29 results
+--- ../4096.txt 0 5 hello wo
++++ ../4096.txt 0 5 hello wo
+Searching for 'hello wor' resulted in 13 results
+--- ../4096.txt 0 5 hello wor
++++ ../4096.txt 0 5 hello wor
+Searching for 'hello worl' resulted in 7 results
+--- ../4096.txt 1 6 hello worl
++++ ../4096.txt 1 6 hello worl
+Searching for 'hello world' resulted in 1 results
+--- ../4096.txt 0 6 hello world
++++ ../4096.txt 0 6 hello world
+	Command being timed: "./main ../4096.txt"
+	User time (seconds): 0.01
+	System time (seconds): 0.00
+	Percent of CPU this job got: 172%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.01
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 10960
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 813
+	Voluntary context switches: 25
+	Involuntary context switches: 564
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 28
+	Page size (bytes): 16384
+	Exit status: 0
+********************** 8192.txt go-native
+fzf-type: go-native
+start 1629884005080 1629884005080
+lines.txt loaded: 8192 lines 1629884005082 1629884005082
+Fzf initialized 1629884005083 1629884005083
+Searching for 'h' resulted in 2748 results
+--- ../8192.txt 5 5 h
++++ ../8192.txt 5 5 h
+Searching for 'he' resulted in 2114 results
+--- ../8192.txt 3 8 he
++++ ../8192.txt 3 8 he
+Searching for 'hel' resulted in 991 results
+--- ../8192.txt 2 10 hel
++++ ../8192.txt 2 10 hel
+Searching for 'hell' resulted in 457 results
+--- ../8192.txt 0 10 hell
++++ ../8192.txt 0 10 hell
+Searching for 'hello' resulted in 207 results
+--- ../8192.txt 1 11 hello
++++ ../8192.txt 1 11 hello
+Searching for 'hello ' resulted in 207 results
+--- ../8192.txt 0 11 hello 
++++ ../8192.txt 0 11 hello 
+Searching for 'hello w' resulted in 81 results
+--- ../8192.txt 0 11 hello w
++++ ../8192.txt 0 11 hello w
+Searching for 'hello wo' resulted in 79 results
+--- ../8192.txt 0 11 hello wo
++++ ../8192.txt 0 11 hello wo
+Searching for 'hello wor' resulted in 40 results
+--- ../8192.txt 1 12 hello wor
++++ ../8192.txt 1 12 hello wor
+Searching for 'hello worl' resulted in 20 results
+--- ../8192.txt 0 12 hello worl
++++ ../8192.txt 0 12 hello worl
+Searching for 'hello world' resulted in 6 results
+--- ../8192.txt 0 12 hello world
++++ ../8192.txt 0 12 hello world
+	Command being timed: "./main ../8192.txt"
+	User time (seconds): 0.02
+	System time (seconds): 0.00
+	Percent of CPU this job got: 155%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.01
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 13024
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 937
+	Voluntary context switches: 15
+	Involuntary context switches: 553
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 35
+	Page size (bytes): 16384
+	Exit status: 0
+********************** 16384.txt go-native
+fzf-type: go-native
+start 1629884005099 1629884005099
+lines.txt loaded: 16384 lines 1629884005103 1629884005103
+Fzf initialized 1629884005105 1629884005105
+Searching for 'h' resulted in 10940 results
+--- ../16384.txt 9 9 h
++++ ../16384.txt 9 9 h
+Searching for 'he' resulted in 10029 results
+--- ../16384.txt 8 17 he
++++ ../16384.txt 8 17 he
+Searching for 'hel' resulted in 4874 results
+--- ../16384.txt 5 22 hel
++++ ../16384.txt 5 22 hel
+Searching for 'hell' resulted in 2536 results
+--- ../16384.txt 2 24 hell
++++ ../16384.txt 2 24 hell
+Searching for 'hello' resulted in 1487 results
+--- ../16384.txt 1 25 hello
++++ ../16384.txt 1 25 hello
+Searching for 'hello ' resulted in 1487 results
+--- ../16384.txt 1 26 hello 
++++ ../16384.txt 1 26 hello 
+Searching for 'hello w' resulted in 647 results
+--- ../16384.txt 1 27 hello w
++++ ../16384.txt 1 27 hello w
+Searching for 'hello wo' resulted in 537 results
+--- ../16384.txt 1 28 hello wo
++++ ../16384.txt 1 28 hello wo
+Searching for 'hello wor' resulted in 312 results
+--- ../16384.txt 0 28 hello wor
++++ ../16384.txt 0 28 hello wor
+Searching for 'hello worl' resulted in 162 results
+--- ../16384.txt 1 29 hello worl
++++ ../16384.txt 1 29 hello worl
+Searching for 'hello world' resulted in 59 results
+--- ../16384.txt 0 29 hello world
++++ ../16384.txt 0 29 hello world
+	Command being timed: "./main ../16384.txt"
+	User time (seconds): 0.09
+	System time (seconds): 0.00
+	Percent of CPU this job got: 267%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.03
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 23952
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 1622
+	Voluntary context switches: 63
+	Involuntary context switches: 1179
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 163
+	Page size (bytes): 16384
+	Exit status: 0
+********************** 32768.txt go-native
+fzf-type: go-native
+start 1629884005138 1629884005138
+lines.txt loaded: 32768 lines 1629884005145 1629884005145
+Fzf initialized 1629884005147 1629884005147
+Searching for 'h' resulted in 16901 results
+--- ../32768.txt 13 13 h
++++ ../32768.txt 13 13 h
+Searching for 'he' resulted in 14881 results
+--- ../32768.txt 11 24 he
++++ ../32768.txt 11 24 he
+Searching for 'hel' resulted in 7180 results
+--- ../32768.txt 6 30 hel
++++ ../32768.txt 6 30 hel
+Searching for 'hell' resulted in 3616 results
+--- ../32768.txt 3 33 hell
++++ ../32768.txt 3 33 hell
+Searching for 'hello' resulted in 2031 results
+--- ../32768.txt 2 35 hello
++++ ../32768.txt 2 35 hello
+Searching for 'hello ' resulted in 2031 results
+--- ../32768.txt 2 37 hello 
++++ ../32768.txt 2 37 hello 
+Searching for 'hello w' resulted in 860 results
+--- ../32768.txt 1 38 hello w
++++ ../32768.txt 1 38 hello w
+Searching for 'hello wo' resulted in 710 results
+--- ../32768.txt 1 39 hello wo
++++ ../32768.txt 1 39 hello wo
+Searching for 'hello wor' resulted in 425 results
+--- ../32768.txt 1 40 hello wor
++++ ../32768.txt 1 40 hello wor
+Searching for 'hello worl' resulted in 225 results
+--- ../32768.txt 1 41 hello worl
++++ ../32768.txt 1 41 hello worl
+Searching for 'hello world' resulted in 88 results
+--- ../32768.txt 0 41 hello world
++++ ../32768.txt 0 41 hello world
+	Command being timed: "./main ../32768.txt"
+	User time (seconds): 0.13
+	System time (seconds): 0.01
+	Percent of CPU this job got: 273%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.05
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 34144
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 2259
+	Voluntary context switches: 32
+	Involuntary context switches: 2046
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 127
+	Page size (bytes): 16384
+	Exit status: 0
+********************** 65536.txt go-native
+fzf-type: go-native
+start 1629884005192 1629884005192
+lines.txt loaded: 65536 lines 1629884005204 1629884005204
+Fzf initialized 1629884005208 1629884005208
+Searching for 'h' resulted in 24285 results
+--- ../65536.txt 20 20 h
++++ ../65536.txt 20 20 h
+Searching for 'he' resulted in 20902 results
+--- ../65536.txt 17 37 he
++++ ../65536.txt 17 37 he
+Searching for 'hel' resulted in 10423 results
+--- ../65536.txt 7 44 hel
++++ ../65536.txt 7 44 hel
+Searching for 'hell' resulted in 5080 results
+--- ../65536.txt 4 48 hell
++++ ../65536.txt 4 48 hell
+Searching for 'hello' resulted in 2816 results
+--- ../65536.txt 3 51 hello
++++ ../65536.txt 3 51 hello
+Searching for 'hello ' resulted in 2816 results
+--- ../65536.txt 3 54 hello 
++++ ../65536.txt 3 54 hello 
+Searching for 'hello w' resulted in 1162 results
+--- ../65536.txt 4 58 hello w
++++ ../65536.txt 4 58 hello w
+Searching for 'hello wo' resulted in 971 results
+--- ../65536.txt 1 59 hello wo
++++ ../65536.txt 1 59 hello wo
+Searching for 'hello wor' resulted in 594 results
+--- ../65536.txt 2 61 hello wor
++++ ../65536.txt 2 61 hello wor
+Searching for 'hello worl' resulted in 328 results
+--- ../65536.txt 1 62 hello worl
++++ ../65536.txt 1 62 hello worl
+Searching for 'hello world' resulted in 133 results
+--- ../65536.txt 1 63 hello world
++++ ../65536.txt 1 63 hello world
+	Command being timed: "./main ../65536.txt"
+	User time (seconds): 0.20
+	System time (seconds): 0.01
+	Percent of CPU this job got: 278%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.08
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 51632
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 3358
+	Voluntary context switches: 45
+	Involuntary context switches: 3268
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 192
+	Page size (bytes): 16384
+	Exit status: 0
+********************** 131072.txt go-native
+fzf-type: go-native
+start 1629884005275 1629884005275
+lines.txt loaded: 131072 lines 1629884005297 1629884005297
+Fzf initialized 1629884005306 1629884005306
+Searching for 'h' resulted in 44948 results
+--- ../131072.txt 32 32 h
++++ ../131072.txt 32 32 h
+Searching for 'he' resulted in 38090 results
+--- ../131072.txt 28 60 he
++++ ../131072.txt 28 60 he
+Searching for 'hel' resulted in 19099 results
+--- ../131072.txt 15 75 hel
++++ ../131072.txt 15 75 hel
+Searching for 'hell' resulted in 9357 results
+--- ../131072.txt 9 84 hell
++++ ../131072.txt 9 84 hell
+Searching for 'hello' resulted in 5096 results
+--- ../131072.txt 5 89 hello
++++ ../131072.txt 5 89 hello
+Searching for 'hello ' resulted in 5096 results
+--- ../131072.txt 9 98 hello 
++++ ../131072.txt 9 98 hello 
+Searching for 'hello w' resulted in 2427 results
+--- ../131072.txt 4 102 hello w
++++ ../131072.txt 4 102 hello w
+Searching for 'hello wo' resulted in 2113 results
+--- ../131072.txt 3 105 hello wo
++++ ../131072.txt 3 105 hello wo
+Searching for 'hello wor' resulted in 1441 results
+--- ../131072.txt 3 108 hello wor
++++ ../131072.txt 3 108 hello wor
+Searching for 'hello worl' resulted in 937 results
+--- ../131072.txt 3 111 hello worl
++++ ../131072.txt 3 111 hello worl
+Searching for 'hello world' resulted in 473 results
+--- ../131072.txt 2 113 hello world
++++ ../131072.txt 2 113 hello world
+	Command being timed: "./main ../131072.txt"
+	User time (seconds): 0.39
+	System time (seconds): 0.03
+	Percent of CPU this job got: 292%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.14
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 74096
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 4756
+	Voluntary context switches: 31
+	Involuntary context switches: 5865
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 151
+	Page size (bytes): 16384
+	Exit status: 0
+********************** 262144.txt go-native
+fzf-type: go-native
+start 1629884005423 1629884005423
+lines.txt loaded: 262144 lines 1629884005451 1629884005451
+Fzf initialized 1629884005471 1629884005471
+Searching for 'h' resulted in 119513 results
+--- ../262144.txt 85 85 h
++++ ../262144.txt 85 85 h
+Searching for 'he' resulted in 105560 results
+--- ../262144.txt 75 160 he
++++ ../262144.txt 75 160 he
+Searching for 'hel' resulted in 56016 results
+--- ../262144.txt 53 213 hel
++++ ../262144.txt 53 213 hel
+Searching for 'hell' resulted in 28575 results
+--- ../262144.txt 25 238 hell
++++ ../262144.txt 25 238 hell
+Searching for 'hello' resulted in 15822 results
+--- ../262144.txt 16 254 hello
++++ ../262144.txt 16 254 hello
+Searching for 'hello ' resulted in 15822 results
+--- ../262144.txt 16 270 hello 
++++ ../262144.txt 16 270 hello 
+Searching for 'hello w' resulted in 7248 results
+--- ../262144.txt 11 281 hello w
++++ ../262144.txt 11 281 hello w
+Searching for 'hello wo' resulted in 6221 results
+--- ../262144.txt 8 289 hello wo
++++ ../262144.txt 8 289 hello wo
+Searching for 'hello wor' resulted in 4083 results
+--- ../262144.txt 7 296 hello wor
++++ ../262144.txt 7 296 hello wor
+Searching for 'hello worl' resulted in 2566 results
+--- ../262144.txt 5 301 hello worl
++++ ../262144.txt 5 301 hello worl
+Searching for 'hello world' resulted in 1119 results
+--- ../262144.txt 4 305 hello world
++++ ../262144.txt 4 305 hello world
+	Command being timed: "./main ../262144.txt"
+	User time (seconds): 1.00
+	System time (seconds): 0.04
+	Percent of CPU this job got: 297%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.35
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 130832
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 8307
+	Voluntary context switches: 25
+	Involuntary context switches: 8924
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 272
+	Page size (bytes): 16384
+	Exit status: 0
+********************** 524288.txt go-native
+fzf-type: go-native
+start 1629884005781 1629884005781
+lines.txt loaded: 524288 lines 1629884005835 1629884005835
+Fzf initialized 1629884005871 1629884005871
+Searching for 'h' resulted in 224394 results
+--- ../524288.txt 152 152 h
++++ ../524288.txt 152 152 h
+Searching for 'he' resulted in 190326 results
+--- ../524288.txt 156 308 he
++++ ../524288.txt 156 308 he
+Searching for 'hel' resulted in 96164 results
+--- ../524288.txt 73 381 hel
++++ ../524288.txt 73 381 hel
+Searching for 'hell' resulted in 48392 results
+--- ../524288.txt 55 436 hell
++++ ../524288.txt 55 436 hell
+Searching for 'hello' resulted in 26239 results
+--- ../524288.txt 28 464 hello
++++ ../524288.txt 28 464 hello
+Searching for 'hello ' resulted in 26239 results
+--- ../524288.txt 20 484 hello 
++++ ../524288.txt 20 484 hello 
+Searching for 'hello w' resulted in 11332 results
+--- ../524288.txt 30 514 hello w
++++ ../524288.txt 30 514 hello w
+Searching for 'hello wo' resulted in 9906 results
+--- ../524288.txt 14 528 hello wo
++++ ../524288.txt 14 528 hello wo
+Searching for 'hello wor' resulted in 6561 results
+--- ../524288.txt 13 541 hello wor
++++ ../524288.txt 13 541 hello wor
+Searching for 'hello worl' resulted in 4091 results
+--- ../524288.txt 11 552 hello worl
++++ ../524288.txt 11 552 hello worl
+Searching for 'hello world' resulted in 1852 results
+--- ../524288.txt 8 560 hello world
++++ ../524288.txt 8 560 hello world
+	Command being timed: "./main ../524288.txt"
+	User time (seconds): 1.89
+	System time (seconds): 0.10
+	Percent of CPU this job got: 306%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.65
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 236400
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 14917
+	Voluntary context switches: 53
+	Involuntary context switches: 19755
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 426
+	Page size (bytes): 16384
+	Exit status: 0
+********************** 1048576.txt go-native
+fzf-type: go-native
+start 1629884006439 1629884006439
+lines.txt loaded: 1048576 lines 1629884006525 1629884006525
+Fzf initialized 1629884006592 1629884006592
+Searching for 'h' resulted in 411819 results
+--- ../1048576.txt 289 289 h
++++ ../1048576.txt 289 289 h
+Searching for 'he' resulted in 340959 results
+--- ../1048576.txt 257 546 he
++++ ../1048576.txt 257 546 he
+Searching for 'hel' resulted in 173451 results
+--- ../1048576.txt 127 673 hel
++++ ../1048576.txt 127 673 hel
+Searching for 'hell' resulted in 84957 results
+--- ../1048576.txt 82 755 hell
++++ ../1048576.txt 82 755 hell
+Searching for 'hello' resulted in 46465 results
+--- ../1048576.txt 48 803 hello
++++ ../1048576.txt 48 803 hello
+Searching for 'hello ' resulted in 46465 results
+--- ../1048576.txt 32 835 hello 
++++ ../1048576.txt 32 835 hello 
+Searching for 'hello w' resulted in 18519 results
+--- ../1048576.txt 41 876 hello w
++++ ../1048576.txt 41 876 hello w
+Searching for 'hello wo' resulted in 16127 results
+--- ../1048576.txt 28 904 hello wo
++++ ../1048576.txt 28 904 hello wo
+Searching for 'hello wor' resulted in 10374 results
+--- ../1048576.txt 19 923 hello wor
++++ ../1048576.txt 19 923 hello wor
+Searching for 'hello worl' resulted in 6215 results
+--- ../1048576.txt 16 939 hello worl
++++ ../1048576.txt 16 939 hello worl
+Searching for 'hello world' resulted in 2742 results
+--- ../1048576.txt 10 949 hello world
++++ ../1048576.txt 10 949 hello world
+	Command being timed: "./main ../1048576.txt"
+	User time (seconds): 3.31
+	System time (seconds): 0.16
+	Percent of CPU this job got: 314%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.10
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 456464
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 28695
+	Voluntary context switches: 43
+	Involuntary context switches: 30307
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 374
+	Page size (bytes): 16384
+	Exit status: 0
+********************** 2097152.txt go-native
+fzf-type: go-native
+start 1629884007549 1629884007549
+lines.txt loaded: 2097152 lines 1629884007701 1629884007701
+Fzf initialized 1629884007834 1629884007834
+Searching for 'h' resulted in 821574 results
+--- ../2097152.txt 545 545 h
++++ ../2097152.txt 545 545 h
+Searching for 'he' resulted in 664715 results
+--- ../2097152.txt 449 994 he
++++ ../2097152.txt 449 994 he
+Searching for 'hel' resulted in 323273 results
+--- ../2097152.txt 280 1274 hel
++++ ../2097152.txt 280 1274 hel
+Searching for 'hell' resulted in 152723 results
+--- ../2097152.txt 131 1405 hell
++++ ../2097152.txt 131 1405 hell
+Searching for 'hello' resulted in 76905 results
+--- ../2097152.txt 80 1485 hello
++++ ../2097152.txt 80 1485 hello
+Searching for 'hello ' resulted in 76905 results
+--- ../2097152.txt 53 1538 hello 
++++ ../2097152.txt 53 1538 hello 
+Searching for 'hello w' resulted in 30738 results
+--- ../2097152.txt 54 1592 hello w
++++ ../2097152.txt 54 1592 hello w
+Searching for 'hello wo' resulted in 27040 results
+--- ../2097152.txt 68 1660 hello wo
++++ ../2097152.txt 68 1660 hello wo
+Searching for 'hello wor' resulted in 16836 results
+--- ../2097152.txt 34 1694 hello wor
++++ ../2097152.txt 34 1694 hello wor
+Searching for 'hello worl' resulted in 10189 results
+--- ../2097152.txt 27 1721 hello worl
++++ ../2097152.txt 27 1721 hello worl
+Searching for 'hello world' resulted in 4268 results
+--- ../2097152.txt 20 1741 hello world
++++ ../2097152.txt 20 1741 hello world
+	Command being timed: "./main ../2097152.txt"
+	User time (seconds): 6.17
+	System time (seconds): 0.34
+	Percent of CPU this job got: 319%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:02.03
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 893904
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 56082
+	Voluntary context switches: 125
+	Involuntary context switches: 67127
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 680
+	Page size (bytes): 16384
+	Exit status: 0
+********************** 4194304.txt go-native
+fzf-type: go-native
+start 1629884009588 1629884009588
+lines.txt loaded: 4194304 lines 1629884009997 1629884009997
+Fzf initialized 1629884010276 1629884010276
+Searching for 'h' resulted in 1922631 results
+--- ../4194304.txt 1342 1342 h
++++ ../4194304.txt 1342 1342 h
+Searching for 'he' resulted in 1607264 results
+--- ../4194304.txt 1177 2519 he
++++ ../4194304.txt 1177 2519 he
+Searching for 'hel' resulted in 917736 results
+--- ../4194304.txt 734 3253 hel
++++ ../4194304.txt 734 3253 hel
+Searching for 'hell' resulted in 467994 results
+--- ../4194304.txt 444 3697 hell
++++ ../4194304.txt 444 3697 hell
+Searching for 'hello' resulted in 255273 results
+--- ../4194304.txt 297 3994 hello
++++ ../4194304.txt 297 3994 hello
+Searching for 'hello ' resulted in 255273 results
+--- ../4194304.txt 184 4178 hello 
++++ ../4194304.txt 184 4178 hello 
+Searching for 'hello w' resulted in 113897 results
+--- ../4194304.txt 180 4358 hello w
++++ ../4194304.txt 180 4358 hello w
+Searching for 'hello wo' resulted in 101072 results
+--- ../4194304.txt 196 4554 hello wo
++++ ../4194304.txt 196 4554 hello wo
+Searching for 'hello wor' resulted in 73565 results
+--- ../4194304.txt 143 4697 hello wor
++++ ../4194304.txt 143 4697 hello wor
+Searching for 'hello worl' resulted in 51237 results
+--- ../4194304.txt 130 4827 hello worl
++++ ../4194304.txt 130 4827 hello worl
+Searching for 'hello world' resulted in 29354 results
+--- ../4194304.txt 100 4927 hello world
++++ ../4194304.txt 100 4927 hello world
+	Command being timed: "./main ../4194304.txt"
+	User time (seconds): 17.79
+	System time (seconds): 0.71
+	Percent of CPU this job got: 328%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:05.63
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1875424
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 117560
+	Voluntary context switches: 219
+	Involuntary context switches: 147445
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 3441
+	Page size (bytes): 16384
+	Exit status: 0
+********************** 8388608.txt go-native
+fzf-type: go-native
+start 1629884015223 1629884015223
+lines.txt loaded: 8388608 lines 1629884016065 1629884016065
+Fzf initialized 1629884016605 1629884016605
+Searching for 'h' resulted in 6010154 results
+--- ../8388608.txt 4059 4059 h
++++ ../8388608.txt 4059 4059 h
+Searching for 'he' resulted in 5165889 results
+--- ../8388608.txt 3938 7997 he
++++ ../8388608.txt 3938 7997 he
+Searching for 'hel' resulted in 3154153 results
+--- ../8388608.txt 2600 10597 hel
++++ ../8388608.txt 2600 10597 hel
+Searching for 'hell' resulted in 1626222 results
+--- ../8388608.txt 1484 12081 hell
++++ ../8388608.txt 1484 12081 hell
+Searching for 'hello' resulted in 811884 results
+--- ../8388608.txt 904 12985 hello
++++ ../8388608.txt 904 12985 hello
+Searching for 'hello ' resulted in 811884 results
+--- ../8388608.txt 622 13607 hello 
++++ ../8388608.txt 622 13607 hello 
+Searching for 'hello w' resulted in 351414 results
+--- ../8388608.txt 596 14203 hello w
++++ ../8388608.txt 596 14203 hello w
+Searching for 'hello wo' resulted in 314073 results
+--- ../8388608.txt 550 14753 hello wo
++++ ../8388608.txt 550 14753 hello wo
+Searching for 'hello wor' resulted in 230995 results
+--- ../8388608.txt 400 15153 hello wor
++++ ../8388608.txt 400 15153 hello wor
+Searching for 'hello worl' resulted in 161762 results
+--- ../8388608.txt 331 15484 hello worl
++++ ../8388608.txt 331 15484 hello worl
+Searching for 'hello world' resulted in 86190 results
+--- ../8388608.txt 248 15732 hello world
++++ ../8388608.txt 248 15732 hello world
+	Command being timed: "./main ../8388608.txt"
+	User time (seconds): 58.37
+	System time (seconds): 1.35
+	Percent of CPU this job got: 348%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:17.15
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 4134304
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 258964
+	Voluntary context switches: 761
+	Involuntary context switches: 314534
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 11564
+	Page size (bytes): 16384
+	Exit status: 0
+********************** 16777216.txt go-native
+fzf-type: go-native
+start 1629884032379 1629884032379
+lines.txt loaded: 16777216 lines 1629884034026 1629884034026
+Fzf initialized 1629884035125 1629884035125
+Searching for 'h' resulted in 10119343 results
+--- ../16777216.txt 8569 8569 h
++++ ../16777216.txt 8569 8569 h
+Searching for 'he' resulted in 8334567 results
+--- ../16777216.txt 6775 15344 he
++++ ../16777216.txt 6775 15344 he
+Searching for 'hel' resulted in 4720093 results
+--- ../16777216.txt 3958 19302 hel
++++ ../16777216.txt 3958 19302 hel
+Searching for 'hell' resulted in 2361932 results
+--- ../16777216.txt 2242 21544 hell
++++ ../16777216.txt 2242 21544 hell
+Searching for 'hello' resulted in 1163653 results
+--- ../16777216.txt 1387 22931 hello
++++ ../16777216.txt 1387 22931 hello
+Searching for 'hello ' resulted in 1163653 results
+--- ../16777216.txt 904 23835 hello 
++++ ../16777216.txt 904 23835 hello 
+Searching for 'hello w' resulted in 525640 results
+--- ../16777216.txt 916 24751 hello w
++++ ../16777216.txt 916 24751 hello w
+Searching for 'hello wo' resulted in 473497 results
+--- ../16777216.txt 965 25716 hello wo
++++ ../16777216.txt 965 25716 hello wo
+Searching for 'hello wor' resulted in 346695 results
+--- ../16777216.txt 624 26340 hello wor
++++ ../16777216.txt 624 26340 hello wor
+Searching for 'hello worl' resulted in 236539 results
+--- ../16777216.txt 528 26868 hello worl
++++ ../16777216.txt 528 26868 hello worl
+Searching for 'hello world' resulted in 127515 results
+--- ../16777216.txt 391 27259 hello world
++++ ../16777216.txt 391 27259 hello world
+	Command being timed: "./main ../16777216.txt"
+	User time (seconds): 94.03
+	System time (seconds): 4.46
+	Percent of CPU this job got: 327%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:30.09
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 8535440
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 808277
+	Voluntary context switches: 989
+	Involuntary context switches: 662529
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 18834
+	Page size (bytes): 16384
+	Exit status: 0
+********************** 1024.txt go-native
+fzf-type: go-native
+start 1629884062482 1629884062482
+lines.txt loaded: 1024 lines 1629884062486 1629884062486
+Fzf initialized 1629884062486 1629884062486
+Searching for 'h' resulted in 224 results
+--- ../1024.txt 0 0 h
++++ ../1024.txt 0 0 h
+Searching for 'he' resulted in 157 results
+--- ../1024.txt 0 0 he
++++ ../1024.txt 0 0 he
+Searching for 'hel' resulted in 80 results
+--- ../1024.txt 1 1 hel
++++ ../1024.txt 1 1 hel
+Searching for 'hell' resulted in 47 results
+--- ../1024.txt 0 1 hell
++++ ../1024.txt 0 1 hell
+Searching for 'hello' resulted in 34 results
+--- ../1024.txt 0 1 hello
++++ ../1024.txt 0 1 hello
+Searching for 'hello ' resulted in 34 results
+--- ../1024.txt 0 1 hello 
++++ ../1024.txt 0 1 hello 
+Searching for 'hello w' resulted in 20 results
+--- ../1024.txt 0 1 hello w
++++ ../1024.txt 0 1 hello w
+Searching for 'hello wo' resulted in 19 results
+--- ../1024.txt 0 1 hello wo
++++ ../1024.txt 0 1 hello wo
+Searching for 'hello wor' resulted in 7 results
+--- ../1024.txt 0 1 hello wor
++++ ../1024.txt 0 1 hello wor
+Searching for 'hello worl' resulted in 6 results
+--- ../1024.txt 0 1 hello worl
++++ ../1024.txt 0 1 hello worl
+Searching for 'hello world' resulted in 1 results
+--- ../1024.txt 0 1 hello world
++++ ../1024.txt 0 1 hello world
+	Command being timed: "./main ../1024.txt"
+	User time (seconds): 0.00
+	System time (seconds): 0.00
+	Percent of CPU this job got: 66%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.00
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 7200
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 573
+	Voluntary context switches: 18
+	Involuntary context switches: 278
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 14
+	Page size (bytes): 16384
+	Exit status: 0
+********************** 2048.txt go-native
+fzf-type: go-native
+start 1629884062490 1629884062490
+lines.txt loaded: 2048 lines 1629884062492 1629884062492
+Fzf initialized 1629884062492 1629884062492
+Searching for 'h' resulted in 629 results
+--- ../2048.txt 1 1 h
++++ ../2048.txt 1 1 h
+Searching for 'he' resulted in 487 results
+--- ../2048.txt 0 1 he
++++ ../2048.txt 0 1 he
+Searching for 'hel' resulted in 237 results
+--- ../2048.txt 0 1 hel
++++ ../2048.txt 0 1 hel
+Searching for 'hell' resulted in 116 results
+--- ../2048.txt 1 2 hell
++++ ../2048.txt 1 2 hell
+Searching for 'hello' resulted in 64 results
+--- ../2048.txt 0 2 hello
++++ ../2048.txt 0 2 hello
+Searching for 'hello ' resulted in 64 results
+--- ../2048.txt 0 2 hello 
++++ ../2048.txt 0 2 hello 
+Searching for 'hello w' resulted in 31 results
+--- ../2048.txt 0 2 hello w
++++ ../2048.txt 0 2 hello w
+Searching for 'hello wo' resulted in 29 results
+--- ../2048.txt 0 2 hello wo
++++ ../2048.txt 0 2 hello wo
+Searching for 'hello wor' resulted in 13 results
+--- ../2048.txt 0 2 hello wor
++++ ../2048.txt 0 2 hello wor
+Searching for 'hello worl' resulted in 7 results
+--- ../2048.txt 0 2 hello worl
++++ ../2048.txt 0 2 hello worl
+Searching for 'hello world' resulted in 1 results
+--- ../2048.txt 0 2 hello world
++++ ../2048.txt 0 2 hello world
+	Command being timed: "./main ../2048.txt"
+	User time (seconds): 0.00
+	System time (seconds): 0.00
+	Percent of CPU this job got: 140%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.00
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 9088
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 694
+	Voluntary context switches: 8
+	Involuntary context switches: 332
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 5
+	Page size (bytes): 16384
+	Exit status: 0
+********************** 4096.txt go-native
+fzf-type: go-native
+start 1629884062498 1629884062498
+lines.txt loaded: 4096 lines 1629884062499 1629884062499
+Fzf initialized 1629884062499 1629884062499
+Searching for 'h' resulted in 1350 results
+--- ../4096.txt 2 2 h
++++ ../4096.txt 2 2 h
+Searching for 'he' resulted in 898 results
+--- ../4096.txt 1 3 he
++++ ../4096.txt 1 3 he
+Searching for 'hel' resulted in 388 results
+--- ../4096.txt 0 3 hel
++++ ../4096.txt 0 3 hel
+Searching for 'hell' resulted in 150 results
+--- ../4096.txt 0 3 hell
++++ ../4096.txt 0 3 hell
+Searching for 'hello' resulted in 65 results
+--- ../4096.txt 0 3 hello
++++ ../4096.txt 0 3 hello
+Searching for 'hello ' resulted in 65 results
+--- ../4096.txt 1 4 hello 
++++ ../4096.txt 1 4 hello 
+Searching for 'hello w' resulted in 31 results
+--- ../4096.txt 0 4 hello w
++++ ../4096.txt 0 4 hello w
+Searching for 'hello wo' resulted in 29 results
+--- ../4096.txt 0 4 hello wo
++++ ../4096.txt 0 4 hello wo
+Searching for 'hello wor' resulted in 13 results
+--- ../4096.txt 0 4 hello wor
++++ ../4096.txt 0 4 hello wor
+Searching for 'hello worl' resulted in 7 results
+--- ../4096.txt 0 4 hello worl
++++ ../4096.txt 0 4 hello worl
+Searching for 'hello world' resulted in 1 results
+--- ../4096.txt 0 4 hello world
++++ ../4096.txt 0 4 hello world
+	Command being timed: "./main ../4096.txt"
+	User time (seconds): 0.00
+	System time (seconds): 0.00
+	Percent of CPU this job got: 200%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.00
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 11056
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 814
+	Voluntary context switches: 26
+	Involuntary context switches: 640
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 36
+	Page size (bytes): 16384
+	Exit status: 0
+********************** 8192.txt go-native
+fzf-type: go-native
+start 1629884062507 1629884062507
+lines.txt loaded: 8192 lines 1629884062509 1629884062509
+Fzf initialized 1629884062509 1629884062509
+Searching for 'h' resulted in 2748 results
+--- ../8192.txt 3 3 h
++++ ../8192.txt 3 3 h
+Searching for 'he' resulted in 2114 results
+--- ../8192.txt 1 4 he
++++ ../8192.txt 1 4 he
+Searching for 'hel' resulted in 991 results
+--- ../8192.txt 2 6 hel
++++ ../8192.txt 2 6 hel
+Searching for 'hell' resulted in 457 results
+--- ../8192.txt 0 6 hell
++++ ../8192.txt 0 6 hell
+Searching for 'hello' resulted in 207 results
+--- ../8192.txt 0 6 hello
++++ ../8192.txt 0 6 hello
+Searching for 'hello ' resulted in 207 results
+--- ../8192.txt 1 7 hello 
++++ ../8192.txt 1 7 hello 
+Searching for 'hello w' resulted in 81 results
+--- ../8192.txt 0 7 hello w
++++ ../8192.txt 0 7 hello w
+Searching for 'hello wo' resulted in 79 results
+--- ../8192.txt 0 7 hello wo
++++ ../8192.txt 0 7 hello wo
+Searching for 'hello wor' resulted in 40 results
+--- ../8192.txt 0 7 hello wor
++++ ../8192.txt 0 7 hello wor
+Searching for 'hello worl' resulted in 20 results
+--- ../8192.txt 0 7 hello worl
++++ ../8192.txt 0 7 hello worl
+Searching for 'hello world' resulted in 6 results
+--- ../8192.txt 0 7 hello world
++++ ../8192.txt 0 7 hello world
+	Command being timed: "./main ../8192.txt"
+	User time (seconds): 0.01
+	System time (seconds): 0.00
+	Percent of CPU this job got: 172%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.01
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 13616
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 974
+	Voluntary context switches: 24
+	Involuntary context switches: 698
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 42
+	Page size (bytes): 16384
+	Exit status: 0
+********************** 16384.txt go-native
+fzf-type: go-native
+start 1629884062520 1629884062520
+lines.txt loaded: 16384 lines 1629884062524 1629884062524
+Fzf initialized 1629884062526 1629884062526
+Searching for 'h' resulted in 10940 results
+--- ../16384.txt 7 7 h
++++ ../16384.txt 7 7 h
+Searching for 'he' resulted in 10029 results
+--- ../16384.txt 6 13 he
++++ ../16384.txt 6 13 he
+Searching for 'hel' resulted in 4874 results
+--- ../16384.txt 4 17 hel
++++ ../16384.txt 4 17 hel
+Searching for 'hell' resulted in 2536 results
+--- ../16384.txt 3 20 hell
++++ ../16384.txt 3 20 hell
+Searching for 'hello' resulted in 1487 results
+--- ../16384.txt 1 21 hello
++++ ../16384.txt 1 21 hello
+Searching for 'hello ' resulted in 1487 results
+--- ../16384.txt 1 22 hello 
++++ ../16384.txt 1 22 hello 
+Searching for 'hello w' resulted in 647 results
+--- ../16384.txt 1 23 hello w
++++ ../16384.txt 1 23 hello w
+Searching for 'hello wo' resulted in 537 results
+--- ../16384.txt 0 23 hello wo
++++ ../16384.txt 0 23 hello wo
+Searching for 'hello wor' resulted in 312 results
+--- ../16384.txt 1 24 hello wor
++++ ../16384.txt 1 24 hello wor
+Searching for 'hello worl' resulted in 162 results
+--- ../16384.txt 0 24 hello worl
++++ ../16384.txt 0 24 hello worl
+Searching for 'hello world' resulted in 59 results
+--- ../16384.txt 0 24 hello world
++++ ../16384.txt 0 24 hello world
+	Command being timed: "./main ../16384.txt"
+	User time (seconds): 0.07
+	System time (seconds): 0.00
+	Percent of CPU this job got: 265%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.03
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 26256
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 1764
+	Voluntary context switches: 27
+	Involuntary context switches: 1086
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 88
+	Page size (bytes): 16384
+	Exit status: 0
+********************** 32768.txt go-native
+fzf-type: go-native
+start 1629884062554 1629884062554
+lines.txt loaded: 32768 lines 1629884062561 1629884062561
+Fzf initialized 1629884062563 1629884062563
+Searching for 'h' resulted in 16901 results
+--- ../32768.txt 11 11 h
++++ ../32768.txt 11 11 h
+Searching for 'he' resulted in 14881 results
+--- ../32768.txt 10 21 he
++++ ../32768.txt 10 21 he
+Searching for 'hel' resulted in 7180 results
+--- ../32768.txt 7 28 hel
++++ ../32768.txt 7 28 hel
+Searching for 'hell' resulted in 3616 results
+--- ../32768.txt 2 30 hell
++++ ../32768.txt 2 30 hell
+Searching for 'hello' resulted in 2031 results
+--- ../32768.txt 2 32 hello
++++ ../32768.txt 2 32 hello
+Searching for 'hello ' resulted in 2031 results
+--- ../32768.txt 1 33 hello 
++++ ../32768.txt 1 33 hello 
+Searching for 'hello w' resulted in 860 results
+--- ../32768.txt 1 34 hello w
++++ ../32768.txt 1 34 hello w
+Searching for 'hello wo' resulted in 710 results
+--- ../32768.txt 1 35 hello wo
++++ ../32768.txt 1 35 hello wo
+Searching for 'hello wor' resulted in 425 results
+--- ../32768.txt 1 36 hello wor
++++ ../32768.txt 1 36 hello wor
+Searching for 'hello worl' resulted in 225 results
+--- ../32768.txt 2 38 hello worl
++++ ../32768.txt 2 38 hello worl
+Searching for 'hello world' resulted in 88 results
+--- ../32768.txt 0 38 hello world
++++ ../32768.txt 0 38 hello world
+	Command being timed: "./main ../32768.txt"
+	User time (seconds): 0.12
+	System time (seconds): 0.01
+	Percent of CPU this job got: 277%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.04
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 32368
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 2148
+	Voluntary context switches: 56
+	Involuntary context switches: 1624
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 185
+	Page size (bytes): 16384
+	Exit status: 0
+********************** 65536.txt go-native
+fzf-type: go-native
+start 1629884062605 1629884062605
+lines.txt loaded: 65536 lines 1629884062616 1629884062616
+Fzf initialized 1629884062621 1629884062621
+Searching for 'h' resulted in 24285 results
+--- ../65536.txt 16 16 h
++++ ../65536.txt 16 16 h
+Searching for 'he' resulted in 20902 results
+--- ../65536.txt 15 31 he
++++ ../65536.txt 15 31 he
+Searching for 'hel' resulted in 10423 results
+--- ../65536.txt 8 39 hel
++++ ../65536.txt 8 39 hel
+Searching for 'hell' resulted in 5080 results
+--- ../65536.txt 4 43 hell
++++ ../65536.txt 4 43 hell
+Searching for 'hello' resulted in 2816 results
+--- ../65536.txt 3 46 hello
++++ ../65536.txt 3 46 hello
+Searching for 'hello ' resulted in 2816 results
+--- ../65536.txt 2 48 hello 
++++ ../65536.txt 2 48 hello 
+Searching for 'hello w' resulted in 1162 results
+--- ../65536.txt 2 50 hello w
++++ ../65536.txt 2 50 hello w
+Searching for 'hello wo' resulted in 971 results
+--- ../65536.txt 2 52 hello wo
++++ ../65536.txt 2 52 hello wo
+Searching for 'hello wor' resulted in 594 results
+--- ../65536.txt 2 54 hello wor
++++ ../65536.txt 2 54 hello wor
+Searching for 'hello worl' resulted in 328 results
+--- ../65536.txt 1 55 hello worl
++++ ../65536.txt 1 55 hello worl
+Searching for 'hello world' resulted in 133 results
+--- ../65536.txt 1 56 hello world
++++ ../65536.txt 1 56 hello world
+	Command being timed: "./main ../65536.txt"
+	User time (seconds): 0.19
+	System time (seconds): 0.01
+	Percent of CPU this job got: 281%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.07
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 47072
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 3065
+	Voluntary context switches: 69
+	Involuntary context switches: 2794
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 184
+	Page size (bytes): 16384
+	Exit status: 0
+********************** 131072.txt go-native
+fzf-type: go-native
+start 1629884062681 1629884062681
+lines.txt loaded: 131072 lines 1629884062699 1629884062699
+Fzf initialized 1629884062708 1629884062708
+Searching for 'h' resulted in 44948 results
+--- ../131072.txt 29 29 h
++++ ../131072.txt 29 29 h
+Searching for 'he' resulted in 38090 results
+--- ../131072.txt 27 56 he
++++ ../131072.txt 27 56 he
+Searching for 'hel' resulted in 19099 results
+--- ../131072.txt 14 70 hel
++++ ../131072.txt 14 70 hel
+Searching for 'hell' resulted in 9357 results
+--- ../131072.txt 7 77 hell
++++ ../131072.txt 7 77 hell
+Searching for 'hello' resulted in 5096 results
+--- ../131072.txt 5 82 hello
++++ ../131072.txt 5 82 hello
+Searching for 'hello ' resulted in 5096 results
+--- ../131072.txt 6 88 hello 
++++ ../131072.txt 6 88 hello 
+Searching for 'hello w' resulted in 2427 results
+--- ../131072.txt 4 92 hello w
++++ ../131072.txt 4 92 hello w
+Searching for 'hello wo' resulted in 2113 results
+--- ../131072.txt 3 95 hello wo
++++ ../131072.txt 3 95 hello wo
+Searching for 'hello wor' resulted in 1441 results
+--- ../131072.txt 2 97 hello wor
++++ ../131072.txt 2 97 hello wor
+Searching for 'hello worl' resulted in 937 results
+--- ../131072.txt 2 99 hello worl
++++ ../131072.txt 2 99 hello worl
+Searching for 'hello world' resulted in 473 results
+--- ../131072.txt 1 100 hello world
++++ ../131072.txt 1 100 hello world
+	Command being timed: "./main ../131072.txt"
+	User time (seconds): 0.35
+	System time (seconds): 0.02
+	Percent of CPU this job got: 288%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.13
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 74336
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 4772
+	Voluntary context switches: 19
+	Involuntary context switches: 4267
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 130
+	Page size (bytes): 16384
+	Exit status: 0
+********************** 262144.txt go-native
+fzf-type: go-native
+start 1629884062813 1629884062813
+lines.txt loaded: 262144 lines 1629884062842 1629884062842
+Fzf initialized 1629884062860 1629884062860
+Searching for 'h' resulted in 119513 results
+--- ../262144.txt 74 74 h
++++ ../262144.txt 74 74 h
+Searching for 'he' resulted in 105560 results
+--- ../262144.txt 76 150 he
++++ ../262144.txt 76 150 he
+Searching for 'hel' resulted in 56016 results
+--- ../262144.txt 46 196 hel
++++ ../262144.txt 46 196 hel
+Searching for 'hell' resulted in 28575 results
+--- ../262144.txt 24 220 hell
++++ ../262144.txt 24 220 hell
+Searching for 'hello' resulted in 15822 results
+--- ../262144.txt 14 234 hello
++++ ../262144.txt 14 234 hello
+Searching for 'hello ' resulted in 15822 results
+--- ../262144.txt 15 249 hello 
++++ ../262144.txt 15 249 hello 
+Searching for 'hello w' resulted in 7248 results
+--- ../262144.txt 10 259 hello w
++++ ../262144.txt 10 259 hello w
+Searching for 'hello wo' resulted in 6221 results
+--- ../262144.txt 8 267 hello wo
++++ ../262144.txt 8 267 hello wo
+Searching for 'hello wor' resulted in 4083 results
+--- ../262144.txt 5 272 hello wor
++++ ../262144.txt 5 272 hello wor
+Searching for 'hello worl' resulted in 2566 results
+--- ../262144.txt 5 277 hello worl
++++ ../262144.txt 5 277 hello worl
+Searching for 'hello world' resulted in 1119 results
+--- ../262144.txt 3 280 hello world
++++ ../262144.txt 3 280 hello world
+	Command being timed: "./main ../262144.txt"
+	User time (seconds): 0.94
+	System time (seconds): 0.04
+	Percent of CPU this job got: 298%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.33
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 132400
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 8409
+	Voluntary context switches: 49
+	Involuntary context switches: 8252
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 377
+	Page size (bytes): 16384
+	Exit status: 0
+********************** 524288.txt go-native
+fzf-type: go-native
+start 1629884063145 1629884063145
+lines.txt loaded: 524288 lines 1629884063191 1629884063191
+Fzf initialized 1629884063225 1629884063225
+Searching for 'h' resulted in 224394 results
+--- ../524288.txt 137 137 h
++++ ../524288.txt 137 137 h
+Searching for 'he' resulted in 190326 results
+--- ../524288.txt 145 282 he
++++ ../524288.txt 145 282 he
+Searching for 'hel' resulted in 96164 results
+--- ../524288.txt 74 356 hel
++++ ../524288.txt 74 356 hel
+Searching for 'hell' resulted in 48392 results
+--- ../524288.txt 47 403 hell
++++ ../524288.txt 47 403 hell
+Searching for 'hello' resulted in 26239 results
+--- ../524288.txt 24 427 hello
++++ ../524288.txt 24 427 hello
+Searching for 'hello ' resulted in 26239 results
+--- ../524288.txt 18 445 hello 
++++ ../524288.txt 18 445 hello 
+Searching for 'hello w' resulted in 11332 results
+--- ../524288.txt 18 463 hello w
++++ ../524288.txt 18 463 hello w
+Searching for 'hello wo' resulted in 9906 results
+--- ../524288.txt 18 481 hello wo
++++ ../524288.txt 18 481 hello wo
+Searching for 'hello wor' resulted in 6561 results
+--- ../524288.txt 14 495 hello wor
++++ ../524288.txt 14 495 hello wor
+Searching for 'hello worl' resulted in 4091 results
+--- ../524288.txt 9 504 hello worl
++++ ../524288.txt 9 504 hello worl
+Searching for 'hello world' resulted in 1852 results
+--- ../524288.txt 5 509 hello world
++++ ../524288.txt 5 509 hello world
+	Command being timed: "./main ../524288.txt"
+	User time (seconds): 1.77
+	System time (seconds): 0.08
+	Percent of CPU this job got: 313%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.59
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 251968
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 15887
+	Voluntary context switches: 96
+	Involuntary context switches: 15762
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 393
+	Page size (bytes): 16384
+	Exit status: 0
+********************** 1048576.txt go-native
+fzf-type: go-native
+start 1629884063741 1629884063741
+lines.txt loaded: 1048576 lines 1629884063824 1629884063824
+Fzf initialized 1629884063891 1629884063891
+Searching for 'h' resulted in 411819 results
+--- ../1048576.txt 276 276 h
++++ ../1048576.txt 276 276 h
+Searching for 'he' resulted in 340959 results
+--- ../1048576.txt 237 513 he
++++ ../1048576.txt 237 513 he
+Searching for 'hel' resulted in 173451 results
+--- ../1048576.txt 145 658 hel
++++ ../1048576.txt 145 658 hel
+Searching for 'hell' resulted in 84957 results
+--- ../1048576.txt 73 731 hell
++++ ../1048576.txt 73 731 hell
+Searching for 'hello' resulted in 46465 results
+--- ../1048576.txt 46 777 hello
++++ ../1048576.txt 46 777 hello
+Searching for 'hello ' resulted in 46465 results
+--- ../1048576.txt 30 807 hello 
++++ ../1048576.txt 30 807 hello 
+Searching for 'hello w' resulted in 18519 results
+--- ../1048576.txt 46 853 hello w
++++ ../1048576.txt 46 853 hello w
+Searching for 'hello wo' resulted in 16127 results
+--- ../1048576.txt 24 877 hello wo
++++ ../1048576.txt 24 877 hello wo
+Searching for 'hello wor' resulted in 10374 results
+--- ../1048576.txt 20 897 hello wor
++++ ../1048576.txt 20 897 hello wor
+Searching for 'hello worl' resulted in 6215 results
+--- ../1048576.txt 15 912 hello worl
++++ ../1048576.txt 15 912 hello worl
+Searching for 'hello world' resulted in 2742 results
+--- ../1048576.txt 9 921 hello world
++++ ../1048576.txt 9 921 hello world
+	Command being timed: "./main ../1048576.txt"
+	User time (seconds): 3.16
+	System time (seconds): 0.15
+	Percent of CPU this job got: 308%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.07
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 444224
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 27946
+	Voluntary context switches: 61
+	Involuntary context switches: 30768
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 398
+	Page size (bytes): 16384
+	Exit status: 0
+********************** 2097152.txt go-native
+fzf-type: go-native
+start 1629884064820 1629884064820
+lines.txt loaded: 2097152 lines 1629884064971 1629884064971
+Fzf initialized 1629884065107 1629884065107
+Searching for 'h' resulted in 821574 results
+--- ../2097152.txt 590 590 h
++++ ../2097152.txt 590 590 h
+Searching for 'he' resulted in 664715 results
+--- ../2097152.txt 493 1083 he
++++ ../2097152.txt 493 1083 he
+Searching for 'hel' resulted in 323273 results
+--- ../2097152.txt 262 1345 hel
++++ ../2097152.txt 262 1345 hel
+Searching for 'hell' resulted in 152723 results
+--- ../2097152.txt 156 1501 hell
++++ ../2097152.txt 156 1501 hell
+Searching for 'hello' resulted in 76905 results
+--- ../2097152.txt 77 1578 hello
++++ ../2097152.txt 77 1578 hello
+Searching for 'hello ' resulted in 76905 results
+--- ../2097152.txt 53 1631 hello 
++++ ../2097152.txt 53 1631 hello 
+Searching for 'hello w' resulted in 30738 results
+--- ../2097152.txt 52 1683 hello w
++++ ../2097152.txt 52 1683 hello w
+Searching for 'hello wo' resulted in 27040 results
+--- ../2097152.txt 40 1723 hello wo
++++ ../2097152.txt 40 1723 hello wo
+Searching for 'hello wor' resulted in 16836 results
+--- ../2097152.txt 34 1757 hello wor
++++ ../2097152.txt 34 1757 hello wor
+Searching for 'hello worl' resulted in 10189 results
+--- ../2097152.txt 58 1815 hello worl
++++ ../2097152.txt 58 1815 hello worl
+Searching for 'hello world' resulted in 4268 results
+--- ../2097152.txt 19 1834 hello world
++++ ../2097152.txt 19 1834 hello world
+	Command being timed: "./main ../2097152.txt"
+	User time (seconds): 6.15
+	System time (seconds): 0.30
+	Percent of CPU this job got: 303%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:02.13
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 884112
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 55490
+	Voluntary context switches: 104
+	Involuntary context switches: 64637
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 2080
+	Page size (bytes): 16384
+	Exit status: 0
+********************** 4194304.txt go-native
+fzf-type: go-native
+start 1629884066953 1629884066953
+lines.txt loaded: 4194304 lines 1629884067350 1629884067350
+Fzf initialized 1629884067636 1629884067636
+Searching for 'h' resulted in 1922631 results
+--- ../4194304.txt 1354 1354 h
++++ ../4194304.txt 1354 1354 h
+Searching for 'he' resulted in 1607264 results
+--- ../4194304.txt 1179 2533 he
++++ ../4194304.txt 1179 2533 he
+Searching for 'hel' resulted in 917736 results
+--- ../4194304.txt 724 3257 hel
++++ ../4194304.txt 724 3257 hel
+Searching for 'hell' resulted in 467994 results
+--- ../4194304.txt 462 3719 hell
++++ ../4194304.txt 462 3719 hell
+Searching for 'hello' resulted in 255273 results
+--- ../4194304.txt 257 3976 hello
++++ ../4194304.txt 257 3976 hello
+Searching for 'hello ' resulted in 255273 results
+--- ../4194304.txt 242 4218 hello 
++++ ../4194304.txt 242 4218 hello 
+Searching for 'hello w' resulted in 113897 results
+--- ../4194304.txt 179 4397 hello w
++++ ../4194304.txt 179 4397 hello w
+Searching for 'hello wo' resulted in 101072 results
+--- ../4194304.txt 160 4557 hello wo
++++ ../4194304.txt 160 4557 hello wo
+Searching for 'hello wor' resulted in 73565 results
+--- ../4194304.txt 145 4702 hello wor
++++ ../4194304.txt 145 4702 hello wor
+Searching for 'hello worl' resulted in 51237 results
+--- ../4194304.txt 171 4873 hello worl
++++ ../4194304.txt 171 4873 hello worl
+Searching for 'hello world' resulted in 29354 results
+--- ../4194304.txt 105 4978 hello world
++++ ../4194304.txt 105 4978 hello world
+	Command being timed: "./main ../4194304.txt"
+	User time (seconds): 17.83
+	System time (seconds): 0.70
+	Percent of CPU this job got: 326%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:05.68
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2329584
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 146012
+	Voluntary context switches: 201
+	Involuntary context switches: 149049
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 1739
+	Page size (bytes): 16384
+	Exit status: 0
+********************** 8388608.txt go-native
+fzf-type: go-native
+start 1629884072638 1629884072638
+lines.txt loaded: 8388608 lines 1629884073525 1629884073525
+Fzf initialized 1629884074070 1629884074070
+Searching for 'h' resulted in 6010154 results
+--- ../8388608.txt 4418 4418 h
++++ ../8388608.txt 4418 4418 h
+Searching for 'he' resulted in 5165889 results
+--- ../8388608.txt 4312 8730 he
++++ ../8388608.txt 4312 8730 he
+Searching for 'hel' resulted in 3154153 results
+--- ../8388608.txt 2434 11164 hel
++++ ../8388608.txt 2434 11164 hel
+Searching for 'hell' resulted in 1626222 results
+--- ../8388608.txt 1469 12633 hell
++++ ../8388608.txt 1469 12633 hell
+Searching for 'hello' resulted in 811884 results
+--- ../8388608.txt 887 13520 hello
++++ ../8388608.txt 887 13520 hello
+Searching for 'hello ' resulted in 811884 results
+--- ../8388608.txt 631 14151 hello 
++++ ../8388608.txt 631 14151 hello 
+Searching for 'hello w' resulted in 351414 results
+--- ../8388608.txt 541 14692 hello w
++++ ../8388608.txt 541 14692 hello w
+Searching for 'hello wo' resulted in 314073 results
+--- ../8388608.txt 569 15261 hello wo
++++ ../8388608.txt 569 15261 hello wo
+Searching for 'hello wor' resulted in 230995 results
+--- ../8388608.txt 388 15649 hello wor
++++ ../8388608.txt 388 15649 hello wor
+Searching for 'hello worl' resulted in 161762 results
+--- ../8388608.txt 315 15964 hello worl
++++ ../8388608.txt 315 15964 hello worl
+Searching for 'hello world' resulted in 86190 results
+--- ../8388608.txt 245 16209 hello world
++++ ../8388608.txt 245 16209 hello world
+	Command being timed: "./main ../8388608.txt"
+	User time (seconds): 60.20
+	System time (seconds): 1.57
+	Percent of CPU this job got: 349%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:17.68
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 5220320
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 327019
+	Voluntary context switches: 770
+	Involuntary context switches: 365977
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 9733
+	Page size (bytes): 16384
+	Exit status: 0
+********************** 16777216.txt go-native
+fzf-type: go-native
+start 1629884090328 1629884090328
+lines.txt loaded: 16777216 lines 1629884091798 1629884091798
+Fzf initialized 1629884092882 1629884092882
+Searching for 'h' resulted in 10119343 results
+--- ../16777216.txt 7585 7585 h
++++ ../16777216.txt 7585 7585 h
+Searching for 'he' resulted in 8334567 results
+--- ../16777216.txt 6997 14582 he
++++ ../16777216.txt 6997 14582 he
+Searching for 'hel' resulted in 4720093 results
+--- ../16777216.txt 4631 19213 hel
++++ ../16777216.txt 4631 19213 hel
+Searching for 'hell' resulted in 2361932 results
+--- ../16777216.txt 2073 21286 hell
++++ ../16777216.txt 2073 21286 hell
+Searching for 'hello' resulted in 1163653 results
+--- ../16777216.txt 1475 22761 hello
++++ ../16777216.txt 1475 22761 hello
+Searching for 'hello ' resulted in 1163653 results
+--- ../16777216.txt 908 23669 hello 
++++ ../16777216.txt 908 23669 hello 
+Searching for 'hello w' resulted in 525640 results
+--- ../16777216.txt 876 24545 hello w
++++ ../16777216.txt 876 24545 hello w
+Searching for 'hello wo' resulted in 473497 results
+--- ../16777216.txt 949 25494 hello wo
++++ ../16777216.txt 949 25494 hello wo
+Searching for 'hello wor' resulted in 346695 results
+--- ../16777216.txt 624 26118 hello wor
++++ ../16777216.txt 624 26118 hello wor
+Searching for 'hello worl' resulted in 236539 results
+--- ../16777216.txt 534 26652 hello worl
++++ ../16777216.txt 534 26652 hello worl
+Searching for 'hello world' resulted in 127515 results
+--- ../16777216.txt 380 27032 hello world
++++ ../16777216.txt 380 27032 hello world
+	Command being timed: "./main ../16777216.txt"
+	User time (seconds): 96.98
+	System time (seconds): 3.44
+	Percent of CPU this job got: 338%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:29.67
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 8071840
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 541362
+	Voluntary context switches: 1866
+	Involuntary context switches: 710067
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 26054
+	Page size (bytes): 16384
+	Exit status: 0
+********************** 1024.txt go-native
+fzf-type: go-native
+start 1629884120011 1629884120011
+lines.txt loaded: 1024 lines 1629884120014 1629884120014
+Fzf initialized 1629884120015 1629884120015
+Searching for 'h' resulted in 224 results
+--- ../1024.txt 0 0 h
++++ ../1024.txt 0 0 h
+Searching for 'he' resulted in 157 results
+--- ../1024.txt 0 0 he
++++ ../1024.txt 0 0 he
+Searching for 'hel' resulted in 80 results
+--- ../1024.txt 0 0 hel
++++ ../1024.txt 0 0 hel
+Searching for 'hell' resulted in 47 results
+--- ../1024.txt 1 1 hell
++++ ../1024.txt 1 1 hell
+Searching for 'hello' resulted in 34 results
+--- ../1024.txt 0 1 hello
++++ ../1024.txt 0 1 hello
+Searching for 'hello ' resulted in 34 results
+--- ../1024.txt 0 1 hello 
++++ ../1024.txt 0 1 hello 
+Searching for 'hello w' resulted in 20 results
+--- ../1024.txt 0 1 hello w
++++ ../1024.txt 0 1 hello w
+Searching for 'hello wo' resulted in 19 results
+--- ../1024.txt 0 1 hello wo
++++ ../1024.txt 0 1 hello wo
+Searching for 'hello wor' resulted in 7 results
+--- ../1024.txt 0 1 hello wor
++++ ../1024.txt 0 1 hello wor
+Searching for 'hello worl' resulted in 6 results
+--- ../1024.txt 0 1 hello worl
++++ ../1024.txt 0 1 hello worl
+Searching for 'hello world' resulted in 1 results
+--- ../1024.txt 0 1 hello world
++++ ../1024.txt 0 1 hello world
+	Command being timed: "./main ../1024.txt"
+	User time (seconds): 0.00
+	System time (seconds): 0.00
+	Percent of CPU this job got: 83%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.00
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 7312
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 579
+	Voluntary context switches: 14
+	Involuntary context switches: 312
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 11
+	Page size (bytes): 16384
+	Exit status: 0
+********************** 2048.txt go-native
+fzf-type: go-native
+start 1629884120020 1629884120020
+lines.txt loaded: 2048 lines 1629884120021 1629884120021
+Fzf initialized 1629884120021 1629884120021
+Searching for 'h' resulted in 629 results
+--- ../2048.txt 1 1 h
++++ ../2048.txt 1 1 h
+Searching for 'he' resulted in 487 results
+--- ../2048.txt 0 1 he
++++ ../2048.txt 0 1 he
+Searching for 'hel' resulted in 237 results
+--- ../2048.txt 0 1 hel
++++ ../2048.txt 0 1 hel
+Searching for 'hell' resulted in 116 results
+--- ../2048.txt 0 1 hell
++++ ../2048.txt 0 1 hell
+Searching for 'hello' resulted in 64 results
+--- ../2048.txt 0 1 hello
++++ ../2048.txt 0 1 hello
+Searching for 'hello ' resulted in 64 results
+--- ../2048.txt 0 1 hello 
++++ ../2048.txt 0 1 hello 
+Searching for 'hello w' resulted in 31 results
+--- ../2048.txt 1 2 hello w
++++ ../2048.txt 1 2 hello w
+Searching for 'hello wo' resulted in 29 results
+--- ../2048.txt 0 2 hello wo
++++ ../2048.txt 0 2 hello wo
+Searching for 'hello wor' resulted in 13 results
+--- ../2048.txt 0 2 hello wor
++++ ../2048.txt 0 2 hello wor
+Searching for 'hello worl' resulted in 7 results
+--- ../2048.txt 0 2 hello worl
++++ ../2048.txt 0 2 hello worl
+Searching for 'hello world' resulted in 1 results
+--- ../2048.txt 0 2 hello world
++++ ../2048.txt 0 2 hello world
+	Command being timed: "./main ../2048.txt"
+	User time (seconds): 0.00
+	System time (seconds): 0.00
+	Percent of CPU this job got: 140%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.00
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 9168
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 697
+	Voluntary context switches: 20
+	Involuntary context switches: 406
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 13
+	Page size (bytes): 16384
+	Exit status: 0
+********************** 4096.txt go-native
+fzf-type: go-native
+start 1629884120026 1629884120026
+lines.txt loaded: 4096 lines 1629884120027 1629884120027
+Fzf initialized 1629884120028 1629884120028
+Searching for 'h' resulted in 1350 results
+--- ../4096.txt 1 1 h
++++ ../4096.txt 1 1 h
+Searching for 'he' resulted in 898 results
+--- ../4096.txt 1 2 he
++++ ../4096.txt 1 2 he
+Searching for 'hel' resulted in 388 results
+--- ../4096.txt 0 2 hel
++++ ../4096.txt 0 2 hel
+Searching for 'hell' resulted in 150 results
+--- ../4096.txt 1 3 hell
++++ ../4096.txt 1 3 hell
+Searching for 'hello' resulted in 65 results
+--- ../4096.txt 0 3 hello
++++ ../4096.txt 0 3 hello
+Searching for 'hello ' resulted in 65 results
+--- ../4096.txt 0 3 hello 
++++ ../4096.txt 0 3 hello 
+Searching for 'hello w' resulted in 31 results
+--- ../4096.txt 0 3 hello w
++++ ../4096.txt 0 3 hello w
+Searching for 'hello wo' resulted in 29 results
+--- ../4096.txt 0 3 hello wo
++++ ../4096.txt 0 3 hello wo
+Searching for 'hello wor' resulted in 13 results
+--- ../4096.txt 0 3 hello wor
++++ ../4096.txt 0 3 hello wor
+Searching for 'hello worl' resulted in 7 results
+--- ../4096.txt 0 3 hello worl
++++ ../4096.txt 0 3 hello worl
+Searching for 'hello world' resulted in 1 results
+--- ../4096.txt 0 3 hello world
++++ ../4096.txt 0 3 hello world
+	Command being timed: "./main ../4096.txt"
+	User time (seconds): 0.00
+	System time (seconds): 0.00
+	Percent of CPU this job got: 200%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.00
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 11104
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 817
+	Voluntary context switches: 23
+	Involuntary context switches: 617
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 37
+	Page size (bytes): 16384
+	Exit status: 0
+********************** 8192.txt go-native
+fzf-type: go-native
+start 1629884120035 1629884120035
+lines.txt loaded: 8192 lines 1629884120037 1629884120037
+Fzf initialized 1629884120037 1629884120037
+Searching for 'h' resulted in 2748 results
+--- ../8192.txt 3 3 h
++++ ../8192.txt 3 3 h
+Searching for 'he' resulted in 2114 results
+--- ../8192.txt 2 5 he
++++ ../8192.txt 2 5 he
+Searching for 'hel' resulted in 991 results
+--- ../8192.txt 1 6 hel
++++ ../8192.txt 1 6 hel
+Searching for 'hell' resulted in 457 results
+--- ../8192.txt 0 6 hell
++++ ../8192.txt 0 6 hell
+Searching for 'hello' resulted in 207 results
+--- ../8192.txt 1 7 hello
++++ ../8192.txt 1 7 hello
+Searching for 'hello ' resulted in 207 results
+--- ../8192.txt 0 7 hello 
++++ ../8192.txt 0 7 hello 
+Searching for 'hello w' resulted in 81 results
+--- ../8192.txt 0 7 hello w
++++ ../8192.txt 0 7 hello w
+Searching for 'hello wo' resulted in 79 results
+--- ../8192.txt 1 8 hello wo
++++ ../8192.txt 1 8 hello wo
+Searching for 'hello wor' resulted in 40 results
+--- ../8192.txt 0 8 hello wor
++++ ../8192.txt 0 8 hello wor
+Searching for 'hello worl' resulted in 20 results
+--- ../8192.txt 0 8 hello worl
++++ ../8192.txt 0 8 hello worl
+Searching for 'hello world' resulted in 6 results
+--- ../8192.txt 0 8 hello world
++++ ../8192.txt 0 8 hello world
+	Command being timed: "./main ../8192.txt"
+	User time (seconds): 0.01
+	System time (seconds): 0.00
+	Percent of CPU this job got: 175%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.01
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 14624
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 1037
+	Voluntary context switches: 22
+	Involuntary context switches: 617
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 41
+	Page size (bytes): 16384
+	Exit status: 0
+********************** 16384.txt go-native
+fzf-type: go-native
+start 1629884120049 1629884120049
+lines.txt loaded: 16384 lines 1629884120052 1629884120052
+Fzf initialized 1629884120053 1629884120053
+Searching for 'h' resulted in 10940 results
+--- ../16384.txt 8 8 h
++++ ../16384.txt 8 8 h
+Searching for 'he' resulted in 10029 results
+--- ../16384.txt 6 14 he
++++ ../16384.txt 6 14 he
+Searching for 'hel' resulted in 4874 results
+--- ../16384.txt 4 18 hel
++++ ../16384.txt 4 18 hel
+Searching for 'hell' resulted in 2536 results
+--- ../16384.txt 2 20 hell
++++ ../16384.txt 2 20 hell
+Searching for 'hello' resulted in 1487 results
+--- ../16384.txt 1 21 hello
++++ ../16384.txt 1 21 hello
+Searching for 'hello ' resulted in 1487 results
+--- ../16384.txt 1 22 hello 
++++ ../16384.txt 1 22 hello 
+Searching for 'hello w' resulted in 647 results
+--- ../16384.txt 1 23 hello w
++++ ../16384.txt 1 23 hello w
+Searching for 'hello wo' resulted in 537 results
+--- ../16384.txt 1 24 hello wo
++++ ../16384.txt 1 24 hello wo
+Searching for 'hello wor' resulted in 312 results
+--- ../16384.txt 0 24 hello wor
++++ ../16384.txt 0 24 hello wor
+Searching for 'hello worl' resulted in 162 results
+--- ../16384.txt 1 25 hello worl
++++ ../16384.txt 1 25 hello worl
+Searching for 'hello world' resulted in 59 results
+--- ../16384.txt 0 25 hello world
++++ ../16384.txt 0 25 hello world
+	Command being timed: "./main ../16384.txt"
+	User time (seconds): 0.08
+	System time (seconds): 0.00
+	Percent of CPU this job got: 280%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.03
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 25440
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 1715
+	Voluntary context switches: 44
+	Involuntary context switches: 1076
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 122
+	Page size (bytes): 16384
+	Exit status: 0
+********************** 32768.txt go-native
+fzf-type: go-native
+start 1629884120082 1629884120082
+lines.txt loaded: 32768 lines 1629884120089 1629884120089
+Fzf initialized 1629884120091 1629884120091
+Searching for 'h' resulted in 16901 results
+--- ../32768.txt 11 11 h
++++ ../32768.txt 11 11 h
+Searching for 'he' resulted in 14881 results
+--- ../32768.txt 10 21 he
++++ ../32768.txt 10 21 he
+Searching for 'hel' resulted in 7180 results
+--- ../32768.txt 6 27 hel
++++ ../32768.txt 6 27 hel
+Searching for 'hell' resulted in 3616 results
+--- ../32768.txt 3 30 hell
++++ ../32768.txt 3 30 hell
+Searching for 'hello' resulted in 2031 results
+--- ../32768.txt 2 32 hello
++++ ../32768.txt 2 32 hello
+Searching for 'hello ' resulted in 2031 results
+--- ../32768.txt 1 33 hello 
++++ ../32768.txt 1 33 hello 
+Searching for 'hello w' resulted in 860 results
+--- ../32768.txt 2 35 hello w
++++ ../32768.txt 2 35 hello w
+Searching for 'hello wo' resulted in 710 results
+--- ../32768.txt 1 36 hello wo
++++ ../32768.txt 1 36 hello wo
+Searching for 'hello wor' resulted in 425 results
+--- ../32768.txt 1 37 hello wor
++++ ../32768.txt 1 37 hello wor
+Searching for 'hello worl' resulted in 225 results
+--- ../32768.txt 1 38 hello worl
++++ ../32768.txt 1 38 hello worl
+Searching for 'hello world' resulted in 88 results
+--- ../32768.txt 1 39 hello world
++++ ../32768.txt 1 39 hello world
+	Command being timed: "./main ../32768.txt"
+	User time (seconds): 0.12
+	System time (seconds): 0.01
+	Percent of CPU this job got: 282%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.05
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 32384
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 2149
+	Voluntary context switches: 78
+	Involuntary context switches: 2039
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 210
+	Page size (bytes): 16384
+	Exit status: 0
+********************** 65536.txt go-native
+fzf-type: go-native
+start 1629884120134 1629884120134
+lines.txt loaded: 65536 lines 1629884120146 1629884120146
+Fzf initialized 1629884120150 1629884120150
+Searching for 'h' resulted in 24285 results
+--- ../65536.txt 16 16 h
++++ ../65536.txt 16 16 h
+Searching for 'he' resulted in 20902 results
+--- ../65536.txt 15 31 he
++++ ../65536.txt 15 31 he
+Searching for 'hel' resulted in 10423 results
+--- ../65536.txt 9 40 hel
++++ ../65536.txt 9 40 hel
+Searching for 'hell' resulted in 5080 results
+--- ../65536.txt 4 44 hell
++++ ../65536.txt 4 44 hell
+Searching for 'hello' resulted in 2816 results
+--- ../65536.txt 3 47 hello
++++ ../65536.txt 3 47 hello
+Searching for 'hello ' resulted in 2816 results
+--- ../65536.txt 1 48 hello 
++++ ../65536.txt 1 48 hello 
+Searching for 'hello w' resulted in 1162 results
+--- ../65536.txt 2 50 hello w
++++ ../65536.txt 2 50 hello w
+Searching for 'hello wo' resulted in 971 results
+--- ../65536.txt 1 51 hello wo
++++ ../65536.txt 1 51 hello wo
+Searching for 'hello wor' resulted in 594 results
+--- ../65536.txt 1 52 hello wor
++++ ../65536.txt 1 52 hello wor
+Searching for 'hello worl' resulted in 328 results
+--- ../65536.txt 1 53 hello worl
++++ ../65536.txt 1 53 hello worl
+Searching for 'hello world' resulted in 133 results
+--- ../65536.txt 1 54 hello world
++++ ../65536.txt 1 54 hello world
+	Command being timed: "./main ../65536.txt"
+	User time (seconds): 0.18
+	System time (seconds): 0.01
+	Percent of CPU this job got: 275%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.07
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 44096
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 2882
+	Voluntary context switches: 44
+	Involuntary context switches: 2668
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 158
+	Page size (bytes): 16384
+	Exit status: 0
+********************** 131072.txt go-native
+fzf-type: go-native
+start 1629884120208 1629884120208
+lines.txt loaded: 131072 lines 1629884120225 1629884120225
+Fzf initialized 1629884120233 1629884120233
+Searching for 'h' resulted in 44948 results
+--- ../131072.txt 30 30 h
++++ ../131072.txt 30 30 h
+Searching for 'he' resulted in 38090 results
+--- ../131072.txt 26 56 he
++++ ../131072.txt 26 56 he
+Searching for 'hel' resulted in 19099 results
+--- ../131072.txt 17 73 hel
++++ ../131072.txt 17 73 hel
+Searching for 'hell' resulted in 9357 results
+--- ../131072.txt 8 81 hell
++++ ../131072.txt 8 81 hell
+Searching for 'hello' resulted in 5096 results
+--- ../131072.txt 5 86 hello
++++ ../131072.txt 5 86 hello
+Searching for 'hello ' resulted in 5096 results
+--- ../131072.txt 3 89 hello 
++++ ../131072.txt 3 89 hello 
+Searching for 'hello w' resulted in 2427 results
+--- ../131072.txt 4 93 hello w
++++ ../131072.txt 4 93 hello w
+Searching for 'hello wo' resulted in 2113 results
+--- ../131072.txt 3 96 hello wo
++++ ../131072.txt 3 96 hello wo
+Searching for 'hello wor' resulted in 1441 results
+--- ../131072.txt 2 98 hello wor
++++ ../131072.txt 2 98 hello wor
+Searching for 'hello worl' resulted in 937 results
+--- ../131072.txt 2 100 hello worl
++++ ../131072.txt 2 100 hello worl
+Searching for 'hello world' resulted in 473 results
+--- ../131072.txt 2 102 hello world
++++ ../131072.txt 2 102 hello world
+	Command being timed: "./main ../131072.txt"
+	User time (seconds): 0.34
+	System time (seconds): 0.02
+	Percent of CPU this job got: 289%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.12
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 67632
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 4350
+	Voluntary context switches: 67
+	Involuntary context switches: 4570
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 215
+	Page size (bytes): 16384
+	Exit status: 0
+********************** 262144.txt go-native
+fzf-type: go-native
+start 1629884120339 1629884120339
+lines.txt loaded: 262144 lines 1629884120367 1629884120367
+Fzf initialized 1629884120387 1629884120387
+Searching for 'h' resulted in 119513 results
+--- ../262144.txt 78 78 h
++++ ../262144.txt 78 78 h
+Searching for 'he' resulted in 105560 results
+--- ../262144.txt 72 150 he
++++ ../262144.txt 72 150 he
+Searching for 'hel' resulted in 56016 results
+--- ../262144.txt 50 200 hel
++++ ../262144.txt 50 200 hel
+Searching for 'hell' resulted in 28575 results
+--- ../262144.txt 24 224 hell
++++ ../262144.txt 24 224 hell
+Searching for 'hello' resulted in 15822 results
+--- ../262144.txt 19 243 hello
++++ ../262144.txt 19 243 hello
+Searching for 'hello ' resulted in 15822 results
+--- ../262144.txt 11 254 hello 
++++ ../262144.txt 11 254 hello 
+Searching for 'hello w' resulted in 7248 results
+--- ../262144.txt 11 265 hello w
++++ ../262144.txt 11 265 hello w
+Searching for 'hello wo' resulted in 6221 results
+--- ../262144.txt 7 272 hello wo
++++ ../262144.txt 7 272 hello wo
+Searching for 'hello wor' resulted in 4083 results
+--- ../262144.txt 6 278 hello wor
++++ ../262144.txt 6 278 hello wor
+Searching for 'hello worl' resulted in 2566 results
+--- ../262144.txt 5 283 hello worl
++++ ../262144.txt 5 283 hello worl
+Searching for 'hello world' resulted in 1119 results
+--- ../262144.txt 3 286 hello world
++++ ../262144.txt 3 286 hello world
+	Command being timed: "./main ../262144.txt"
+	User time (seconds): 0.95
+	System time (seconds): 0.04
+	Percent of CPU this job got: 295%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.33
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 134864
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 8562
+	Voluntary context switches: 46
+	Involuntary context switches: 9420
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 238
+	Page size (bytes): 16384
+	Exit status: 0
+********************** 524288.txt go-native
+fzf-type: go-native
+start 1629884120678 1629884120678
+lines.txt loaded: 524288 lines 1629884120724 1629884120724
+Fzf initialized 1629884120758 1629884120758
+Searching for 'h' resulted in 224394 results
+--- ../524288.txt 141 141 h
++++ ../524288.txt 141 141 h
+Searching for 'he' resulted in 190326 results
+--- ../524288.txt 144 285 he
++++ ../524288.txt 144 285 he
+Searching for 'hel' resulted in 96164 results
+--- ../524288.txt 70 355 hel
++++ ../524288.txt 70 355 hel
+Searching for 'hell' resulted in 48392 results
+--- ../524288.txt 50 405 hell
++++ ../524288.txt 50 405 hell
+Searching for 'hello' resulted in 26239 results
+--- ../524288.txt 25 430 hello
++++ ../524288.txt 25 430 hello
+Searching for 'hello ' resulted in 26239 results
+--- ../524288.txt 18 448 hello 
++++ ../524288.txt 18 448 hello 
+Searching for 'hello w' resulted in 11332 results
+--- ../524288.txt 17 465 hello w
++++ ../524288.txt 17 465 hello w
+Searching for 'hello wo' resulted in 9906 results
+--- ../524288.txt 16 481 hello wo
++++ ../524288.txt 16 481 hello wo
+Searching for 'hello wor' resulted in 6561 results
+--- ../524288.txt 19 500 hello wor
++++ ../524288.txt 19 500 hello wor
+Searching for 'hello worl' resulted in 4091 results
+--- ../524288.txt 9 509 hello worl
++++ ../524288.txt 9 509 hello worl
+Searching for 'hello world' resulted in 1852 results
+--- ../524288.txt 6 515 hello world
++++ ../524288.txt 6 515 hello world
+	Command being timed: "./main ../524288.txt"
+	User time (seconds): 1.79
+	System time (seconds): 0.08
+	Percent of CPU this job got: 314%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.59
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 250880
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 15824
+	Voluntary context switches: 94
+	Involuntary context switches: 16931
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 399
+	Page size (bytes): 16384
+	Exit status: 0
+********************** 1048576.txt go-native
+fzf-type: go-native
+start 1629884121279 1629884121279
+lines.txt loaded: 1048576 lines 1629884121374 1629884121374
+Fzf initialized 1629884121448 1629884121448
+Searching for 'h' resulted in 411819 results
+--- ../1048576.txt 296 296 h
++++ ../1048576.txt 296 296 h
+Searching for 'he' resulted in 340959 results
+--- ../1048576.txt 250 546 he
++++ ../1048576.txt 250 546 he
+Searching for 'hel' resulted in 173451 results
+--- ../1048576.txt 130 676 hel
++++ ../1048576.txt 130 676 hel
+Searching for 'hell' resulted in 84957 results
+--- ../1048576.txt 86 762 hell
++++ ../1048576.txt 86 762 hell
+Searching for 'hello' resulted in 46465 results
+--- ../1048576.txt 48 810 hello
++++ ../1048576.txt 48 810 hello
+Searching for 'hello ' resulted in 46465 results
+--- ../1048576.txt 32 842 hello 
++++ ../1048576.txt 32 842 hello 
+Searching for 'hello w' resulted in 18519 results
+--- ../1048576.txt 48 890 hello w
++++ ../1048576.txt 48 890 hello w
+Searching for 'hello wo' resulted in 16127 results
+--- ../1048576.txt 27 917 hello wo
++++ ../1048576.txt 27 917 hello wo
+Searching for 'hello wor' resulted in 10374 results
+--- ../1048576.txt 21 938 hello wor
++++ ../1048576.txt 21 938 hello wor
+Searching for 'hello worl' resulted in 6215 results
+--- ../1048576.txt 15 953 hello worl
++++ ../1048576.txt 15 953 hello worl
+Searching for 'hello world' resulted in 2742 results
+--- ../1048576.txt 11 964 hello world
++++ ../1048576.txt 11 964 hello world
+	Command being timed: "./main ../1048576.txt"
+	User time (seconds): 3.27
+	System time (seconds): 0.15
+	Percent of CPU this job got: 300%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.13
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 444176
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 27943
+	Voluntary context switches: 58
+	Involuntary context switches: 33065
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 392
+	Page size (bytes): 16384
+	Exit status: 0
+********************** 2097152.txt go-native
+fzf-type: go-native
+start 1629884122421 1629884122421
+lines.txt loaded: 2097152 lines 1629884122575 1629884122575
+Fzf initialized 1629884122735 1629884122735
+Searching for 'h' resulted in 821574 results
+--- ../2097152.txt 579 579 h
++++ ../2097152.txt 579 579 h
+Searching for 'he' resulted in 664715 results
+--- ../2097152.txt 474 1053 he
++++ ../2097152.txt 474 1053 he
+Searching for 'hel' resulted in 323273 results
+--- ../2097152.txt 259 1312 hel
++++ ../2097152.txt 259 1312 hel
+Searching for 'hell' resulted in 152723 results
+--- ../2097152.txt 151 1463 hell
++++ ../2097152.txt 151 1463 hell
+Searching for 'hello' resulted in 76905 results
+--- ../2097152.txt 78 1541 hello
++++ ../2097152.txt 78 1541 hello
+Searching for 'hello ' resulted in 76905 results
+--- ../2097152.txt 61 1602 hello 
++++ ../2097152.txt 61 1602 hello 
+Searching for 'hello w' resulted in 30738 results
+--- ../2097152.txt 66 1668 hello w
++++ ../2097152.txt 66 1668 hello w
+Searching for 'hello wo' resulted in 27040 results
+--- ../2097152.txt 41 1709 hello wo
++++ ../2097152.txt 41 1709 hello wo
+Searching for 'hello wor' resulted in 16836 results
+--- ../2097152.txt 34 1743 hello wor
++++ ../2097152.txt 34 1743 hello wor
+Searching for 'hello worl' resulted in 10189 results
+--- ../2097152.txt 30 1773 hello worl
++++ ../2097152.txt 30 1773 hello worl
+Searching for 'hello world' resulted in 4268 results
+--- ../2097152.txt 20 1793 hello world
++++ ../2097152.txt 20 1793 hello world
+	Command being timed: "./main ../2097152.txt"
+	User time (seconds): 6.19
+	System time (seconds): 0.31
+	Percent of CPU this job got: 307%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:02.11
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 863408
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 54196
+	Voluntary context switches: 93
+	Involuntary context switches: 65029
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 476
+	Page size (bytes): 16384
+	Exit status: 0
+********************** 4194304.txt go-native
+fzf-type: go-native
+start 1629884124540 1629884124540
+lines.txt loaded: 4194304 lines 1629884124937 1629884124937
+Fzf initialized 1629884125235 1629884125235
+Searching for 'h' resulted in 1922631 results
+--- ../4194304.txt 1379 1379 h
++++ ../4194304.txt 1379 1379 h
+Searching for 'he' resulted in 1607264 results
+--- ../4194304.txt 1178 2557 he
++++ ../4194304.txt 1178 2557 he
+Searching for 'hel' resulted in 917736 results
+--- ../4194304.txt 752 3309 hel
++++ ../4194304.txt 752 3309 hel
+Searching for 'hell' resulted in 467994 results
+--- ../4194304.txt 471 3780 hell
++++ ../4194304.txt 471 3780 hell
+Searching for 'hello' resulted in 255273 results
+--- ../4194304.txt 266 4046 hello
++++ ../4194304.txt 266 4046 hello
+Searching for 'hello ' resulted in 255273 results
+--- ../4194304.txt 243 4289 hello 
++++ ../4194304.txt 243 4289 hello 
+Searching for 'hello w' resulted in 113897 results
+--- ../4194304.txt 183 4472 hello w
++++ ../4194304.txt 183 4472 hello w
+Searching for 'hello wo' resulted in 101072 results
+--- ../4194304.txt 154 4626 hello wo
++++ ../4194304.txt 154 4626 hello wo
+Searching for 'hello wor' resulted in 73565 results
+--- ../4194304.txt 143 4769 hello wor
++++ ../4194304.txt 143 4769 hello wor
+Searching for 'hello worl' resulted in 51237 results
+--- ../4194304.txt 172 4941 hello worl
++++ ../4194304.txt 172 4941 hello worl
+Searching for 'hello world' resulted in 29354 results
+--- ../4194304.txt 109 5050 hello world
++++ ../4194304.txt 109 5050 hello world
+	Command being timed: "./main ../4194304.txt"
+	User time (seconds): 17.96
+	System time (seconds): 0.75
+	Percent of CPU this job got: 324%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:05.76
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2324800
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 145659
+	Voluntary context switches: 223
+	Involuntary context switches: 154753
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 4611
+	Page size (bytes): 16384
+	Exit status: 0
+********************** 8388608.txt go-native
+fzf-type: go-native
+start 1629884130309 1629884130309
+lines.txt loaded: 8388608 lines 1629884131138 1629884131138
+Fzf initialized 1629884131689 1629884131689
+Searching for 'h' resulted in 6010154 results
+--- ../8388608.txt 4076 4076 h
++++ ../8388608.txt 4076 4076 h
+Searching for 'he' resulted in 5165889 results
+--- ../8388608.txt 4173 8249 he
++++ ../8388608.txt 4173 8249 he
+Searching for 'hel' resulted in 3154153 results
+--- ../8388608.txt 2677 10926 hel
++++ ../8388608.txt 2677 10926 hel
+Searching for 'hell' resulted in 1626222 results
+--- ../8388608.txt 1442 12368 hell
++++ ../8388608.txt 1442 12368 hell
+Searching for 'hello' resulted in 811884 results
+--- ../8388608.txt 906 13274 hello
++++ ../8388608.txt 906 13274 hello
+Searching for 'hello ' resulted in 811884 results
+--- ../8388608.txt 626 13900 hello 
++++ ../8388608.txt 626 13900 hello 
+Searching for 'hello w' resulted in 351414 results
+--- ../8388608.txt 538 14438 hello w
++++ ../8388608.txt 538 14438 hello w
+Searching for 'hello wo' resulted in 314073 results
+--- ../8388608.txt 528 14966 hello wo
++++ ../8388608.txt 528 14966 hello wo
+Searching for 'hello wor' resulted in 230995 results
+--- ../8388608.txt 382 15348 hello wor
++++ ../8388608.txt 382 15348 hello wor
+Searching for 'hello worl' resulted in 161762 results
+--- ../8388608.txt 320 15668 hello worl
++++ ../8388608.txt 320 15668 hello worl
+Searching for 'hello world' resulted in 86190 results
+--- ../8388608.txt 242 15910 hello world
++++ ../8388608.txt 242 15910 hello world
+	Command being timed: "./main ../8388608.txt"
+	User time (seconds): 58.84
+	System time (seconds): 1.36
+	Percent of CPU this job got: 347%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:17.33
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 4147744
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 259856
+	Voluntary context switches: 1013
+	Involuntary context switches: 314862
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 13037
+	Page size (bytes): 16384
+	Exit status: 0
+********************** 16777216.txt go-native
+fzf-type: go-native
+start 1629884147642 1629884147642
+lines.txt loaded: 16777216 lines 1629884149118 1629884149118
+Fzf initialized 1629884150264 1629884150264
+Searching for 'h' resulted in 10119343 results
+--- ../16777216.txt 7534 7534 h
++++ ../16777216.txt 7534 7534 h
+Searching for 'he' resulted in 8334567 results
+--- ../16777216.txt 6821 14355 he
++++ ../16777216.txt 6821 14355 he
+Searching for 'hel' resulted in 4720093 results
+--- ../16777216.txt 4087 18442 hel
++++ ../16777216.txt 4087 18442 hel
+Searching for 'hell' resulted in 2361932 results
+--- ../16777216.txt 2368 20810 hell
++++ ../16777216.txt 2368 20810 hell
+Searching for 'hello' resulted in 1163653 results
+--- ../16777216.txt 1125 21935 hello
++++ ../16777216.txt 1125 21935 hello
+Searching for 'hello ' resulted in 1163653 results
+--- ../16777216.txt 1027 22962 hello 
++++ ../16777216.txt 1027 22962 hello 
+Searching for 'hello w' resulted in 525640 results
+--- ../16777216.txt 952 23914 hello w
++++ ../16777216.txt 952 23914 hello w
+Searching for 'hello wo' resulted in 473497 results
+--- ../16777216.txt 707 24621 hello wo
++++ ../16777216.txt 707 24621 hello wo
+Searching for 'hello wor' resulted in 346695 results
+--- ../16777216.txt 647 25268 hello wor
++++ ../16777216.txt 647 25268 hello wor
+Searching for 'hello worl' resulted in 236539 results
+--- ../16777216.txt 534 25802 hello worl
++++ ../16777216.txt 534 25802 hello worl
+Searching for 'hello world' resulted in 127515 results
+--- ../16777216.txt 400 26202 hello world
++++ ../16777216.txt 400 26202 hello world
+	Command being timed: "./main ../16777216.txt"
+	User time (seconds): 93.81
+	System time (seconds): 3.76
+	Percent of CPU this job got: 337%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:28.90
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 8092608
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 603131
+	Voluntary context switches: 1027
+	Involuntary context switches: 693238
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 16260
+	Page size (bytes): 16384
+	Exit status: 0
+********************** 1024.txt go-native
+fzf-type: go-native
+start 1629884176555 1629884176555
+lines.txt loaded: 1024 lines 1629884176559 1629884176559
+Fzf initialized 1629884176559 1629884176559
+Searching for 'h' resulted in 224 results
+--- ../1024.txt 1 1 h
++++ ../1024.txt 1 1 h
+Searching for 'he' resulted in 157 results
+--- ../1024.txt 0 1 he
++++ ../1024.txt 0 1 he
+Searching for 'hel' resulted in 80 results
+--- ../1024.txt 0 1 hel
++++ ../1024.txt 0 1 hel
+Searching for 'hell' resulted in 47 results
+--- ../1024.txt 0 1 hell
++++ ../1024.txt 0 1 hell
+Searching for 'hello' resulted in 34 results
+--- ../1024.txt 0 1 hello
++++ ../1024.txt 0 1 hello
+Searching for 'hello ' resulted in 34 results
+--- ../1024.txt 0 1 hello 
++++ ../1024.txt 0 1 hello 
+Searching for 'hello w' resulted in 20 results
+--- ../1024.txt 1 2 hello w
++++ ../1024.txt 1 2 hello w
+Searching for 'hello wo' resulted in 19 results
+--- ../1024.txt 0 2 hello wo
++++ ../1024.txt 0 2 hello wo
+Searching for 'hello wor' resulted in 7 results
+--- ../1024.txt 0 2 hello wor
++++ ../1024.txt 0 2 hello wor
+Searching for 'hello worl' resulted in 6 results
+--- ../1024.txt 0 2 hello worl
++++ ../1024.txt 0 2 hello worl
+Searching for 'hello world' resulted in 1 results
+--- ../1024.txt 0 2 hello world
++++ ../1024.txt 0 2 hello world
+	Command being timed: "./main ../1024.txt"
+	User time (seconds): 0.00
+	System time (seconds): 0.00
+	Percent of CPU this job got: 42%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.00
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 7120
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 567
+	Voluntary context switches: 7
+	Involuntary context switches: 235
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 8
+	Page size (bytes): 16384
+	Exit status: 0
+********************** 2048.txt go-native
+fzf-type: go-native
+start 1629884176564 1629884176564
+lines.txt loaded: 2048 lines 1629884176566 1629884176566
+Fzf initialized 1629884176566 1629884176566
+Searching for 'h' resulted in 629 results
+--- ../2048.txt 0 0 h
++++ ../2048.txt 0 0 h
+Searching for 'he' resulted in 487 results
+--- ../2048.txt 1 1 he
++++ ../2048.txt 1 1 he
+Searching for 'hel' resulted in 237 results
+--- ../2048.txt 0 1 hel
++++ ../2048.txt 0 1 hel
+Searching for 'hell' resulted in 116 results
+--- ../2048.txt 0 1 hell
++++ ../2048.txt 0 1 hell
+Searching for 'hello' resulted in 64 results
+--- ../2048.txt 0 1 hello
++++ ../2048.txt 0 1 hello
+Searching for 'hello ' resulted in 64 results
+--- ../2048.txt 0 1 hello 
++++ ../2048.txt 0 1 hello 
+Searching for 'hello w' resulted in 31 results
+--- ../2048.txt 1 2 hello w
++++ ../2048.txt 1 2 hello w
+Searching for 'hello wo' resulted in 29 results
+--- ../2048.txt 0 2 hello wo
++++ ../2048.txt 0 2 hello wo
+Searching for 'hello wor' resulted in 13 results
+--- ../2048.txt 0 2 hello wor
++++ ../2048.txt 0 2 hello wor
+Searching for 'hello worl' resulted in 7 results
+--- ../2048.txt 0 2 hello worl
++++ ../2048.txt 0 2 hello worl
+Searching for 'hello world' resulted in 1 results
+--- ../2048.txt 0 2 hello world
++++ ../2048.txt 0 2 hello world
+	Command being timed: "./main ../2048.txt"
+	User time (seconds): 0.00
+	System time (seconds): 0.00
+	Percent of CPU this job got: 140%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.00
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 9104
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 693
+	Voluntary context switches: 14
+	Involuntary context switches: 423
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 9
+	Page size (bytes): 16384
+	Exit status: 0
+********************** 4096.txt go-native
+fzf-type: go-native
+start 1629884176572 1629884176572
+lines.txt loaded: 4096 lines 1629884176573 1629884176573
+Fzf initialized 1629884176573 1629884176573
+Searching for 'h' resulted in 1350 results
+--- ../4096.txt 2 2 h
++++ ../4096.txt 2 2 h
+Searching for 'he' resulted in 898 results
+--- ../4096.txt 1 3 he
++++ ../4096.txt 1 3 he
+Searching for 'hel' resulted in 388 results
+--- ../4096.txt 0 3 hel
++++ ../4096.txt 0 3 hel
+Searching for 'hell' resulted in 150 results
+--- ../4096.txt 1 4 hell
++++ ../4096.txt 1 4 hell
+Searching for 'hello' resulted in 65 results
+--- ../4096.txt 0 4 hello
++++ ../4096.txt 0 4 hello
+Searching for 'hello ' resulted in 65 results
+--- ../4096.txt 0 4 hello 
++++ ../4096.txt 0 4 hello 
+Searching for 'hello w' resulted in 31 results
+--- ../4096.txt 0 4 hello w
++++ ../4096.txt 0 4 hello w
+Searching for 'hello wo' resulted in 29 results
+--- ../4096.txt 0 4 hello wo
++++ ../4096.txt 0 4 hello wo
+Searching for 'hello wor' resulted in 13 results
+--- ../4096.txt 0 4 hello wor
++++ ../4096.txt 0 4 hello wor
+Searching for 'hello worl' resulted in 7 results
+--- ../4096.txt 0 4 hello worl
++++ ../4096.txt 0 4 hello worl
+Searching for 'hello world' resulted in 1 results
+--- ../4096.txt 0 4 hello world
++++ ../4096.txt 0 4 hello world
+	Command being timed: "./main ../4096.txt"
+	User time (seconds): 0.00
+	System time (seconds): 0.00
+	Percent of CPU this job got: 185%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.00
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 11376
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 835
+	Voluntary context switches: 13
+	Involuntary context switches: 704
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 21
+	Page size (bytes): 16384
+	Exit status: 0
+********************** 8192.txt go-native
+fzf-type: go-native
+start 1629884176581 1629884176581
+lines.txt loaded: 8192 lines 1629884176583 1629884176583
+Fzf initialized 1629884176584 1629884176584
+Searching for 'h' resulted in 2748 results
+--- ../8192.txt 2 2 h
++++ ../8192.txt 2 2 h
+Searching for 'he' resulted in 2114 results
+--- ../8192.txt 2 4 he
++++ ../8192.txt 2 4 he
+Searching for 'hel' resulted in 991 results
+--- ../8192.txt 1 5 hel
++++ ../8192.txt 1 5 hel
+Searching for 'hell' resulted in 457 results
+--- ../8192.txt 0 5 hell
++++ ../8192.txt 0 5 hell
+Searching for 'hello' resulted in 207 results
+--- ../8192.txt 1 6 hello
++++ ../8192.txt 1 6 hello
+Searching for 'hello ' resulted in 207 results
+--- ../8192.txt 0 6 hello 
++++ ../8192.txt 0 6 hello 
+Searching for 'hello w' resulted in 81 results
+--- ../8192.txt 0 6 hello w
++++ ../8192.txt 0 6 hello w
+Searching for 'hello wo' resulted in 79 results
+--- ../8192.txt 0 6 hello wo
++++ ../8192.txt 0 6 hello wo
+Searching for 'hello wor' resulted in 40 results
+--- ../8192.txt 0 6 hello wor
++++ ../8192.txt 0 6 hello wor
+Searching for 'hello worl' resulted in 20 results
+--- ../8192.txt 0 6 hello worl
++++ ../8192.txt 0 6 hello worl
+Searching for 'hello world' resulted in 6 results
+--- ../8192.txt 0 6 hello world
++++ ../8192.txt 0 6 hello world
+	Command being timed: "./main ../8192.txt"
+	User time (seconds): 0.01
+	System time (seconds): 0.00
+	Percent of CPU this job got: 154%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.01
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 14640
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 1041
+	Voluntary context switches: 21
+	Involuntary context switches: 566
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 34
+	Page size (bytes): 16384
+	Exit status: 0
+********************** 16384.txt go-native
+fzf-type: go-native
+start 1629884176594 1629884176594
+lines.txt loaded: 16384 lines 1629884176599 1629884176599
+Fzf initialized 1629884176600 1629884176600
+Searching for 'h' resulted in 10940 results
+--- ../16384.txt 8 8 h
++++ ../16384.txt 8 8 h
+Searching for 'he' resulted in 10029 results
+--- ../16384.txt 6 14 he
++++ ../16384.txt 6 14 he
+Searching for 'hel' resulted in 4874 results
+--- ../16384.txt 4 18 hel
++++ ../16384.txt 4 18 hel
+Searching for 'hell' resulted in 2536 results
+--- ../16384.txt 2 20 hell
++++ ../16384.txt 2 20 hell
+Searching for 'hello' resulted in 1487 results
+--- ../16384.txt 2 22 hello
++++ ../16384.txt 2 22 hello
+Searching for 'hello ' resulted in 1487 results
+--- ../16384.txt 1 23 hello 
++++ ../16384.txt 1 23 hello 
+Searching for 'hello w' resulted in 647 results
+--- ../16384.txt 0 23 hello w
++++ ../16384.txt 0 23 hello w
+Searching for 'hello wo' resulted in 537 results
+--- ../16384.txt 1 24 hello wo
++++ ../16384.txt 1 24 hello wo
+Searching for 'hello wor' resulted in 312 results
+--- ../16384.txt 1 25 hello wor
++++ ../16384.txt 1 25 hello wor
+Searching for 'hello worl' resulted in 162 results
+--- ../16384.txt 0 25 hello worl
++++ ../16384.txt 0 25 hello worl
+Searching for 'hello world' resulted in 59 results
+--- ../16384.txt 0 25 hello world
++++ ../16384.txt 0 25 hello world
+	Command being timed: "./main ../16384.txt"
+	User time (seconds): 0.07
+	System time (seconds): 0.00
+	Percent of CPU this job got: 265%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.03
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 25088
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 1691
+	Voluntary context switches: 49
+	Involuntary context switches: 1220
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 130
+	Page size (bytes): 16384
+	Exit status: 0
+********************** 32768.txt go-native
+fzf-type: go-native
+start 1629884176629 1629884176629
+lines.txt loaded: 32768 lines 1629884176635 1629884176635
+Fzf initialized 1629884176638 1629884176638
+Searching for 'h' resulted in 16901 results
+--- ../32768.txt 11 11 h
++++ ../32768.txt 11 11 h
+Searching for 'he' resulted in 14881 results
+--- ../32768.txt 10 21 he
++++ ../32768.txt 10 21 he
+Searching for 'hel' resulted in 7180 results
+--- ../32768.txt 6 27 hel
++++ ../32768.txt 6 27 hel
+Searching for 'hell' resulted in 3616 results
+--- ../32768.txt 3 30 hell
++++ ../32768.txt 3 30 hell
+Searching for 'hello' resulted in 2031 results
+--- ../32768.txt 2 32 hello
++++ ../32768.txt 2 32 hello
+Searching for 'hello ' resulted in 2031 results
+--- ../32768.txt 1 33 hello 
++++ ../32768.txt 1 33 hello 
+Searching for 'hello w' resulted in 860 results
+--- ../32768.txt 1 34 hello w
++++ ../32768.txt 1 34 hello w
+Searching for 'hello wo' resulted in 710 results
+--- ../32768.txt 2 36 hello wo
++++ ../32768.txt 2 36 hello wo
+Searching for 'hello wor' resulted in 425 results
+--- ../32768.txt 1 37 hello wor
++++ ../32768.txt 1 37 hello wor
+Searching for 'hello worl' resulted in 225 results
+--- ../32768.txt 1 38 hello worl
++++ ../32768.txt 1 38 hello worl
+Searching for 'hello world' resulted in 88 results
+--- ../32768.txt 1 39 hello world
++++ ../32768.txt 1 39 hello world
+	Command being timed: "./main ../32768.txt"
+	User time (seconds): 0.13
+	System time (seconds): 0.01
+	Percent of CPU this job got: 293%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.04
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 32384
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 2146
+	Voluntary context switches: 69
+	Involuntary context switches: 1932
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 166
+	Page size (bytes): 16384
+	Exit status: 0
+********************** 65536.txt go-native
+fzf-type: go-native
+start 1629884176681 1629884176681
+lines.txt loaded: 65536 lines 1629884176694 1629884176694
+Fzf initialized 1629884176699 1629884176699
+Searching for 'h' resulted in 24285 results
+--- ../65536.txt 17 17 h
++++ ../65536.txt 17 17 h
+Searching for 'he' resulted in 20902 results
+--- ../65536.txt 15 32 he
++++ ../65536.txt 15 32 he
+Searching for 'hel' resulted in 10423 results
+--- ../65536.txt 10 42 hel
++++ ../65536.txt 10 42 hel
+Searching for 'hell' resulted in 5080 results
+--- ../65536.txt 4 46 hell
++++ ../65536.txt 4 46 hell
+Searching for 'hello' resulted in 2816 results
+--- ../65536.txt 3 49 hello
++++ ../65536.txt 3 49 hello
+Searching for 'hello ' resulted in 2816 results
+--- ../65536.txt 2 51 hello 
++++ ../65536.txt 2 51 hello 
+Searching for 'hello w' resulted in 1162 results
+--- ../65536.txt 2 53 hello w
++++ ../65536.txt 2 53 hello w
+Searching for 'hello wo' resulted in 971 results
+--- ../65536.txt 1 54 hello wo
++++ ../65536.txt 1 54 hello wo
+Searching for 'hello wor' resulted in 594 results
+--- ../65536.txt 1 55 hello wor
++++ ../65536.txt 1 55 hello wor
+Searching for 'hello worl' resulted in 328 results
+--- ../65536.txt 3 58 hello worl
++++ ../65536.txt 3 58 hello worl
+Searching for 'hello world' resulted in 133 results
+--- ../65536.txt 1 59 hello world
++++ ../65536.txt 1 59 hello world
+	Command being timed: "./main ../65536.txt"
+	User time (seconds): 0.19
+	System time (seconds): 0.01
+	Percent of CPU this job got: 264%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.07
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 45168
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 2946
+	Voluntary context switches: 50
+	Involuntary context switches: 3036
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 180
+	Page size (bytes): 16384
+	Exit status: 0
+********************** 131072.txt go-native
+fzf-type: go-native
+start 1629884176762 1629884176762
+lines.txt loaded: 131072 lines 1629884176779 1629884176779
+Fzf initialized 1629884176789 1629884176789
+Searching for 'h' resulted in 44948 results
+--- ../131072.txt 30 30 h
++++ ../131072.txt 30 30 h
+Searching for 'he' resulted in 38090 results
+--- ../131072.txt 26 56 he
++++ ../131072.txt 26 56 he
+Searching for 'hel' resulted in 19099 results
+--- ../131072.txt 17 73 hel
++++ ../131072.txt 17 73 hel
+Searching for 'hell' resulted in 9357 results
+--- ../131072.txt 8 81 hell
++++ ../131072.txt 8 81 hell
+Searching for 'hello' resulted in 5096 results
+--- ../131072.txt 5 86 hello
++++ ../131072.txt 5 86 hello
+Searching for 'hello ' resulted in 5096 results
+--- ../131072.txt 3 89 hello 
++++ ../131072.txt 3 89 hello 
+Searching for 'hello w' resulted in 2427 results
+--- ../131072.txt 4 93 hello w
++++ ../131072.txt 4 93 hello w
+Searching for 'hello wo' resulted in 2113 results
+--- ../131072.txt 3 96 hello wo
++++ ../131072.txt 3 96 hello wo
+Searching for 'hello wor' resulted in 1441 results
+--- ../131072.txt 2 98 hello wor
++++ ../131072.txt 2 98 hello wor
+Searching for 'hello worl' resulted in 937 results
+--- ../131072.txt 2 100 hello worl
++++ ../131072.txt 2 100 hello worl
+Searching for 'hello world' resulted in 473 results
+--- ../131072.txt 1 101 hello world
++++ ../131072.txt 1 101 hello world
+	Command being timed: "./main ../131072.txt"
+	User time (seconds): 0.33
+	System time (seconds): 0.02
+	Percent of CPU this job got: 280%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.13
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 67312
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 4336
+	Voluntary context switches: 50
+	Involuntary context switches: 4911
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 180
+	Page size (bytes): 16384
+	Exit status: 0
+********************** 262144.txt go-native
+fzf-type: go-native
+start 1629884176894 1629884176894
+lines.txt loaded: 262144 lines 1629884176925 1629884176925
+Fzf initialized 1629884176943 1629884176943
+Searching for 'h' resulted in 119513 results
+--- ../262144.txt 78 78 h
++++ ../262144.txt 78 78 h
+Searching for 'he' resulted in 105560 results
+--- ../262144.txt 69 147 he
++++ ../262144.txt 69 147 he
+Searching for 'hel' resulted in 56016 results
+--- ../262144.txt 45 192 hel
++++ ../262144.txt 45 192 hel
+Searching for 'hell' resulted in 28575 results
+--- ../262144.txt 26 218 hell
++++ ../262144.txt 26 218 hell
+Searching for 'hello' resulted in 15822 results
+--- ../262144.txt 15 233 hello
++++ ../262144.txt 15 233 hello
+Searching for 'hello ' resulted in 15822 results
+--- ../262144.txt 14 247 hello 
++++ ../262144.txt 14 247 hello 
+Searching for 'hello w' resulted in 7248 results
+--- ../262144.txt 10 257 hello w
++++ ../262144.txt 10 257 hello w
+Searching for 'hello wo' resulted in 6221 results
+--- ../262144.txt 7 264 hello wo
++++ ../262144.txt 7 264 hello wo
+Searching for 'hello wor' resulted in 4083 results
+--- ../262144.txt 6 270 hello wor
++++ ../262144.txt 6 270 hello wor
+Searching for 'hello worl' resulted in 2566 results
+--- ../262144.txt 5 275 hello worl
++++ ../262144.txt 5 275 hello worl
+Searching for 'hello world' resulted in 1119 results
+--- ../262144.txt 2 277 hello world
++++ ../262144.txt 2 277 hello world
+	Command being timed: "./main ../262144.txt"
+	User time (seconds): 0.97
+	System time (seconds): 0.04
+	Percent of CPU this job got: 308%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.32
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 133072
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 8450
+	Voluntary context switches: 64
+	Involuntary context switches: 8699
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 345
+	Page size (bytes): 16384
+	Exit status: 0
+********************** 524288.txt go-native
+fzf-type: go-native
+start 1629884177225 1629884177225
+lines.txt loaded: 524288 lines 1629884177273 1629884177273
+Fzf initialized 1629884177307 1629884177307
+Searching for 'h' resulted in 224394 results
+--- ../524288.txt 143 143 h
++++ ../524288.txt 143 143 h
+Searching for 'he' resulted in 190326 results
+--- ../524288.txt 147 290 he
++++ ../524288.txt 147 290 he
+Searching for 'hel' resulted in 96164 results
+--- ../524288.txt 78 368 hel
++++ ../524288.txt 78 368 hel
+Searching for 'hell' resulted in 48392 results
+--- ../524288.txt 40 408 hell
++++ ../524288.txt 40 408 hell
+Searching for 'hello' resulted in 26239 results
+--- ../524288.txt 31 439 hello
++++ ../524288.txt 31 439 hello
+Searching for 'hello ' resulted in 26239 results
+--- ../524288.txt 31 470 hello 
++++ ../524288.txt 31 470 hello 
+Searching for 'hello w' resulted in 11332 results
+--- ../524288.txt 19 489 hello w
++++ ../524288.txt 19 489 hello w
+Searching for 'hello wo' resulted in 9906 results
+--- ../524288.txt 12 501 hello wo
++++ ../524288.txt 12 501 hello wo
+Searching for 'hello wor' resulted in 6561 results
+--- ../524288.txt 11 512 hello wor
++++ ../524288.txt 11 512 hello wor
+Searching for 'hello worl' resulted in 4091 results
+--- ../524288.txt 9 521 hello worl
++++ ../524288.txt 9 521 hello worl
+Searching for 'hello world' resulted in 1852 results
+--- ../524288.txt 6 527 hello world
++++ ../524288.txt 6 527 hello world
+	Command being timed: "./main ../524288.txt"
+	User time (seconds): 1.79
+	System time (seconds): 0.08
+	Percent of CPU this job got: 306%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.61
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 245984
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 15519
+	Voluntary context switches: 54
+	Involuntary context switches: 15824
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 296
+	Page size (bytes): 16384
+	Exit status: 0
+********************** 1048576.txt go-native
+fzf-type: go-native
+start 1629884177840 1629884177840
+lines.txt loaded: 1048576 lines 1629884177945 1629884177945
+Fzf initialized 1629884178012 1629884178012
+Searching for 'h' resulted in 411819 results
+--- ../1048576.txt 290 290 h
++++ ../1048576.txt 290 290 h
+Searching for 'he' resulted in 340959 results
+--- ../1048576.txt 231 521 he
++++ ../1048576.txt 231 521 he
+Searching for 'hel' resulted in 173451 results
+--- ../1048576.txt 150 671 hel
++++ ../1048576.txt 150 671 hel
+Searching for 'hell' resulted in 84957 results
+--- ../1048576.txt 79 750 hell
++++ ../1048576.txt 79 750 hell
+Searching for 'hello' resulted in 46465 results
+--- ../1048576.txt 54 804 hello
++++ ../1048576.txt 54 804 hello
+Searching for 'hello ' resulted in 46465 results
+--- ../1048576.txt 31 835 hello 
++++ ../1048576.txt 31 835 hello 
+Searching for 'hello w' resulted in 18519 results
+--- ../1048576.txt 42 877 hello w
++++ ../1048576.txt 42 877 hello w
+Searching for 'hello wo' resulted in 16127 results
+--- ../1048576.txt 25 902 hello wo
++++ ../1048576.txt 25 902 hello wo
+Searching for 'hello wor' resulted in 10374 results
+--- ../1048576.txt 20 922 hello wor
++++ ../1048576.txt 20 922 hello wor
+Searching for 'hello worl' resulted in 6215 results
+--- ../1048576.txt 14 936 hello worl
++++ ../1048576.txt 14 936 hello worl
+Searching for 'hello world' resulted in 2742 results
+--- ../1048576.txt 10 946 hello world
++++ ../1048576.txt 10 946 hello world
+	Command being timed: "./main ../1048576.txt"
+	User time (seconds): 3.27
+	System time (seconds): 0.16
+	Percent of CPU this job got: 306%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.12
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 432656
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 27209
+	Voluntary context switches: 68
+	Involuntary context switches: 37411
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 376
+	Page size (bytes): 16384
+	Exit status: 0
+********************** 2097152.txt go-native
+fzf-type: go-native
+start 1629884178966 1629884178966
+lines.txt loaded: 2097152 lines 1629884179127 1629884179127
+Fzf initialized 1629884179263 1629884179263
+Searching for 'h' resulted in 821574 results
+--- ../2097152.txt 556 556 h
++++ ../2097152.txt 556 556 h
+Searching for 'he' resulted in 664715 results
+--- ../2097152.txt 454 1010 he
++++ ../2097152.txt 454 1010 he
+Searching for 'hel' resulted in 323273 results
+--- ../2097152.txt 256 1266 hel
++++ ../2097152.txt 256 1266 hel
+Searching for 'hell' resulted in 152723 results
+--- ../2097152.txt 150 1416 hell
++++ ../2097152.txt 150 1416 hell
+Searching for 'hello' resulted in 76905 results
+--- ../2097152.txt 78 1494 hello
++++ ../2097152.txt 78 1494 hello
+Searching for 'hello ' resulted in 76905 results
+--- ../2097152.txt 70 1564 hello 
++++ ../2097152.txt 70 1564 hello 
+Searching for 'hello w' resulted in 30738 results
+--- ../2097152.txt 53 1617 hello w
++++ ../2097152.txt 53 1617 hello w
+Searching for 'hello wo' resulted in 27040 results
+--- ../2097152.txt 40 1657 hello wo
++++ ../2097152.txt 40 1657 hello wo
+Searching for 'hello wor' resulted in 16836 results
+--- ../2097152.txt 35 1692 hello wor
++++ ../2097152.txt 35 1692 hello wor
+Searching for 'hello worl' resulted in 10189 results
+--- ../2097152.txt 25 1717 hello worl
++++ ../2097152.txt 25 1717 hello worl
+Searching for 'hello world' resulted in 4268 results
+--- ../2097152.txt 20 1737 hello world
++++ ../2097152.txt 20 1737 hello world
+	Command being timed: "./main ../2097152.txt"
+	User time (seconds): 6.08
+	System time (seconds): 0.29
+	Percent of CPU this job got: 311%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:02.04
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 883920
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 55467
+	Voluntary context switches: 102
+	Involuntary context switches: 62422
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 601
+	Page size (bytes): 16384
+	Exit status: 0
+********************** 4194304.txt go-native
+fzf-type: go-native
+start 1629884181012 1629884181012
+lines.txt loaded: 4194304 lines 1629884181395 1629884181395
+Fzf initialized 1629884181676 1629884181676
+Searching for 'h' resulted in 1922631 results
+--- ../4194304.txt 1298 1298 h
++++ ../4194304.txt 1298 1298 h
+Searching for 'he' resulted in 1607264 results
+--- ../4194304.txt 1201 2499 he
++++ ../4194304.txt 1201 2499 he
+Searching for 'hel' resulted in 917736 results
+--- ../4194304.txt 811 3310 hel
++++ ../4194304.txt 811 3310 hel
+Searching for 'hell' resulted in 467994 results
+--- ../4194304.txt 409 3719 hell
++++ ../4194304.txt 409 3719 hell
+Searching for 'hello' resulted in 255273 results
+--- ../4194304.txt 304 4023 hello
++++ ../4194304.txt 304 4023 hello
+Searching for 'hello ' resulted in 255273 results
+--- ../4194304.txt 187 4210 hello 
++++ ../4194304.txt 187 4210 hello 
+Searching for 'hello w' resulted in 113897 results
+--- ../4194304.txt 178 4388 hello w
++++ ../4194304.txt 178 4388 hello w
+Searching for 'hello wo' resulted in 101072 results
+--- ../4194304.txt 162 4550 hello wo
++++ ../4194304.txt 162 4550 hello wo
+Searching for 'hello wor' resulted in 73565 results
+--- ../4194304.txt 183 4733 hello wor
++++ ../4194304.txt 183 4733 hello wor
+Searching for 'hello worl' resulted in 51237 results
+--- ../4194304.txt 130 4863 hello worl
++++ ../4194304.txt 130 4863 hello worl
+Searching for 'hello world' resulted in 29354 results
+--- ../4194304.txt 101 4964 hello world
++++ ../4194304.txt 101 4964 hello world
+	Command being timed: "./main ../4194304.txt"
+	User time (seconds): 17.77
+	System time (seconds): 0.69
+	Percent of CPU this job got: 327%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:05.64
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1882176
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 117961
+	Voluntary context switches: 246
+	Involuntary context switches: 146056
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 1690
+	Page size (bytes): 16384
+	Exit status: 0
+********************** 8388608.txt go-native
+fzf-type: go-native
+start 1629884186660 1629884186660
+lines.txt loaded: 8388608 lines 1629884187537 1629884187537
+Fzf initialized 1629884188082 1629884188082
+Searching for 'h' resulted in 6010154 results
+--- ../8388608.txt 4399 4399 h
++++ ../8388608.txt 4399 4399 h
+Searching for 'he' resulted in 5165889 results
+--- ../8388608.txt 4001 8400 he
++++ ../8388608.txt 4001 8400 he
+Searching for 'hel' resulted in 3154153 results
+--- ../8388608.txt 2384 10784 hel
++++ ../8388608.txt 2384 10784 hel
+Searching for 'hell' resulted in 1626222 results
+--- ../8388608.txt 1495 12279 hell
++++ ../8388608.txt 1495 12279 hell
+Searching for 'hello' resulted in 811884 results
+--- ../8388608.txt 876 13155 hello
++++ ../8388608.txt 876 13155 hello
+Searching for 'hello ' resulted in 811884 results
+--- ../8388608.txt 637 13792 hello 
++++ ../8388608.txt 637 13792 hello 
+Searching for 'hello w' resulted in 351414 results
+--- ../8388608.txt 540 14332 hello w
++++ ../8388608.txt 540 14332 hello w
+Searching for 'hello wo' resulted in 314073 results
+--- ../8388608.txt 568 14900 hello wo
++++ ../8388608.txt 568 14900 hello wo
+Searching for 'hello wor' resulted in 230995 results
+--- ../8388608.txt 397 15297 hello wor
++++ ../8388608.txt 397 15297 hello wor
+Searching for 'hello worl' resulted in 161762 results
+--- ../8388608.txt 323 15620 hello worl
++++ ../8388608.txt 323 15620 hello worl
+Searching for 'hello world' resulted in 86190 results
+--- ../8388608.txt 248 15868 hello world
++++ ../8388608.txt 248 15868 hello world
+	Command being timed: "./main ../8388608.txt"
+	User time (seconds): 58.49
+	System time (seconds): 1.52
+	Percent of CPU this job got: 346%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:17.33
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 5141264
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 322079
+	Voluntary context switches: 689
+	Involuntary context switches: 336094
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 7805
+	Page size (bytes): 16384
+	Exit status: 0
+********************** 16777216.txt go-native
+fzf-type: go-native
+start 1629884204000 1629884204000
+lines.txt loaded: 16777216 lines 1629884205463 1629884205463
+Fzf initialized 1629884206549 1629884206549
+Searching for 'h' resulted in 10119343 results
+--- ../16777216.txt 7766 7766 h
++++ ../16777216.txt 7766 7766 h
+Searching for 'he' resulted in 8334567 results
+--- ../16777216.txt 7785 15551 he
++++ ../16777216.txt 7785 15551 he
+Searching for 'hel' resulted in 4720093 results
+--- ../16777216.txt 4346 19897 hel
++++ ../16777216.txt 4346 19897 hel
+Searching for 'hell' resulted in 2361932 results
+--- ../16777216.txt 2152 22049 hell
++++ ../16777216.txt 2152 22049 hell
+Searching for 'hello' resulted in 1163653 results
+--- ../16777216.txt 1307 23356 hello
++++ ../16777216.txt 1307 23356 hello
+Searching for 'hello ' resulted in 1163653 results
+--- ../16777216.txt 862 24218 hello 
++++ ../16777216.txt 862 24218 hello 
+Searching for 'hello w' resulted in 525640 results
+--- ../16777216.txt 1054 25272 hello w
++++ ../16777216.txt 1054 25272 hello w
+Searching for 'hello wo' resulted in 473497 results
+--- ../16777216.txt 705 25977 hello wo
++++ ../16777216.txt 705 25977 hello wo
+Searching for 'hello wor' resulted in 346695 results
+--- ../16777216.txt 632 26609 hello wor
++++ ../16777216.txt 632 26609 hello wor
+Searching for 'hello worl' resulted in 236539 results
+--- ../16777216.txt 530 27139 hello worl
++++ ../16777216.txt 530 27139 hello worl
+Searching for 'hello world' resulted in 127515 results
+--- ../16777216.txt 376 27515 hello world
++++ ../16777216.txt 376 27515 hello world
+	Command being timed: "./main ../16777216.txt"
+	User time (seconds): 95.40
+	System time (seconds): 4.42
+	Percent of CPU this job got: 330%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:30.17
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 8401344
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 779729
+	Voluntary context switches: 1204
+	Involuntary context switches: 673741
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 36703
+	Page size (bytes): 16384
+	Exit status: 0
+********************** 1024.txt go-native
+fzf-type: go-native
+start 1629884234178 1629884234178
+lines.txt loaded: 1024 lines 1629884234182 1629884234182
+Fzf initialized 1629884234182 1629884234182
+Searching for 'h' resulted in 224 results
+--- ../1024.txt 0 0 h
++++ ../1024.txt 0 0 h
+Searching for 'he' resulted in 157 results
+--- ../1024.txt 0 0 he
++++ ../1024.txt 0 0 he
+Searching for 'hel' resulted in 80 results
+--- ../1024.txt 0 0 hel
++++ ../1024.txt 0 0 hel
+Searching for 'hell' resulted in 47 results
+--- ../1024.txt 1 1 hell
++++ ../1024.txt 1 1 hell
+Searching for 'hello' resulted in 34 results
+--- ../1024.txt 0 1 hello
++++ ../1024.txt 0 1 hello
+Searching for 'hello ' resulted in 34 results
+--- ../1024.txt 0 1 hello 
++++ ../1024.txt 0 1 hello 
+Searching for 'hello w' resulted in 20 results
+--- ../1024.txt 0 1 hello w
++++ ../1024.txt 0 1 hello w
+Searching for 'hello wo' resulted in 19 results
+--- ../1024.txt 0 1 hello wo
++++ ../1024.txt 0 1 hello wo
+Searching for 'hello wor' resulted in 7 results
+--- ../1024.txt 0 1 hello wor
++++ ../1024.txt 0 1 hello wor
+Searching for 'hello worl' resulted in 6 results
+--- ../1024.txt 0 1 hello worl
++++ ../1024.txt 0 1 hello worl
+Searching for 'hello world' resulted in 1 results
+--- ../1024.txt 0 1 hello world
++++ ../1024.txt 0 1 hello world
+	Command being timed: "./main ../1024.txt"
+	User time (seconds): 0.00
+	System time (seconds): 0.00
+	Percent of CPU this job got: 42%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.00
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 6944
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 556
+	Voluntary context switches: 7
+	Involuntary context switches: 223
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 13
+	Page size (bytes): 16384
+	Exit status: 0
+********************** 2048.txt go-native
+fzf-type: go-native
+start 1629884234187 1629884234187
+lines.txt loaded: 2048 lines 1629884234188 1629884234188
+Fzf initialized 1629884234188 1629884234188
+Searching for 'h' resulted in 629 results
+--- ../2048.txt 1 1 h
++++ ../2048.txt 1 1 h
+Searching for 'he' resulted in 487 results
+--- ../2048.txt 1 2 he
++++ ../2048.txt 1 2 he
+Searching for 'hel' resulted in 237 results
+--- ../2048.txt 0 2 hel
++++ ../2048.txt 0 2 hel
+Searching for 'hell' resulted in 116 results
+--- ../2048.txt 0 2 hell
++++ ../2048.txt 0 2 hell
+Searching for 'hello' resulted in 64 results
+--- ../2048.txt 0 2 hello
++++ ../2048.txt 0 2 hello
+Searching for 'hello ' resulted in 64 results
+--- ../2048.txt 0 2 hello 
++++ ../2048.txt 0 2 hello 
+Searching for 'hello w' resulted in 31 results
+--- ../2048.txt 1 3 hello w
++++ ../2048.txt 1 3 hello w
+Searching for 'hello wo' resulted in 29 results
+--- ../2048.txt 0 3 hello wo
++++ ../2048.txt 0 3 hello wo
+Searching for 'hello wor' resulted in 13 results
+--- ../2048.txt 0 3 hello wor
++++ ../2048.txt 0 3 hello wor
+Searching for 'hello worl' resulted in 7 results
+--- ../2048.txt 0 3 hello worl
++++ ../2048.txt 0 3 hello worl
+Searching for 'hello world' resulted in 1 results
+--- ../2048.txt 0 3 hello world
++++ ../2048.txt 0 3 hello world
+	Command being timed: "./main ../2048.txt"
+	User time (seconds): 0.00
+	System time (seconds): 0.00
+	Percent of CPU this job got: 150%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.00
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 9216
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 701
+	Voluntary context switches: 11
+	Involuntary context switches: 511
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 13
+	Page size (bytes): 16384
+	Exit status: 0
+********************** 4096.txt go-native
+fzf-type: go-native
+start 1629884234195 1629884234195
+lines.txt loaded: 4096 lines 1629884234196 1629884234196
+Fzf initialized 1629884234197 1629884234197
+Searching for 'h' resulted in 1350 results
+--- ../4096.txt 2 2 h
++++ ../4096.txt 2 2 h
+Searching for 'he' resulted in 898 results
+--- ../4096.txt 0 2 he
++++ ../4096.txt 0 2 he
+Searching for 'hel' resulted in 388 results
+--- ../4096.txt 1 3 hel
++++ ../4096.txt 1 3 hel
+Searching for 'hell' resulted in 150 results
+--- ../4096.txt 0 3 hell
++++ ../4096.txt 0 3 hell
+Searching for 'hello' resulted in 65 results
+--- ../4096.txt 0 3 hello
++++ ../4096.txt 0 3 hello
+Searching for 'hello ' resulted in 65 results
+--- ../4096.txt 0 3 hello 
++++ ../4096.txt 0 3 hello 
+Searching for 'hello w' resulted in 31 results
+--- ../4096.txt 0 3 hello w
++++ ../4096.txt 0 3 hello w
+Searching for 'hello wo' resulted in 29 results
+--- ../4096.txt 0 3 hello wo
++++ ../4096.txt 0 3 hello wo
+Searching for 'hello wor' resulted in 13 results
+--- ../4096.txt 1 4 hello wor
++++ ../4096.txt 1 4 hello wor
+Searching for 'hello worl' resulted in 7 results
+--- ../4096.txt 0 4 hello worl
++++ ../4096.txt 0 4 hello worl
+Searching for 'hello world' resulted in 1 results
+--- ../4096.txt 0 4 hello world
++++ ../4096.txt 0 4 hello world
+	Command being timed: "./main ../4096.txt"
+	User time (seconds): 0.00
+	System time (seconds): 0.00
+	Percent of CPU this job got: 185%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.00
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 11488
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 841
+	Voluntary context switches: 18
+	Involuntary context switches: 633
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 27
+	Page size (bytes): 16384
+	Exit status: 0
+********************** 8192.txt go-native
+fzf-type: go-native
+start 1629884234205 1629884234205
+lines.txt loaded: 8192 lines 1629884234207 1629884234207
+Fzf initialized 1629884234207 1629884234207
+Searching for 'h' resulted in 2748 results
+--- ../8192.txt 3 3 h
++++ ../8192.txt 3 3 h
+Searching for 'he' resulted in 2114 results
+--- ../8192.txt 2 5 he
++++ ../8192.txt 2 5 he
+Searching for 'hel' resulted in 991 results
+--- ../8192.txt 1 6 hel
++++ ../8192.txt 1 6 hel
+Searching for 'hell' resulted in 457 results
+--- ../8192.txt 0 6 hell
++++ ../8192.txt 0 6 hell
+Searching for 'hello' resulted in 207 results
+--- ../8192.txt 0 6 hello
++++ ../8192.txt 0 6 hello
+Searching for 'hello ' resulted in 207 results
+--- ../8192.txt 1 7 hello 
++++ ../8192.txt 1 7 hello 
+Searching for 'hello w' resulted in 81 results
+--- ../8192.txt 0 7 hello w
++++ ../8192.txt 0 7 hello w
+Searching for 'hello wo' resulted in 79 results
+--- ../8192.txt 0 7 hello wo
++++ ../8192.txt 0 7 hello wo
+Searching for 'hello wor' resulted in 40 results
+--- ../8192.txt 0 7 hello wor
++++ ../8192.txt 0 7 hello wor
+Searching for 'hello worl' resulted in 20 results
+--- ../8192.txt 0 7 hello worl
++++ ../8192.txt 0 7 hello worl
+Searching for 'hello world' resulted in 6 results
+--- ../8192.txt 1 8 hello world
++++ ../8192.txt 1 8 hello world
+	Command being timed: "./main ../8192.txt"
+	User time (seconds): 0.01
+	System time (seconds): 0.00
+	Percent of CPU this job got: 172%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.01
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 13104
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 947
+	Voluntary context switches: 25
+	Involuntary context switches: 639
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 39
+	Page size (bytes): 16384
+	Exit status: 0
+********************** 16384.txt go-native
+fzf-type: go-native
+start 1629884234218 1629884234218
+lines.txt loaded: 16384 lines 1629884234222 1629884234222
+Fzf initialized 1629884234223 1629884234223
+Searching for 'h' resulted in 10940 results
+--- ../16384.txt 7 7 h
++++ ../16384.txt 7 7 h
+Searching for 'he' resulted in 10029 results
+--- ../16384.txt 7 14 he
++++ ../16384.txt 7 14 he
+Searching for 'hel' resulted in 4874 results
+--- ../16384.txt 4 18 hel
++++ ../16384.txt 4 18 hel
+Searching for 'hell' resulted in 2536 results
+--- ../16384.txt 2 20 hell
++++ ../16384.txt 2 20 hell
+Searching for 'hello' resulted in 1487 results
+--- ../16384.txt 1 21 hello
++++ ../16384.txt 1 21 hello
+Searching for 'hello ' resulted in 1487 results
+--- ../16384.txt 1 22 hello 
++++ ../16384.txt 1 22 hello 
+Searching for 'hello w' resulted in 647 results
+--- ../16384.txt 1 23 hello w
++++ ../16384.txt 1 23 hello w
+Searching for 'hello wo' resulted in 537 results
+--- ../16384.txt 0 23 hello wo
++++ ../16384.txt 0 23 hello wo
+Searching for 'hello wor' resulted in 312 results
+--- ../16384.txt 0 23 hello wor
++++ ../16384.txt 0 23 hello wor
+Searching for 'hello worl' resulted in 162 results
+--- ../16384.txt 0 23 hello worl
++++ ../16384.txt 0 23 hello worl
+Searching for 'hello world' resulted in 59 results
+--- ../16384.txt 1 24 hello world
++++ ../16384.txt 1 24 hello world
+	Command being timed: "./main ../16384.txt"
+	User time (seconds): 0.08
+	System time (seconds): 0.00
+	Percent of CPU this job got: 268%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.03
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 24464
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 1655
+	Voluntary context switches: 36
+	Involuntary context switches: 1133
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 115
+	Page size (bytes): 16384
+	Exit status: 0
+********************** 32768.txt go-native
+fzf-type: go-native
+start 1629884234252 1629884234252
+lines.txt loaded: 32768 lines 1629884234259 1629884234259
+Fzf initialized 1629884234261 1629884234261
+Searching for 'h' resulted in 16901 results
+--- ../32768.txt 12 12 h
++++ ../32768.txt 12 12 h
+Searching for 'he' resulted in 14881 results
+--- ../32768.txt 10 22 he
++++ ../32768.txt 10 22 he
+Searching for 'hel' resulted in 7180 results
+--- ../32768.txt 7 29 hel
++++ ../32768.txt 7 29 hel
+Searching for 'hell' resulted in 3616 results
+--- ../32768.txt 3 32 hell
++++ ../32768.txt 3 32 hell
+Searching for 'hello' resulted in 2031 results
+--- ../32768.txt 1 33 hello
++++ ../32768.txt 1 33 hello
+Searching for 'hello ' resulted in 2031 results
+--- ../32768.txt 2 35 hello 
++++ ../32768.txt 2 35 hello 
+Searching for 'hello w' resulted in 860 results
+--- ../32768.txt 1 36 hello w
++++ ../32768.txt 1 36 hello w
+Searching for 'hello wo' resulted in 710 results
+--- ../32768.txt 2 38 hello wo
++++ ../32768.txt 2 38 hello wo
+Searching for 'hello wor' resulted in 425 results
+--- ../32768.txt 2 40 hello wor
++++ ../32768.txt 2 40 hello wor
+Searching for 'hello worl' resulted in 225 results
+--- ../32768.txt 1 41 hello worl
++++ ../32768.txt 1 41 hello worl
+Searching for 'hello world' resulted in 88 results
+--- ../32768.txt 0 41 hello world
++++ ../32768.txt 0 41 hello world
+	Command being timed: "./main ../32768.txt"
+	User time (seconds): 0.13
+	System time (seconds): 0.01
+	Percent of CPU this job got: 278%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.05
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 32576
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 2162
+	Voluntary context switches: 71
+	Involuntary context switches: 1700
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 175
+	Page size (bytes): 16384
+	Exit status: 0
+********************** 65536.txt go-native
+fzf-type: go-native
+start 1629884234306 1629884234306
+lines.txt loaded: 65536 lines 1629884234322 1629884234322
+Fzf initialized 1629884234326 1629884234326
+Searching for 'h' resulted in 24285 results
+--- ../65536.txt 18 18 h
++++ ../65536.txt 18 18 h
+Searching for 'he' resulted in 20902 results
+--- ../65536.txt 16 34 he
++++ ../65536.txt 16 34 he
+Searching for 'hel' resulted in 10423 results
+--- ../65536.txt 8 42 hel
++++ ../65536.txt 8 42 hel
+Searching for 'hell' resulted in 5080 results
+--- ../65536.txt 4 46 hell
++++ ../65536.txt 4 46 hell
+Searching for 'hello' resulted in 2816 results
+--- ../65536.txt 3 49 hello
++++ ../65536.txt 3 49 hello
+Searching for 'hello ' resulted in 2816 results
+--- ../65536.txt 3 52 hello 
++++ ../65536.txt 3 52 hello 
+Searching for 'hello w' resulted in 1162 results
+--- ../65536.txt 2 54 hello w
++++ ../65536.txt 2 54 hello w
+Searching for 'hello wo' resulted in 971 results
+--- ../65536.txt 2 56 hello wo
++++ ../65536.txt 2 56 hello wo
+Searching for 'hello wor' resulted in 594 results
+--- ../65536.txt 1 57 hello wor
++++ ../65536.txt 1 57 hello wor
+Searching for 'hello worl' resulted in 328 results
+--- ../65536.txt 1 58 hello worl
++++ ../65536.txt 1 58 hello worl
+Searching for 'hello world' resulted in 133 results
+--- ../65536.txt 0 58 hello world
++++ ../65536.txt 0 58 hello world
+	Command being timed: "./main ../65536.txt"
+	User time (seconds): 0.18
+	System time (seconds): 0.01
+	Percent of CPU this job got: 250%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.08
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 49872
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 3244
+	Voluntary context switches: 36
+	Involuntary context switches: 2546
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 151
+	Page size (bytes): 16384
+	Exit status: 0
+********************** 131072.txt go-native
+fzf-type: go-native
+start 1629884234388 1629884234388
+lines.txt loaded: 131072 lines 1629884234407 1629884234407
+Fzf initialized 1629884234415 1629884234415
+Searching for 'h' resulted in 44948 results
+--- ../131072.txt 30 30 h
++++ ../131072.txt 30 30 h
+Searching for 'he' resulted in 38090 results
+--- ../131072.txt 27 57 he
++++ ../131072.txt 27 57 he
+Searching for 'hel' resulted in 19099 results
+--- ../131072.txt 15 72 hel
++++ ../131072.txt 15 72 hel
+Searching for 'hell' resulted in 9357 results
+--- ../131072.txt 8 80 hell
++++ ../131072.txt 8 80 hell
+Searching for 'hello' resulted in 5096 results
+--- ../131072.txt 5 85 hello
++++ ../131072.txt 5 85 hello
+Searching for 'hello ' resulted in 5096 results
+--- ../131072.txt 6 91 hello 
++++ ../131072.txt 6 91 hello 
+Searching for 'hello w' resulted in 2427 results
+--- ../131072.txt 4 95 hello w
++++ ../131072.txt 4 95 hello w
+Searching for 'hello wo' resulted in 2113 results
+--- ../131072.txt 3 98 hello wo
++++ ../131072.txt 3 98 hello wo
+Searching for 'hello wor' resulted in 1441 results
+--- ../131072.txt 2 100 hello wor
++++ ../131072.txt 2 100 hello wor
+Searching for 'hello worl' resulted in 937 results
+--- ../131072.txt 2 102 hello worl
++++ ../131072.txt 2 102 hello worl
+Searching for 'hello world' resulted in 473 results
+--- ../131072.txt 2 104 hello world
++++ ../131072.txt 2 104 hello world
+	Command being timed: "./main ../131072.txt"
+	User time (seconds): 0.35
+	System time (seconds): 0.02
+	Percent of CPU this job got: 288%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.13
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 73280
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 4707
+	Voluntary context switches: 23
+	Involuntary context switches: 4913
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 127
+	Page size (bytes): 16384
+	Exit status: 0
+********************** 262144.txt go-native
+fzf-type: go-native
+start 1629884234523 1629884234523
+lines.txt loaded: 262144 lines 1629884234553 1629884234553
+Fzf initialized 1629884234573 1629884234573
+Searching for 'h' resulted in 119513 results
+--- ../262144.txt 81 81 h
++++ ../262144.txt 81 81 h
+Searching for 'he' resulted in 105560 results
+--- ../262144.txt 70 151 he
++++ ../262144.txt 70 151 he
+Searching for 'hel' resulted in 56016 results
+--- ../262144.txt 46 197 hel
++++ ../262144.txt 46 197 hel
+Searching for 'hell' resulted in 28575 results
+--- ../262144.txt 23 220 hell
++++ ../262144.txt 23 220 hell
+Searching for 'hello' resulted in 15822 results
+--- ../262144.txt 19 239 hello
++++ ../262144.txt 19 239 hello
+Searching for 'hello ' resulted in 15822 results
+--- ../262144.txt 11 250 hello 
++++ ../262144.txt 11 250 hello 
+Searching for 'hello w' resulted in 7248 results
+--- ../262144.txt 10 260 hello w
++++ ../262144.txt 10 260 hello w
+Searching for 'hello wo' resulted in 6221 results
+--- ../262144.txt 8 268 hello wo
++++ ../262144.txt 8 268 hello wo
+Searching for 'hello wor' resulted in 4083 results
+--- ../262144.txt 6 274 hello wor
++++ ../262144.txt 6 274 hello wor
+Searching for 'hello worl' resulted in 2566 results
+--- ../262144.txt 5 279 hello worl
++++ ../262144.txt 5 279 hello worl
+Searching for 'hello world' resulted in 1119 results
+--- ../262144.txt 4 283 hello world
++++ ../262144.txt 4 283 hello world
+	Command being timed: "./main ../262144.txt"
+	User time (seconds): 0.96
+	System time (seconds): 0.04
+	Percent of CPU this job got: 301%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.33
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 133152
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 8457
+	Voluntary context switches: 51
+	Involuntary context switches: 8262
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 239
+	Page size (bytes): 16384
+	Exit status: 0
+********************** 524288.txt go-native
+fzf-type: go-native
+start 1629884234860 1629884234860
+lines.txt loaded: 524288 lines 1629884234906 1629884234906
+Fzf initialized 1629884234941 1629884234941
+Searching for 'h' resulted in 224394 results
+--- ../524288.txt 150 150 h
++++ ../524288.txt 150 150 h
+Searching for 'he' resulted in 190326 results
+--- ../524288.txt 130 280 he
++++ ../524288.txt 130 280 he
+Searching for 'hel' resulted in 96164 results
+--- ../524288.txt 76 356 hel
++++ ../524288.txt 76 356 hel
+Searching for 'hell' resulted in 48392 results
+--- ../524288.txt 48 404 hell
++++ ../524288.txt 48 404 hell
+Searching for 'hello' resulted in 26239 results
+--- ../524288.txt 25 429 hello
++++ ../524288.txt 25 429 hello
+Searching for 'hello ' resulted in 26239 results
+--- ../524288.txt 19 448 hello 
++++ ../524288.txt 19 448 hello 
+Searching for 'hello w' resulted in 11332 results
+--- ../524288.txt 19 467 hello w
++++ ../524288.txt 19 467 hello w
+Searching for 'hello wo' resulted in 9906 results
+--- ../524288.txt 22 489 hello wo
++++ ../524288.txt 22 489 hello wo
+Searching for 'hello wor' resulted in 6561 results
+--- ../524288.txt 12 501 hello wor
++++ ../524288.txt 12 501 hello wor
+Searching for 'hello worl' resulted in 4091 results
+--- ../524288.txt 9 510 hello worl
++++ ../524288.txt 9 510 hello worl
+Searching for 'hello world' resulted in 1852 results
+--- ../524288.txt 6 516 hello world
++++ ../524288.txt 6 516 hello world
+	Command being timed: "./main ../524288.txt"
+	User time (seconds): 1.79
+	System time (seconds): 0.08
+	Percent of CPU this job got: 313%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.60
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 241744
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 15246
+	Voluntary context switches: 82
+	Involuntary context switches: 18982
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 391
+	Page size (bytes): 16384
+	Exit status: 0
+********************** 1048576.txt go-native
+fzf-type: go-native
+start 1629884235463 1629884235463
+lines.txt loaded: 1048576 lines 1629884235546 1629884235546
+Fzf initialized 1629884235615 1629884235615
+Searching for 'h' resulted in 411819 results
+--- ../1048576.txt 274 274 h
++++ ../1048576.txt 274 274 h
+Searching for 'he' resulted in 340959 results
+--- ../1048576.txt 232 506 he
++++ ../1048576.txt 232 506 he
+Searching for 'hel' resulted in 173451 results
+--- ../1048576.txt 152 658 hel
++++ ../1048576.txt 152 658 hel
+Searching for 'hell' resulted in 84957 results
+--- ../1048576.txt 75 733 hell
++++ ../1048576.txt 75 733 hell
+Searching for 'hello' resulted in 46465 results
+--- ../1048576.txt 48 781 hello
++++ ../1048576.txt 48 781 hello
+Searching for 'hello ' resulted in 46465 results
+--- ../1048576.txt 32 813 hello 
++++ ../1048576.txt 32 813 hello 
+Searching for 'hello w' resulted in 18519 results
+--- ../1048576.txt 45 858 hello w
++++ ../1048576.txt 45 858 hello w
+Searching for 'hello wo' resulted in 16127 results
+--- ../1048576.txt 25 883 hello wo
++++ ../1048576.txt 25 883 hello wo
+Searching for 'hello wor' resulted in 10374 results
+--- ../1048576.txt 19 902 hello wor
++++ ../1048576.txt 19 902 hello wor
+Searching for 'hello worl' resulted in 6215 results
+--- ../1048576.txt 15 917 hello worl
++++ ../1048576.txt 15 917 hello worl
+Searching for 'hello world' resulted in 2742 results
+--- ../1048576.txt 10 927 hello world
++++ ../1048576.txt 10 927 hello world
+	Command being timed: "./main ../1048576.txt"
+	User time (seconds): 3.19
+	System time (seconds): 0.15
+	Percent of CPU this job got: 308%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.08
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 450336
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 28317
+	Voluntary context switches: 65
+	Involuntary context switches: 30087
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 498
+	Page size (bytes): 16384
+	Exit status: 0
+********************** 2097152.txt go-native
+fzf-type: go-native
+start 1629884236549 1629884236549
+lines.txt loaded: 2097152 lines 1629884236745 1629884236745
+Fzf initialized 1629884236879 1629884236879
+Searching for 'h' resulted in 821574 results
+--- ../2097152.txt 544 544 h
++++ ../2097152.txt 544 544 h
+Searching for 'he' resulted in 664715 results
+--- ../2097152.txt 476 1020 he
++++ ../2097152.txt 476 1020 he
+Searching for 'hel' resulted in 323273 results
+--- ../2097152.txt 258 1278 hel
++++ ../2097152.txt 258 1278 hel
+Searching for 'hell' resulted in 152723 results
+--- ../2097152.txt 140 1418 hell
++++ ../2097152.txt 140 1418 hell
+Searching for 'hello' resulted in 76905 results
+--- ../2097152.txt 78 1496 hello
++++ ../2097152.txt 78 1496 hello
+Searching for 'hello ' resulted in 76905 results
+--- ../2097152.txt 51 1547 hello 
++++ ../2097152.txt 51 1547 hello 
+Searching for 'hello w' resulted in 30738 results
+--- ../2097152.txt 51 1598 hello w
++++ ../2097152.txt 51 1598 hello w
+Searching for 'hello wo' resulted in 27040 results
+--- ../2097152.txt 65 1663 hello wo
++++ ../2097152.txt 65 1663 hello wo
+Searching for 'hello wor' resulted in 16836 results
+--- ../2097152.txt 36 1699 hello wor
++++ ../2097152.txt 36 1699 hello wor
+Searching for 'hello worl' resulted in 10189 results
+--- ../2097152.txt 27 1726 hello worl
++++ ../2097152.txt 27 1726 hello worl
+Searching for 'hello world' resulted in 4268 results
+--- ../2097152.txt 22 1748 hello world
++++ ../2097152.txt 22 1748 hello world
+	Command being timed: "./main ../2097152.txt"
+	User time (seconds): 6.35
+	System time (seconds): 0.31
+	Percent of CPU this job got: 319%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:02.08
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 860832
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 54018
+	Voluntary context switches: 119
+	Involuntary context switches: 66937
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 592
+	Page size (bytes): 16384
+	Exit status: 0
+********************** 4194304.txt go-native
+fzf-type: go-native
+start 1629884238638 1629884238638
+lines.txt loaded: 4194304 lines 1629884239016 1629884239016
+Fzf initialized 1629884239294 1629884239294
+Searching for 'h' resulted in 1922631 results
+--- ../4194304.txt 1307 1307 h
++++ ../4194304.txt 1307 1307 h
+Searching for 'he' resulted in 1607264 results
+--- ../4194304.txt 1189 2496 he
++++ ../4194304.txt 1189 2496 he
+Searching for 'hel' resulted in 917736 results
+--- ../4194304.txt 715 3211 hel
++++ ../4194304.txt 715 3211 hel
+Searching for 'hell' resulted in 467994 results
+--- ../4194304.txt 442 3653 hell
++++ ../4194304.txt 442 3653 hell
+Searching for 'hello' resulted in 255273 results
+--- ../4194304.txt 293 3946 hello
++++ ../4194304.txt 293 3946 hello
+Searching for 'hello ' resulted in 255273 results
+--- ../4194304.txt 193 4139 hello 
++++ ../4194304.txt 193 4139 hello 
+Searching for 'hello w' resulted in 113897 results
+--- ../4194304.txt 179 4318 hello w
++++ ../4194304.txt 179 4318 hello w
+Searching for 'hello wo' resulted in 101072 results
+--- ../4194304.txt 173 4491 hello wo
++++ ../4194304.txt 173 4491 hello wo
+Searching for 'hello wor' resulted in 73565 results
+--- ../4194304.txt 174 4665 hello wor
++++ ../4194304.txt 174 4665 hello wor
+Searching for 'hello worl' resulted in 51237 results
+--- ../4194304.txt 130 4795 hello worl
++++ ../4194304.txt 130 4795 hello worl
+Searching for 'hello world' resulted in 29354 results
+--- ../4194304.txt 102 4897 hello world
++++ ../4194304.txt 102 4897 hello world
+	Command being timed: "./main ../4194304.txt"
+	User time (seconds): 17.69
+	System time (seconds): 0.65
+	Percent of CPU this job got: 329%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:05.57
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1883152
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 118007
+	Voluntary context switches: 191
+	Involuntary context switches: 140222
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 3460
+	Page size (bytes): 16384
+	Exit status: 0
+********************** 8388608.txt go-native
+fzf-type: go-native
+start 1629884244213 1629884244213
+lines.txt loaded: 8388608 lines 1629884245056 1629884245056
+Fzf initialized 1629884245593 1629884245593
+Searching for 'h' resulted in 6010154 results
+--- ../8388608.txt 4025 4025 h
++++ ../8388608.txt 4025 4025 h
+Searching for 'he' resulted in 5165889 results
+--- ../8388608.txt 3758 7783 he
++++ ../8388608.txt 3758 7783 he
+Searching for 'hel' resulted in 3154153 results
+--- ../8388608.txt 2562 10345 hel
++++ ../8388608.txt 2562 10345 hel
+Searching for 'hell' resulted in 1626222 results
+--- ../8388608.txt 1456 11801 hell
++++ ../8388608.txt 1456 11801 hell
+Searching for 'hello' resulted in 811884 results
+--- ../8388608.txt 773 12574 hello
++++ ../8388608.txt 773 12574 hello
+Searching for 'hello ' resulted in 811884 results
+--- ../8388608.txt 701 13275 hello 
++++ ../8388608.txt 701 13275 hello 
+Searching for 'hello w' resulted in 351414 results
+--- ../8388608.txt 540 13815 hello w
++++ ../8388608.txt 540 13815 hello w
+Searching for 'hello wo' resulted in 314073 results
+--- ../8388608.txt 503 14318 hello wo
++++ ../8388608.txt 503 14318 hello wo
+Searching for 'hello wor' resulted in 230995 results
+--- ../8388608.txt 432 14750 hello wor
++++ ../8388608.txt 432 14750 hello wor
+Searching for 'hello worl' resulted in 161762 results
+--- ../8388608.txt 325 15075 hello worl
++++ ../8388608.txt 325 15075 hello worl
+Searching for 'hello world' resulted in 86190 results
+--- ../8388608.txt 247 15322 hello world
++++ ../8388608.txt 247 15322 hello world
+	Command being timed: "./main ../8388608.txt"
+	User time (seconds): 58.67
+	System time (seconds): 1.37
+	Percent of CPU this job got: 358%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:16.74
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 4405200
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 275987
+	Voluntary context switches: 791
+	Involuntary context switches: 303990
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 17505
+	Page size (bytes): 16384
+	Exit status: 0
+********************** 16777216.txt go-native
+fzf-type: go-native
+start 1629884260959 1629884260959
+lines.txt loaded: 16777216 lines 1629884262419 1629884262419
+Fzf initialized 1629884263499 1629884263499
+Searching for 'h' resulted in 10119343 results
+--- ../16777216.txt 7204 7204 h
++++ ../16777216.txt 7204 7204 h
+Searching for 'he' resulted in 8334567 results
+--- ../16777216.txt 7231 14435 he
++++ ../16777216.txt 7231 14435 he
+Searching for 'hel' resulted in 4720093 results
+--- ../16777216.txt 5008 19443 hel
++++ ../16777216.txt 5008 19443 hel
+Searching for 'hell' resulted in 2361932 results
+--- ../16777216.txt 2015 21458 hell
++++ ../16777216.txt 2015 21458 hell
+Searching for 'hello' resulted in 1163653 results
+--- ../16777216.txt 1728 23186 hello
++++ ../16777216.txt 1728 23186 hello
+Searching for 'hello ' resulted in 1163653 results
+--- ../16777216.txt 949 24135 hello 
++++ ../16777216.txt 949 24135 hello 
+Searching for 'hello w' resulted in 525640 results
+--- ../16777216.txt 856 24991 hello w
++++ ../16777216.txt 856 24991 hello w
+Searching for 'hello wo' resulted in 473497 results
+--- ../16777216.txt 727 25718 hello wo
++++ ../16777216.txt 727 25718 hello wo
+Searching for 'hello wor' resulted in 346695 results
+--- ../16777216.txt 839 26557 hello wor
++++ ../16777216.txt 839 26557 hello wor
+Searching for 'hello worl' resulted in 236539 results
+--- ../16777216.txt 526 27083 hello worl
++++ ../16777216.txt 526 27083 hello worl
+Searching for 'hello world' resulted in 127515 results
+--- ../16777216.txt 375 27458 hello world
++++ ../16777216.txt 375 27458 hello world
+	Command being timed: "./main ../16777216.txt"
+	User time (seconds): 97.56
+	System time (seconds): 3.73
+	Percent of CPU this job got: 336%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:30.09
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 7768384
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 626540
+	Voluntary context switches: 1340
+	Involuntary context switches: 685402
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 19020
+	Page size (bytes): 16384
+	Exit status: 0

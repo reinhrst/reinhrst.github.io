@@ -16,14 +16,27 @@ def process_file(filename: pathlib.Path):
     spec.loader.exec_module(module)
     _fig, ax = plt.subplots(figsize=(8,6), facecolor="#f3f3f3")
     ax.set_facecolor("#f3f3f3")
-    module.create_plot(ax)
+    tabledata = module.create_plot(ax)
 
     here = pathlib.Path(__file__).resolve().parent
     relative = filename.relative_to(here)
     assets = here.parent / "assets"
     target = (assets / relative).parent / f"{relative.stem}.svg"
+    if not target.parent.exists():
+        target.parent.mkdir(parents=True)
+        logger.info("Created directory %s", target.parent)
     plt.tight_layout(pad=.2)
     plt.savefig(target)
+    logger.info("Wrote %s", target)
+
+    if tabledata:
+        tables = here.parent / "_posts" / "tables"
+        target = (tables / relative).parent / f"{relative.stem}.md"
+        if not target.parent.exists():
+            target.parent.mkdir(parents=True)
+            logger.info("Created directory %s", target.parent)
+        target.write_text(tabledata)
+        logger.info("Wrote %s", target)
 
 
 def run():

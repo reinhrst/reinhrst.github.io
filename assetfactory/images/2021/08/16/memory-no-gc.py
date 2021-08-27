@@ -12,14 +12,15 @@ spec.loader.exec_module(base)
 def create_plot(ax):
     tabledata = base.do_create_table_and_plot(
         ax,
-        np.arange(10, 25),
+        np.arange(15, 22),
         lambda runData: np.array([runData.memory_used_mib]),
         to_show = (
             "Go (native)",
+            "Go (native; no GC)",
             "Go (WebAssembly)",
+            "Go (WebAssembly; no GC)",
             "TinyGo",
-            "fzf-for-js",
-            "GopherJS",
+            "TinyGo (no GC)",
         ),
         colourmap = [0],
         ylim=(0, 10),

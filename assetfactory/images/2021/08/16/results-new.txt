@@ -19902,44 +19902,110 @@ Result sent 1629470703553 53970
 	Signals delivered: 0
 	Page size (bytes): 16384
 	Exit status: 0
-********************** 1048576.txt tinygo
+********************** 2097152.txt tinygo
 fzf-type: tinygo
-start 1629470704280 2
-js/wasm loaded 1629470704281 3
-lines.txt loaded: 1048576 lines 1629470704553 275
-startTimeSet 1629470704553 275
-newStart 1629470704552 274
-newFinishedParse 1629470709153 4875
-newDone 1629470711119 6841
-Fzf initialized 1629470711138 6860
-Result ready to send 1629470711831 7553
-Search done 1629470719540 15262
-Searching for 'h' resulted in 411819 results.
---- ../1048576.txt 8395 8395 h
-+++ filename 679 679 h
-Result sent 1629470719539 15261
-Result ready to send 1629470729397 25119
-Search done 1629470733580 29302
-Searching for 'he' resulted in 340959 results.
---- ../1048576.txt 14019 22414 he
-+++ filename 9836 10515 he
-Result sent 1629470733579 29301
-Result ready to send 1629470734051 29773
-Search done 1629470736089 31811
-Searching for 'hel' resulted in 173451 results.
---- ../1048576.txt 2508 24922 hel
-+++ filename 471 10986 hel
-Result sent 1629470736088 31810
-Result ready to send 1629470736400 32122
-Search done 1629470737422 33144
-Searching for 'hell' resulted in 84957 results.
---- ../1048576.txt 1332 26254 hell
-+++ filename 311 11297 hell
-Result sent 1629470737421 33143
-Result ready to send 1629470737639 33361
-Search done 1629470738345 34067
-Searching for 'hello' resulted in 46465 results.
---- ../1048576.txt 921 27175 hello
-+++ filename 216 11513 hello
-Result sent 1629470738344 34066
-Result ready to send 1629470738433 34155
+start 1629884828784 2
+js/wasm loaded 1629884828784 2
+lines.txt loaded: 2097152 lines 1629884829373 591
+startTimeSet 1629884829373 591
+newStart 1629884829373 591
+newFinishedParse 1629884839223 10441
+newDone 1629884843947 15165
+Fzf initialized 1629884843974 15192
+Result ready to send 1629884845387 16605
+Search done 1629888062809 3234027
+Searching for 'h' resulted in 821574 results.
+--- ../2097152.txt 3218828 3218828 h
++++ filename 1400 1400 h
+Result sent 1629891271735 6442953
+Result ready to send 1629894482947 9654165
+Search done 1629894490930 9662148
+Searching for 'he' resulted in 664715 results.
+--- ../2097152.txt 3219049 6437877 he
++++ filename 3211179 3212579 he
+Result sent 1629894490808 9662026
+Result ready to send 1629894491912 9663130
+Search done 1629894496235 9667453
+Searching for 'hel' resulted in 323273 results.
+--- ../2097152.txt 5302 6443179 hel
++++ filename 1102 3213681 hel
+Result sent 1629894496113 9667331
+Result ready to send 1629894496943 9668161
+Search done 1629894499396 9670614
+Searching for 'hell' resulted in 152723 results.
+--- ../2097152.txt 3160 6446339 hell
++++ filename 830 3214511 hell
+Result sent 1629894499274 9670492
+Result ready to send 1629894499911 9671129
+Search done 1629894500988 9672206
+Searching for 'hello' resulted in 76905 results.
+--- ../2097152.txt 1591 6447930 hello
++++ filename 636 3215147 hello
+Result sent 1629894500866 9672084
+Result ready to send 1629894501100 9672318
+Search done 1629903516740 18687958
+Searching for 'hello ' resulted in 76905 results.
+--- ../2097152.txt 9015751 15463681 hello 
++++ filename 234 3215381 hello 
+Result sent 1629903516538 18687756
+Result ready to send 1629903517233 18688451
+Search done 1629903518134 18689352
+Searching for 'hello w' resulted in 30738 results.
+--- ../2097152.txt 1392 15465073 hello w
++++ filename 693 3216074 hello w
+Result sent 1629903517932 18689150
+Result ready to send 1629903518439 18689657
+Search done 1629903519118 18690336
+Searching for 'hello wo' resulted in 27040 results.
+--- ../2097152.txt 984 15466057 hello wo
++++ filename 507 3216581 hello wo
+Result sent 1629903518915 18690133
+Result ready to send 1629912595210 27766428
+Search done 1629912595945 27767163
+Searching for 'hello wor' resulted in 16836 results.
+--- ../2097152.txt 9076826 24542883 hello wor
++++ filename 9076293 12292874 hello wor
+Result sent 1629912595624 27766842
+Result ready to send 1629912596121 27767339
+Search done 1629912596694 27767912
+Searching for 'hello worl' resulted in 10189 results.
+--- ../2097152.txt 743 24543626 hello worl
++++ filename 490 12293364 hello worl
+Result sent 1629912596373 27767591
+Result ready to send 1629912596829 27768047
+Search done 1629912597941 27769159
+Searching for 'hello world' resulted in 4268 results.
+--- ../2097152.txt 1245 24544871 hello world
++++ filename 455 12293819 hello world
+Result sent 1629912597620 27768838
+{
+  rss: 3941.21875,
+  heapTotal: 1471.78125,
+  heapUsed: 1449.7546997070312,
+  external: 2164.2095108032227,
+  arrayBuffers: 115.64011859893799
+}
+	Command being timed: "node --max-old-space-size=15000 main.mjs ../2097152.txt"
+	User time (seconds): 27744.32
+	System time (seconds): 23.88
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 7:42:49
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 4177296
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 1059675
+	Voluntary context switches: 5445
+	Involuntary context switches: 2397456
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 16384
+	Exit status: 0
+
