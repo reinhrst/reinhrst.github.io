@@ -54,7 +54,7 @@ It's obvious that `fzf-for-js` takes home the crown for smallest library size (e
 
 <figure markdown="1">
 
-| |Go | TinyGo | GopherJs | GopherJs (minified) | `fzf-for-js` (es) | `fzf-for-js` (umd)
+| |Go | TinyGo | GopherJS | GopherJS (minified) | `fzf-for-js` (es) | `fzf-for-js` (umd)
 |-|---|--------|----------|---------------------|-------------------|-------------------
 | Uncompressed| 2.5 MB | 698 kB | 1.7 MB | 1.1 MB | 13.7 kB | 14.7 kB |
 | Brotli compression | 535 kB | 216 kB | 181 kB | 148 kB | 4.9 kB | 5.2 kB |
@@ -69,12 +69,12 @@ Obviously the expectation was that all four versions would give exactly the same
 During the tests I found that this was not 100% true; the first issue is that `fzf-for-js` sorts matches by length of the hay straw if requested (same as default behaviour for `lib-fzf`), however where `fzf` sorts on the trimmed length, `fzf-for-js` sorts on the non-trimmed length (a [pull request to fix this](https://github.com/ajitid/fzf-for-js/pull/72) was rejected by the author of `fzf-for-js`).
 However `fzf-for-js` has an amazing option where one provides their own tiebreaker function; this way `fzf-for-js` can be made to behave the same as `fzf-lib`.
 
-Another minute difference occured in positions reported by the compiled Go library and `fzf-for-js`; both were correct, but different. So for instance (a much simplified example, that doesn't actually result in a difference) if searching for `a` in `baa`, one method reports a match at positions `[1]`, the other at positions `[2]`.
-The interesting thing is that `fzf-lib` reports the same positions if this is the forst search done; however if there were previous searches, sometimes a position is different.
+Another minute difference occurred in positions reported by the compiled Go library and `fzf-for-js`; both were correct, but different. So for instance (a much simplified example, that doesn't actually result in a difference) if searching for `a` in `baa`, one method reports a match at positions `[1]`, the other at positions `[2]`.
+The interesting thing is that `fzf-lib` reports the same positions if this is the first search done; however if there were previous searches, sometimes a position is different.
 I therefore consider this to be a bug in `fzf-lib`, probably to do with caching; it only happens very rarely, and not something I consider worth looking into more.
 
 Finally, there is a small issue where there is a difference between the WebAssembly code (both through Go and TinyGo compilers) and the GopherJS code.
-t seems to happen when calculating the length of a string with a non-ascii character in it.
+It seems to happen when calculating the length of a string with a non-ASCII character in it.
 Interesting difference, but not essential (for English speakers/Latin writers at least).
 
 The conclusions needs to be that all 4 version (when using the custom tiebreaker for `fzf-for-js`) have (essentially) the same results for all practical purposes.
@@ -85,7 +85,7 @@ We generated list of random sentences, and then looked for "hello world".
 Obviously `fzf` in a browser could be used in any number of situations, however I expect in many case the search to be incremental, a user typing one letter at a time, and the browser showing results from each action.
 
 Each test consists of searching for the fuzzy string "h", then "he" then "hel", until we search for "hello world" (needle) in a number of lines (the haystack).
-The haystack will consist of the top `X` lines from the linux kernel source code (gotten by running `rg --line-number --no-heading . | head -n X` in the linux 5.14 rc 6 code tree.
+The haystack will consist of the top `X` lines from the Linux kernel source code (gotten by running `rg --line-number --no-heading . | head -n X` in the Linux 5.14 rc 6 code tree.
 
 <details markdown="1">
 <summary>See an example of the lines we search in.</summary>
@@ -404,7 +404,7 @@ In that post I showed a quick speedup using JSON, and proposed some solutions to
 True enough, a large part of the execution time seen in the previous section, is spent on transferring data between the two layers.
 
 Rather than looking for specific speedups now, it may be interesting to take the idea to its extreme: measure only the clean running time of of the algorithm, not caring about the setup  (`new Fzf()`) cost or the time it takes to send the search request from JavaScript to Go, or the result back.
-This will obvioulsy not influence the go-native timings, or `fzf-for-js`.
+This will obviously not influence the go-native timings, or `fzf-for-js`.
 GopherJS may see a very small speedup, but the WebAssembly code should benefit a lot from this.
 
 <details markdown="1">
@@ -447,7 +447,7 @@ This is obviously a bad idea unless you know what you're doing; switching off Ga
 
 Go allows switching off Garbage Collection at runtime using `debug.SetGCPercent(-1)`.
 In TinyGo this is not supported, however TinyGo has a compiler option `--gc=leaking`, which also switches off Garbage Collection.
-GopherJS (and `fzf-for`js`) use JavaScript Garbage Collection, and this is not something we can switch off.
+GopherJS (and `fzf-forjs`) use JavaScript Garbage Collection, and this is not something we can switch off.
 
 Below you can see the results with GC on vs GC off.
 I have removed GopherJS from the graph, since it's by far the slowest anyways.
@@ -475,10 +475,10 @@ Go WebAssembly is a slightly more complex story: for relatively small hay stack 
 
 TinyGo however is the big surprise (note that TinyGo was also the one where we saw most memory issues before).
 The non-GC version is not only 80% (!) faster than the GC version, it is only twice as slow as the native Go version (and remember that the native Go version actually runs multi-core, whereas TinyGo runs single-core; I also quickly compared it to single-core native Go, and it's pretty much the same speed).
-TinyGo with Garbage Collection also chocked (for all practical pursposes) on a haystack of 2M items, taking multiple hours to complete; without GC it finishes in a couple of seconds.
+TinyGo with Garbage Collection also chocked (for all practical purposes) on a haystack of 2M items, taking multiple hours to complete; without GC it finishes in a couple of seconds.
 
 There is [an interesting article](https://aykevl.nl/2020/09/gc-tinygo) about the TinyGo Garbage Collector; the conclusion is that TinyGo has a very simple GC, which has some advantages (it's small) and disadvantages (it's slow); please read the whole article for nuance.
-Also, GC gets slower with the amount of alocated memory; this is fine when used on 64kB RAM on a microcontroller, but (as we see) a large problem on WebAssembly with multiple gigabytes allocated.
+Also, GC gets slower with the amount of allocated memory; this is fine when used on 64kB RAM on a microcontroller, but (as we see) a large problem on WebAssembly with multiple gigabytes allocated.
 
 ### Memory usage and garbage collection
 It's obviously interesting to see what happens to the memory footprint if we switch off Garbage Collection.
@@ -509,7 +509,7 @@ If we were (for instance) to do many more searches (especially many with large r
 It is very impressive that TinyGo (without GC) is almost as fast as native Go.
 This statement comes with 2 big Buts though:
 - You should almost never every run in production with GC disabled, and with GC it's getting very slow when allocated memory grows.
-- The timings we show here are only for the pure algorithm; I don't measure the time for communicating with JavaScript. For eaxmple, for 500k items, TinyGo went from 7 seconds to 1 second by switching off GC, however if we take the end-to-end run into account (including JS), it goes from 21 seconds down to 10 seconds, a good improvement but still slower than `fzf-for-js`'s 7 seconds.
+- The timings we show here are only for the pure algorithm; I don't measure the time for communicating with JavaScript. For example, for 500k items, TinyGo went from 7 seconds to 1 second by switching off GC, however if we take the end-to-end run into account (including JS), it goes from 21 seconds down to 10 seconds, a good improvement but still slower than `fzf-for-js`'s 7 seconds.
 
 I do think that we can draw some conclusions however from the results in this section:
 - Considering that the TinyGo (no GC) code is almost as fast as single-core native Go code shows to me that the TinyGo WebAssembly compiler is very capable (which may make sense considering that it's actually using LLVM to do the compilation).
@@ -577,7 +577,7 @@ Even though this data is a bit hard to interpret, we can see some patterns:
 - Firefox (and to a lesser extend Edge) perform badly with GopherJS as well -- note that this is the other JavaScript based fzf.
 - On the other hand, Firefox and Safari are fastest at running the Go WebAssembly code (not so much TinyGo, but I expect this is because of the Garbage Collection problems).
 - Safari gives up first memory-wise; it refuses to do TinyGo at 1M haystack size, and Go at 2M. It should be noted that I didn't check whether different browsers have different memory space available for JavaScript; it may just be this.
-- Edge and Firefox have most problems with TinyGo, with TinyGo in Egde even at 128k items being about 5-10 times slower than `fzf-for-js`.
+- Edge and Firefox have most problems with TinyGo, with TinyGo in Edge even at 128k items being about 5-10 times slower than `fzf-for-js`.
 
 # Conclusions
 When I started this project, I had some questions in mind that I wanted answered.
@@ -588,36 +588,36 @@ There are three methods for automatically compiling your work into something tha
 
 Of these three methods, only TinyGo gave some problems that it needed the Regular Expressions removed from the source code (because of a bug) and replace one function because it wasn't supported.
 
-An issue with all three methods is that it leads to relatively large file sizes (hundreds of kilobytes to several megabytes) that will need to be transfered to the client.
+An issue with all three methods is that it leads to relatively large file sizes (hundreds of kilobytes to several megabytes) that will need to be transferred to the client.
 
-One needs to create an intereface in order to allow communication between the Go and JavaScript code (at least an interface on the Go side, best is to also make one on the JavaScript side); although a recent [question on StackOverflow suggests that maybe this is not necessary](https://stackoverflow.com/questions/67978442/go-wasm-export-functions).
+One needs to create an interface in order to allow communication between the Go and JavaScript code (at least an interface on the Go side, best is to also make one on the JavaScript side); although a recent [question on StackOverflow suggests that maybe this is not necessary](https://stackoverflow.com/questions/67978442/go-wasm-export-functions).
 
 ## What about the performance
 Performance of the Go code itself ranges from the same speed as single-core native Go code (TinyGo, when Garbage Collection is not making a mess) to about 20 times slower (for GopherJS)
 It should be noted here that no special work was done on `fzf-lib` to improve performance in a JavaScript environment, so possibly the factor 20 could go down.
 
-Garbage Collection has a large influence on the performance of TinyGo, so much that at larger datasets TinyGo becomes hundreds of times slower than without GC; if you can manage to write code that doesn't need GC, TinGo is amazing for performance.
+Garbage Collection has a large influence on the performance of TinyGo, so much that at larger datasets TinyGo becomes hundreds of times slower than without GC; if you can manage to write code that doesn't need GC, TinyGo is amazing for performance.
 
-Performance of the Go code itseld is only part of the equation though; in my tests the interface between Go and Javascript took up more time than the Go code itself; this is only an issue for WebAssembly-based methods.
-In the [previous post](./2021-08-10-using-a-go-library-fzf-lib-in-the-browser.md) I suggested some solutions, including sending complex arrays as JSON objects, and minimising the amount of data that has to be transfered.
+Performance of the Go code itself is only part of the equation though; in my tests the interface between Go and JavaScript took up more time than the Go code itself; this is only an issue for WebAssembly-based methods.
+In the [previous post](./2021-08-10-using-a-go-library-fzf-lib-in-the-browser.md) I suggested some solutions, including sending complex arrays as JSON objects, and minimising the amount of data that has to be transferred.
 So even though there are solutions, they do require extra work, which may be better spent doing other things.
 
 Performance can fluctuate between browsers, especially Firefox and Edge are often a factor 2 or 3 slower with JavaScript code, and Edge generally runs the Go WebAssembly code twice as slow as other browsers.
-TinyGo's performance in browsers is all over the place (especialy in Chrome and Edge; sometimes a factor 5 slower), probably because the Garbage Collector reacts differently in different environments.
+TinyGo's performance in browsers is all over the place (especially in Chrome and Edge; sometimes a factor 5 slower), probably because the Garbage Collector reacts differently in different environments.
 
 ## Should I consider rewriting it in JavaScript
-When I started this blog serie, I fully intended to write an fzf implementation in JavaScript in order to compare performance.
+When I started this blog series, I fully intended to write an fzf implementation in JavaScript in order to compare performance.
 Luckily just before I started, I found out that [someone had already done so](https://github.com/ajitid/fzf-for-js) and created `fzf-for-js`.
 When I contacted its author, he informed me he didn't think `fzf-for-js` was ready to compete in any performance comparisons yet, since it was still early in its development; I convinced the author to at least let me try and see where the code is.
 
-First of all, the javascript code is only 14kB (and 5kB when compressed), meaning it is a factor 30 to 100 smaller than the compiled `fzf-lib` code.
+First of all, the JavaScript code is only 14kB (and 5kB when compressed), meaning it is a factor 30 to 100 smaller than the compiled `fzf-lib` code.
 
-This implememtation is about 10 times as slow as the native Go code; as mentioned in the text above, the version I tested did not yet have result caching, which (when implemented) should make it twice as fast.
+This implementation is about 10 times as slow as the native Go code; as mentioned in the text above, the version I tested did not yet have result caching, which (when implemented) should make it twice as fast.
 
-Because it is pure Javascript, it doesn't have any performance issues with the interface between JavaScript and Go.
+Because it is pure JavaScript, it doesn't have any performance issues with the interface between JavaScript and Go.
 All this means that in end-to-end tests `fzf-for-js` is the fastest, and even if we look at pure algorithm it's much faster than GopherJS and only twice as slow as the WebAssembly versions (which means that once caching is implemented, it should be just as fast).
 
-Additional benefit of having the code in JavaScript is obviously the extensiblity (e.g. `fzf-for-js` allows arbitrary sorting functions to determine the number of results, whereas the Go code only allows a limited number of sorters).
+Additional benefit of having the code in JavaScript is obviously the extensibility (e.g. `fzf-for-js` allows arbitrary sorting functions to determine the number of results, whereas the Go code only allows a limited number of sorters).
 
 The code also runs very stably in browsers, with runs in Firefox being about 2 times slower (but as mentioned before, Firefox seems to be slower in executing JavaScript code than other browsers).
 
@@ -641,7 +641,7 @@ These days it's less clear; as you can see from the conclusions above, pure Java
 At the moment JavaScript code is also much easier to deal with; if only because we can just import it as a module (whereas starting a WebAssembly machine is a relatively complex asynchronous operation).
 
 The tests above are long-running; JavaScript is able to run at these amazing speeds because it's compiled after a couple of runs, so that after a while the code becomes faster.
-Because the tests above took a consideable amount of time, this slow speedup of JavaScript is not measurable; if one were to time a small function in JavaScript and WebAssembly that is run only once, the differences will be much bigger.
+Because the tests above took a considerable amount of time, this slow speedup of JavaScript is not measurable; if one were to time a small function in JavaScript and WebAssembly that is run only once, the differences will be much bigger.
 
 I would argue that if one is to make a library where speed is everything, looking at WebAssembly makes lots of sense (and when compiling from another language as well), but in pretty much all other case native JavaScript/TypeScript is probably what you want.
 
