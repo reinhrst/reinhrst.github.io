@@ -9,6 +9,7 @@ tags:
     - javascript
 series: Making fzf available in the browser
 toc: true
+hidden: true
 ---
 
 In past posts in this series, I looked at how to convert a Go library in order for it to work in the browser.
