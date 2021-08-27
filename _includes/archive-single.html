@@ -10,6 +10,7 @@
   {% assign title = post.title %}
 {% endif %}
 
+{% unless post.hidden %}
 <div class="{{ include.type | default: 'list' }}__item">
   {% if include.type == "list" and post.header.image %}
   <div class="archive-background" style="--header-image: url({{ post.header.image }})"></div>
@@ -31,3 +32,4 @@
     {% if post.excerpt %}<p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify | strip_html}}</p>{% endif %}
   </article>
 </div>
+{% endunless %}
