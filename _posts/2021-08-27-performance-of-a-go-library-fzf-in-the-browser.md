@@ -420,14 +420,14 @@ Data is also available in table-format (but hidden), click the "See memory usage
 <summary>See memory usage table</summary>
 <figure markdown="1">
 
-{% include_relative tables/images/2021/08/16/memory_per_straw.md %}
+{% include_relative tables/images/2021/08/27/memory_per_straw.md %}
 
 <figcaption>Memory in MiB (Memory divided by haystack size in kiB)</figcaption>
 </figure>
 </details>
 
 {%include figure
-    image_path="/assets/images/2021/08/16/memory_per_straw.svg"
+    image_path="/assets/images/2021/08/27/memory_per_straw.svg"
     alt="graph of memory usage"
     caption="Memory divided by haystack size (obviously) decreases with increasing haystack (since overhead is smaller percentage). Relative differences are interesting."
 %}
@@ -446,14 +446,14 @@ The lighter blocks on top are for when the needle starts to be 2 words, so "hell
 <details markdown="1">
 <summary>See execution time table</summary>
 <figure markdown="1">
-{% include_relative tables/images/2021/08/16/performance.md %}
+{% include_relative tables/images/2021/08/27/performance.md %}
 
 <figcaption>Total time in seconds (time divided by haystack size in microseconds). Note that this is the time for the init plus 11 searches combined, not the time for a single search.</figcaption>
 </figure>
 </details>
 
 {%include figure
-    image_path="/assets/images/2021/08/16/performance.svg"
+    image_path="/assets/images/2021/08/27/performance.svg"
     alt="graph of execution time"
     caption="Execution time divided by haystack size. The Go (native) bars are so small as to be almost invisible."
 %}
@@ -491,14 +491,14 @@ GopherJS may see a very small speedup, but the WebAssembly code should benefit a
 <summary>See algorithm execution time table</summary>
 <figure markdown="1">
 
-{% include_relative tables/images/2021/08/16/performance-per-straw-no-interface.md %}
+{% include_relative tables/images/2021/08/27/performance-per-straw-no-interface.md %}
 
 <figcaption>Total time in seconds (time divided by haystack size in microseconds)</figcaption>
 </figure>
 </details>
 
 {%include figure
-    image_path="/assets/images/2021/08/16/performance-per-straw-no-interface.svg"
+    image_path="/assets/images/2021/08/27/performance-per-straw-no-interface.svg"
     alt="graph of execution time for the core algorithm"
     caption="Execution time divided by haystack size (only the algorithm)"
 %}
@@ -536,14 +536,14 @@ We again show only the time in the algorithm itself, not the time used for commu
 <summary>See algorithm execution time table</summary>
 <figure markdown="1">
 
-{% include_relative tables/images/2021/08/16/performance-no-gc.md %}
+{% include_relative tables/images/2021/08/27/performance-no-gc.md %}
 
 <figcaption>Total time in seconds (time divided by haystack size in microseconds)</figcaption>
 </figure>
 </details>
 
 {%include figure
-    image_path="/assets/images/2021/08/16/performance-no-gc.svg"
+    image_path="/assets/images/2021/08/27/performance-no-gc.svg"
     alt="graph of execution time for the core algorithm"
     caption="Execution time divided by haystack size (only the algorithm)"
 %}
@@ -572,14 +572,14 @@ If we were (for instance) to do many more searches (especially many with large r
 <summary>See memory usage table</summary>
 <figure markdown="1">
 
-{% include_relative tables/images/2021/08/16/memory-no-gc.md %}
+{% include_relative tables/images/2021/08/27/memory-no-gc.md %}
 
 <figcaption>Memory in MiB (Memory divided by haystack size in kiB)</figcaption>
 </figure>
 </details>
 
 {%include figure
-    image_path="/assets/images/2021/08/16/memory-no-gc.svg"
+    image_path="/assets/images/2021/08/27/memory-no-gc.svg"
     alt="graph of memory usage"
     caption="Memory divided by haystack size"
 %}
@@ -634,14 +634,14 @@ This obviously results in a whole lot of data, which I've tried to make understa
 <summary>See browser performance table</summary>
 <figure markdown="1">
 
-{% include_relative tables/images/2021/08/16/performance-browsers.md %}
+{% include_relative tables/images/2021/08/27/performance-browsers.md %}
 
 <figcaption>Total time in seconds (time divided by haystack size in microseconds)</figcaption>
 </figure>
 </details>
 
 {%include figure
-    image_path="/assets/images/2021/08/16/performance-browsers.svg"
+    image_path="/assets/images/2021/08/27/performance-browsers.svg"
     alt="graph of performance in browsers"
     caption="Execution time divided by haystack size for Node and browsers"
 %}
