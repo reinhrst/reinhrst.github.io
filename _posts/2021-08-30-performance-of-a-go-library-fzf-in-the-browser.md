@@ -11,6 +11,7 @@ series: Making fzf available in the browser
 toc: true
 header:
     image: /assets/images/2021/08/30/surfing.svg
+    og_image: /assets/images/2021/08/30/surfing.png
 ---
 
 In past posts in this series, I looked at how to convert a Go library in order for it to work in the browser.
