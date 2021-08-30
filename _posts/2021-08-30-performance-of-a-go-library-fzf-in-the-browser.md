@@ -420,14 +420,14 @@ Data is also available in table-format (but hidden), click the "See memory usage
 <summary>See memory usage table</summary>
 <figure markdown="1">
 
-{% include_relative tables/images/2021/08/27/memory_per_straw.md %}
+{% include_relative tables/images/2021/08/30/memory_per_straw.md %}
 
 <figcaption>Memory in MiB (Memory divided by haystack size in kiB)</figcaption>
 </figure>
 </details>
 
 {%include figure
-    image_path="/assets/images/2021/08/27/memory_per_straw.svg"
+    image_path="/assets/images/2021/08/30/memory_per_straw.svg"
     alt="graph of memory usage"
     caption="Memory divided by haystack size (obviously) decreases with increasing haystack (since overhead is smaller percentage). Relative differences are interesting."
 %}
@@ -446,14 +446,14 @@ The lighter blocks on top are for when the needle starts to be 2 words, so "hell
 <details markdown="1">
 <summary>See execution time table</summary>
 <figure markdown="1">
-{% include_relative tables/images/2021/08/27/performance.md %}
+{% include_relative tables/images/2021/08/30/performance.md %}
 
 <figcaption>Total time in seconds (time divided by haystack size in microseconds). Note that this is the time for the init plus 11 searches combined, not the time for a single search.</figcaption>
 </figure>
 </details>
 
 {%include figure
-    image_path="/assets/images/2021/08/27/performance.svg"
+    image_path="/assets/images/2021/08/30/performance.svg"
     alt="graph of execution time"
     caption="Execution time divided by haystack size. The Go (native) bars are so small as to be almost invisible."
 %}
@@ -491,14 +491,14 @@ GopherJS may see a very small speedup, but the WebAssembly code should benefit a
 <summary>See algorithm execution time table</summary>
 <figure markdown="1">
 
-{% include_relative tables/images/2021/08/27/performance-per-straw-no-interface.md %}
+{% include_relative tables/images/2021/08/30/performance-per-straw-no-interface.md %}
 
 <figcaption>Total time in seconds (time divided by haystack size in microseconds)</figcaption>
 </figure>
 </details>
 
 {%include figure
-    image_path="/assets/images/2021/08/27/performance-per-straw-no-interface.svg"
+    image_path="/assets/images/2021/08/30/performance-per-straw-no-interface.svg"
     alt="graph of execution time for the core algorithm"
     caption="Execution time divided by haystack size (only the algorithm)"
 %}
@@ -536,14 +536,14 @@ We again show only the time in the algorithm itself, not the time used for commu
 <summary>See algorithm execution time table</summary>
 <figure markdown="1">
 
-{% include_relative tables/images/2021/08/27/performance-no-gc.md %}
+{% include_relative tables/images/2021/08/30/performance-no-gc.md %}
 
 <figcaption>Total time in seconds (time divided by haystack size in microseconds)</figcaption>
 </figure>
 </details>
 
 {%include figure
-    image_path="/assets/images/2021/08/27/performance-no-gc.svg"
+    image_path="/assets/images/2021/08/30/performance-no-gc.svg"
     alt="graph of execution time for the core algorithm"
     caption="Execution time divided by haystack size (only the algorithm)"
 %}
@@ -572,14 +572,14 @@ If we were (for instance) to do many more searches (especially many with large r
 <summary>See memory usage table</summary>
 <figure markdown="1">
 
-{% include_relative tables/images/2021/08/27/memory-no-gc.md %}
+{% include_relative tables/images/2021/08/30/memory-no-gc.md %}
 
 <figcaption>Memory in MiB (Memory divided by haystack size in kiB)</figcaption>
 </figure>
 </details>
 
 {%include figure
-    image_path="/assets/images/2021/08/27/memory-no-gc.svg"
+    image_path="/assets/images/2021/08/30/memory-no-gc.svg"
     alt="graph of memory usage"
     caption="Memory divided by haystack size"
 %}
@@ -634,14 +634,14 @@ This obviously results in a whole lot of data, which I've tried to make understa
 <summary>See browser performance table</summary>
 <figure markdown="1">
 
-{% include_relative tables/images/2021/08/27/performance-browsers.md %}
+{% include_relative tables/images/2021/08/30/performance-browsers.md %}
 
 <figcaption>Total time in seconds (time divided by haystack size in microseconds)</figcaption>
 </figure>
 </details>
 
 {%include figure
-    image_path="/assets/images/2021/08/27/performance-browsers.svg"
+    image_path="/assets/images/2021/08/30/performance-browsers.svg"
     alt="graph of performance in browsers"
     caption="Execution time divided by haystack size for Node and browsers"
 %}
@@ -748,6 +748,10 @@ However, I may as well answer it.
 
 I would say: Get [`fzf-for-js`](https://github.com/ajitid/fzf-for-js); no hassle, available [as npm module](https://www.npmjs.com/package/fzf), and works out of the box.
 Good code size, good performance overall.
-Let's say that you want 100ms response for each search; on my M1 MacBook Pro this allows for about 100k lines in the haystack; I would say if your haystack is less than 20k items, you have nothing to worry about also on older hardware.
-Anything larger, it would still work, you will just want some extra code to deal with very fast typers or corner cases.
-Up to a haystack of about 2M search time increases near-linearly with haystack size, so you can easily calculate how long searches take (M1: 1ms per 1000 haystack size; conservative: 1ms per 200 haystack size).
+
+How large the haystack may be obviously depends on how performant one wants their app to be, and what kind of hardware the code runs on.
+On my M1 MacBook Pro (one of the faster machines out there), on Node and Chrome, 100k lines of haystack takes about 100ms for a single search (and this scales linearly within reasonable range, up to about 2M lines).
+This may sound acceptable, but since by default JavaScript (and WebAssembly for that matter) runs on the main thread, it means locking the browser for 100ms *every time someone types a letter* in the searchbox.
+Probably you wouldn't like the browser to lock for more than 50ms at a time or so (if you want a responsive website), meaning you're limited to 50k items on an M1 MacBook Pro on Node/Chrome; probably half that to get that performance over all browsers, and then half that (12.5k lines) to support older hardware.
+
+If you need to search through more items, you can try to put Fzf in a background thread (it will require some work); `fzf-for-js`'s author ~is also working on~ has just released [an asynchronous version of the finder](https://github.com/ajitid/fzf-for-js/commit/21f483678965d0048bfc887e5e8ab1517a6dff45), which both means that searching doesn't block the main thread, and it cancels an old search as soon as a new letter is typed.
