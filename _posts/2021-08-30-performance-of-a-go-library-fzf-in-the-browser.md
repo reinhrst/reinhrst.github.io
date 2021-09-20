@@ -53,15 +53,32 @@ As we saw in the [last post](./2021-08-10-using-a-go-library-fzf-lib-in-the-brow
 In that post I explained more about how we measure this for the different projects.
 It's obvious that `fzf-for-js` takes home the crown for smallest library size (even if we take into account that maybe a small code increase is needed to gain full feature parity).
 
+<div class="notice" markdown="1">
+**UPDATE -- tinygo compilation size**
+
+*2021-09-20* After publication I was in contact with one of the TinyGo authors.
+They mentioned that by default TinyGo includes debug symbols in the WebAssembly file, and that these can be removed by compiling with `-no-debug`.
+This indeed brings down the size considerably, while keeping similar performance.
+
+There are additional ways to compress the code even further (using `wasm-opt -Oz`) but I couldn't get this to work quickly on my system, so it was not tested.
+This would resportedly result in a small additional improvement, which might influence performance as well.
+
+Trying to do the Go --> WebAssembly compilation without debug symbols (using `-ldflags='-s -w'` only resulted in a minimal difference in file size).
+
+
+The data below has been updated (old numbers stricken through, new numbers inserted) to reflect these nem numbers.
+
+It should be noted that the performance data throughout the rest of the article has been collected using the TinyGo compiled without the `-no-debug` flag; the `-no-debug` flag has also not be added to the code in the repo.
+</div>
 
 <figure markdown="1">
 
 | |Go | TinyGo | GopherJS | GopherJS (minified) | `fzf-for-js` (es) | `fzf-for-js` (umd)
 |-|---|--------|----------|---------------------|-------------------|-------------------
-| Uncompressed| 2.5 MB | 698 kB | 1.7 MB | 1.1 MB | 13.7 kB | 14.7 kB |
-| Brotli compression | 535 kB | 216 kB | 181 kB | 148 kB | 4.9 kB | 5.2 kB |
+| Uncompressed| 2.5 MB | ~~698 kB~~ 273 kB | 1.7 MB | 1.1 MB | 13.7 kB | 14.7 kB |
+| Brotli compression | 535 kB | ~~216 kB~~ 85 kB | 181 kB | 148 kB | 4.9 kB | 5.2 kB |
 
-<figcaption markdown="1">`fzf-for-js` comes in two flavours, as es module, or as umd module. Either of them is in compressed form around 5kB, or about a factor 30(!) smaller than the smallest compiled Go version. (uncompressed the difference is even larger)
+<figcaption markdown="1">`fzf-for-js` comes in two flavours, as es module, or as umd module. Either of them is in compressed form around 5kB, or about a factor ~~30(!)~~15 smaller than the smallest compiled Go version. (uncompressed the difference is even larger)
 </figcaption>
 </figure>
 

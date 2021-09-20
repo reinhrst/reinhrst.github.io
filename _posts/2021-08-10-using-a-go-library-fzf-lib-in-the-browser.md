@@ -467,7 +467,33 @@ compressed|212'423|3'768|216'191
 <figcaption>File sizes for WebAssembly and the supporting JavaScript (excluding `main.mjs`).</figcaption>
 </figure>
 
+
 As you can see, TinyGo code is uncompressed about 4 times smaller than Go WebAssembly code, and compressed about 40% of the size.
+
+<div class="notice" markdown="1">
+**UPDATE -- better compilation options for smaller size**
+
+*2021-09-20* After publication I was in contact with one of the TinyGo authors.
+They mentioned that by default TinyGo includes debug symbols in the WebAssembly file, and that these can be removed by compiling with `-no-debug`.
+This indeed brings down the size considerably, while keeping similar performance:
+
+<figure markdown="1">
+
+|  |WebAssembly code|JavaScript code|Total
+--|---|---|---
+uncompressed|257'498|15'670|273'168
+compressed|81'704|3'768|85'472
+
+<figcaption>File sizes for WebAssembly and the supporting JavaScript (excluding `main.mjs`), with `-no-debug` flag.</figcaption>
+</figure>
+
+As you can see, TinyGo code is uncompressed about ~~4~~ 10 times smaller than Go WebAssembly code, and compressed about ~~40%~~ 16% of the size.
+
+There are additional ways to compress the code even further (using `wasm-opt -Oz`) but I couldn't get this to work quickly on my system, so it was not tested.
+This would resportedly result in a small additional improvement, which might influence performance as well.
+
+Trying to do the Go --> WebAssembly compilation without debug symbols (using `-ldflags='-s -w'` only resulted in a minimal difference in file size).
+</div>
 
 ### Compile with GopherJS to JavaScript
 GopherJS differs from the other two methods, in that it compiles the Go code directly to JavaScript.
