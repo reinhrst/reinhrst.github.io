@@ -578,6 +578,23 @@ TinyGo with Garbage Collection also chocked (for all practical purposes) on a ha
 There is [an interesting article](https://aykevl.nl/2020/09/gc-tinygo) about the TinyGo Garbage Collector; the conclusion is that TinyGo has a very simple GC, which has some advantages (it's small) and disadvantages (it's slow); please read the whole article for nuance.
 Also, GC gets slower with the amount of allocated memory; this is fine when used on 64kB RAM on a microcontroller, but (as we see) a large problem on WebAssembly with multiple gigabytes allocated.
 
+<div class="notice" markdown="1">
+**Update**
+
+*2021-09-20* Before publication I reached out to Ayke van Laethem, the author of [the article linked above](https://aykevl.nl/2020/09/gc-tinygo) (and as it turned out the person who wrote the GC for TinyGo :)) for a comment.
+Because of different reasons I unfortunately only manage to include the reply today (link to WebAssembly GC proposal is mine).
+
+*The GC is indeed not very well optimized yet, as you found out. I wrote it so that there was a GC at all (Go is hard to use without GC) but very little work has gone into optimizing it. In general, most work on TinyGo is focused on correctness and compatibility. There are a few ways in which it can be optimized:*
+* *The GC itself is incredibly simple. It's basically the same GC as is used in MicroPython. It's probably possible to optimize it algorithmically.*
+* *One specific optimization that will likely have a big effect, is making sure there is enough room for the GC to work. Right now, if there are 10 allocations in a row that all allocate 16 bytes, and there are only 32 bytes left in the available memory space, it will run the GC 5 times which is obviously very inefficient. Simply making the heap area larger in this case would solve this performance cliff. This might be a relatively small change.*
+* *There is work on a [native GC for WebAssembly](https://github.com/WebAssembly/gc) (reusing the JavaScript GC already built into browsers). I'm following this with great interest. If this GC lands in browsers and is usable from TinyGo/LLVM, I think this will improve performance massively because browsers have already optimized their GC a lot.*
+
+*So this will likely improve in the future, but when and how is still a bit uncertain.*
+
+
+As I mentioned before, I would be very interested to see how TinyGo will perform with a faster GC implementation!
+</div>
+
 ### Memory usage and garbage collection
 It's obviously interesting to see what happens to the memory footprint if we switch off Garbage Collection.
 We can see that GC results in less memory being used, however we are doing a very limited test.
