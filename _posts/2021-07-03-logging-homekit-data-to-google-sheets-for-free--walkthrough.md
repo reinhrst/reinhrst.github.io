@@ -287,3 +287,53 @@ With the current shortcuts, it is possible to build this, but only by making a l
 I do think that the idea of Shortcuts (or something similar) has great promise for the smart home.
 I should mention that there are many other products out there that do solve the issues I have with shortcuts right now, however I tend to trust Apple more with my secuirty and privacy (and making a solid product) than many of the current available options.
 In addition, I know that companies will continue building HomeKit support into their products, even if these other products may not be supported anymore.
+
+# (update!) Bonus2: add data from another API to the same Google Sheet
+Sometimes one would like to log data from an external API also to the Google Sheet -- for instance, log the reported local temperature from OpenWeatherMap (as the original question was about), but it can also be the API of a non-homekit device you have in your house.
+Doing this is a 3 step job:
+
+1. Retrieve the data from the API
+1. Parse the data and select the item you want
+1. Send the result to Google Sheets.
+
+{% include figure
+    image_path="/assets/images/2021/07/03/external-api.png"
+    alt="Screenshots of the steps to access an external API"
+    caption="Use an external API screenshots. Note that these screenshots only show step 1 and 2."
+%}
+
+## Getting the data from an external API
+One can use the `Get contents of` action to get the data of a random web address.
+In this example I get the data from [this gist](https://gist.github.com/reinhrst/ef1259ad01d1ff2607d0a6071a161440) ([this url](https://gist.githubusercontent.com/reinhrst/ef1259ad01d1ff2607d0a6071a161440/raw/3d78ec5495a033cb5145cfeddea808c2fe9496f4/reply.json) for the raw data.
+This is a copy of the example reply to `api.openweathermap.org/data/2.5/weather?q=London&appid={API key}` according to the [OpenWeatherMap API documentation](https://openweathermap.org/current).
+
+If you're using a real API, you will have to register to receive an API key. Note that usually there is a limit to the number of calls you can make to the API (depending on how much you pay for it); obviously you should do the math to make sure you stay within your limit.
+It seems that the OpenWeatherMap API gives you 1M calls/month for free, which means that you could make a call every 3 seconds; but other APIs may be more restrictive (and may even require you to pay more if you accidentally use more than your current plan).
+{: .notice}
+
+I found previously that if you use http addresses (rather than https addresses) the shortcut runs fine on your phone, however when you tell your HomeKit hub to run the action it fails (silently).
+So make sure to find an API that uses HTTPS (or at least test that it works with HTTP, it may be that Apple fixed this issue by the time you read this).
+{: .notice--warning}
+
+If necessary, you can add the headers or post variables by clicking the &#x29C1; symbol after the url in the shortcut.
+
+The result of the `Get contents of` call is a JSON string, however Shortcuts magically converts this into a dictionary.
+
+## Parsing the result
+Now that we have the result, we need to get to the `main.temp` key.
+It turns out this can be done in 1 `Get Dictionary Value` action, just use `main.temp` as the key name.
+Finally we save this value to a variable, which we can use later in our post to Google Sheets.
+
+## Send to Google Sheets
+This step is not shown in the screenshots above, however it's exactly the same as for HomeKit data, so see above in the post.
+Just create another "question" in your Google Form and add more `entry.*` fields to your http call.
+
+## Risks
+I have been wondering what happens if the API goes down, or gives an error (for instance because you've gone over your allowance this month).
+In my tests it looks like if the API gives a non-200 reply, the shortcut will just continue (and the variable will be empty at the end, probably what you want).
+Obvously you could build additional error-handling code around this (through use of the `if` action), but this is probably overkill.
+
+If however the API goes properly down (hostname cannot be found, port is closed, request hangs, etc), the shortcut just errors (and since your HomeKit hub most likely does not have a screen, you'll never know).
+This error blocks the rest of the shortcut from running, in effect also stopping the HomeKit data logging.
+
+Whether this is an acceptable risk is up to you.
