@@ -233,7 +233,7 @@ This is not how it works however.
 - If at some time in the future you want to add new fields to log, just add new questions to your form, find the names of these new fields, and add them to your shortcut. It should _just work_. (not sure what happens if you _delete_ questions (or rename them...)
 - A Google Sheet has a max capacity of [5 million cells](https://gsuitetips.com/tips/sheets/google-spreadsheet-limitations/).
 Assume that we log 50 items every 5 minutes, than would be about 5 million datapoints per year (so 1 Google Sheet would last for about a year of data).
-Not a fully scalable soltion, but in a year time it should be easy to switch to a new sheet. Or: only log the top 10 items, and buy yourself 5 year.
+Not a fully scalable solution, but in a year time it should be easy to switch to a new sheet. Or: only log the top 10 items, and buy yourself 5 year.
 - In the current setup, the Google Sheet logs exactly what the sensor outputs.
 This means, for instance, that I have things like `18.4 °C` in the sheet; in order to plot it in a graph, or do anything with it, I need just the `18.4`. It is _possible_ to add extra code to the Shortcut to remove the ` °C`, but it's much easier to do this later in the sheet.
 - I use the second sheet (second tab) in my Google Sheets to "Fix" the data from the first. _Note that this effectively halves the number of measurements that the sheet can store._ For instance, to covert the temperature column into something I can plot, I use the following formula (is overkill; converting all measurements into Celcius, in case my devices decide to measure in Fahrenheit for a while)
@@ -248,6 +248,14 @@ This means, for instance, that I have things like `18.4 °C` in the sheet; in or
 ```
 - In the back of my mind, I am thinking about a small project to make logging of this data a lot easier, without Google Sheets, without limitations, and with nice visualisations.
 Follow this blog to stay informed!
+
+<div markdown="1" class="notice--success clearfix">
+![record measurement as a number](/assets/images/2021/07/03/measurement-as-number.png){: .align-left .width-half}Update: <a href="https://github.com/bartramakers" target="_blank">Bart Ramakers</a> found a solution to the problem of HomeKit logging the items as text including the ` °C`, below in the comments:
+
+_I ran into the "values as text in the sheet" issue myself, but i noticed something you can do about it in the shortcut itself, without adding extra steps. In the form's Request body, where you specify the fields and values, if you tap the selected variable (i.e. where it says "Current Temperature", you will get a configuration sheet for that value. The type is specified as "Measurement" by default. When you change the value to "Number" this will send the value as a number into the Google Sheet._
+
+_For Dutch users, don't forget to set the Sheet's document locale to Netherlands, so that understands that a comma is a decimal separator instead of a thousands-separator :)_
+</div>
 
 {% include figure
     image_path="/assets/images/2021/07/03/result.jpg"
