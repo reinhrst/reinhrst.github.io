@@ -133,3 +133,13 @@ div.list__item {
 html {
     font-size: 18px;
 }
+
+.width-half {
+    transform: scale(50%);
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
