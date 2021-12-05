@@ -28,7 +28,7 @@ katex-inline.keepfont {
 }
 
 // layout figure and figcaption
-figure {
+figure:not(.half) {
     flex-direction: column;
 }
 
@@ -142,4 +142,8 @@ html {
   content: "";
   clear: both;
   display: table;
+}
+
+.MD-inline > p {
+    display: inline;
 }
