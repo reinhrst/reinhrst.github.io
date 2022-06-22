@@ -2,7 +2,7 @@ cycler==0.10.0
 fancycompleter==0.9.1
 kiwisolver==1.1.0
 matplotlib==3.4.2
-numpy==1.21.1
+numpy==1.22.0
 pdbpp==0.10.3
 Pillow==9.0.1
 Pygments==2.9.0
