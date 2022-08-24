@@ -132,3 +132,12 @@ Now when we import to MeshLab it will use these (relative) paths -- do make sure
 Now the export to X3D will work as we want it.
 
 
+## Edit
+Right now I run the following command in every unzipped `obj` export from 3D Scanner App.
+It not only gives the texture a unique name (or: as unique as your scan name), it also gives the `.obj` file a unique name (and so it will have a unique mesh name in Blender).
+```
+FILENAME=$(basename $(pwd) | sed 's/_.._.._..$//'); mv textured_output.jpg ${TEXTUREDIR}/${FILENAME}.jpg; mv textured_output.obj $FILENAME.obj; grep -v map_Kd textured_output.mtl > $FILENAME.mtl; echo map_Kd ${TEXTUREDIR}/${FILENAME}.jpg >> $FILENAME.mtl; rm textured_output.mtl
+```
+
+
+Just make sure that `TEXTUREDIR` is set to the directory where you want to store your textures.
