@@ -20,6 +20,11 @@ My home is smart enough to switch off the lights when I'm not there (and then sw
 My home is smart enough to warn me if the front door is left open, or when I should open the window because the level of CO<sub>2</sub> is getting too high.
 However, my home also is very forgetful...
 
+Update December 2022: Last month the official [Matter smart home standard](https://csa-iot.org/all-solutions/matter/) was released, with support from (among others) Apple.
+I'm trying to understand exactly what is and what is not possible in this standard (the spec is only 1000 pages + another 2 documents of 300 pages each, so how hard can it be ;)), but by now I have a good feeling that it *may* be possible to do this kind of logging in an easier way. When I have an idea, I will write about it :).
+{: .notice}
+
+
 The centre of my home is Apple HomeKit (a long, often religious, discussion may follow on why -- and also on why I use VIM rather than Emacs.... but I'm leaving that for the comments; or `/dev/null`), but this is the way it is.
 The "brains" of Apple HomeKit can either be your iPhone/iPad when you are (or actually, when they are) at home; however if you want your home to remain smart when you take your devices, you should have a home hub (this can be either a [HomePod, HomePod mini, Apple TV or iPad (one you leave at home all the time)](https://support.apple.com/en-us/HT207057).
 These brains are good at doing stuff (if the CO<sub>2</sub> level goes over 800, switch the ventilation to a higher setting), but (for reasons beyond a mortal's understanding) apple does not provide a way to check historical data, log data over time, etc.
