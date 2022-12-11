@@ -38,6 +38,9 @@ figure > :not(img) {
 
 figure > figcaption {
     text-align: center;
+    img {
+        width: inherit;
+    }
 }
 
 // put whitespace under a <details> similar as to under a <p>
