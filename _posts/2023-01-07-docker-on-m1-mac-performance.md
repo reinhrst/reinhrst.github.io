@@ -23,6 +23,8 @@ The incremental build used to take 13 minutes, now takes a bit over 5 minutes, m
 
 So, conclusion is, it's worth spending some time on obtaining / creating an `arm64` container if at all possible.
 
+**Update**: I checked in the code to generate the docker image in [this fork][4], (posted it [as pull request][5] to the orginal repo, but not sure what will happen to it (it's not really a PR, it needs more work).
+
 (TODO is obviously figuring out how fast the compilation would be without docker; I might do that at some time in the future).
 
 Header photo credits: [https://www.circe.info/][3]
@@ -30,3 +32,5 @@ Header photo credits: [https://www.circe.info/][3]
 [1]: https://dev.to/oben/apple-silicon-mac-m1m2-how-to-deal-with-slow-docker-performance-58n0
 [2]: https://github.com/NordicPlayground/nrfconnect-chip-docker
 [3]: https://www.circe.info/
+[4]: https://github.com/reinhrst/nrfconnect-chip-docker/tree/arm64
+[5]: https://github.com/NordicPlayground/nrfconnect-chip-docker/pulls
